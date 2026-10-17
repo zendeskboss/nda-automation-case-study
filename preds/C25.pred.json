@@ -1,0 +1,141 @@
+{
+ "contract_id": "C25",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R11",
+   "clause_no": "1.1.12",
+   "quote": "\"Representatives\" means the directors, statutory managing directors, supervisory board members, officers, employees, professional legal counsel, independent statutory auditors, and retained management consultants of a Party or of any of its Affiliates.",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R03",
+   "clause_no": "2.4",
+   "quote": "the Receiving Party and its Representatives shall be free to use for any purpose the Residuals resulting from access to or work with the Disclosing Party's Confidential Information",
+   "request_id": "RQ08",
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "which the Receiving Party can establish by clear contemporaneous written records:",
+   "request_id": null,
+   "confidence": 0.65
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R10",
+   "clause_no": "4.1.2",
+   "quote": "at its own sole cost and expense, exhaust all available legal and procedural remedies to challenge, narrow, resist, or obtain a protective order against such compelled production before making any disclosure of the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R10",
+   "clause_no": "4.2",
+   "quote": "The Receiving Party shall not disclose any portion of the Disclosing Party's Confidential Information pursuant to any legal, judicial, or regulatory demand unless and until all formal objections, applications for relief, and legal proceedings to resist disclosure have been definitively adjudicated and dismissed by a final, unappealable order of a court of competent jurisdiction.",
+   "request_id": null,
+   "confidence": 0.92
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R05",
+   "clause_no": "5.1",
+   "quote": "throughout the Restricted Period, directly or indirectly solicit, induce, recruit, engage, or hire any officer, senior consultant, software architect, or key employee of the other Party or its Affiliates",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R09",
+   "clause_no": "10.2",
+   "quote": "the Disclosing Party shall be entitled to seek injunctive relief, specific performance, and other equitable remedies before any court of competent jurisdiction, without the necessity of proving actual damages or posting any bond or collateral security.",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "2.2.1",
+   "quote": "use and reproduce the Confidential Information solely to the extent strictly necessary to evaluate, negotiate, and advance the Authorized Purpose;",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.5",
+   "quote": "which is disclosed, made available, or observed prior to, on, or after the Effective Date in connection with the Authorized Purpose.",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.7",
+   "quote": "\"Disclosing Party\" means the Party (or its Affiliate) that discloses or makes available Confidential Information to the Receiving Party under this Agreement.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "11.1",
+   "quote": "Neither Party may assign, transfer, novate, or encumber any of its rights or delegate any of its obligations under this Agreement, in whole or in part, without the prior written consent of the other Party.",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "11.6.2",
+   "quote": "the courts of England and Wales shall have exclusive jurisdiction",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.2.4",
+   "quote": "strictly prohibit any copying, reverse compilation, decompilation, reverse engineering, or systematic extraction of structural or architectural principles",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "within fourteen (14) calendar days:",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party or its respective licensors.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "8.1",
+   "quote": "The Disclosing Party makes no express or implied representations or warranties as to the accuracy, completeness, technical operability, or fitness for any particular purpose of any information disclosed hereunder.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.2",
+   "quote": "continue in full force and effect for an additional period of three (3) years from the effective date of termination or expiration.",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

@@ -1,0 +1,1466 @@
+{
+ "contract_type": null,
+ "paper": "theirs",
+ "parties_ok": null,
+ "summary": "v2 checklist review",
+ "findings": [
+  {
+   "clause_no": "Parties",
+   "quote": "WHEREAS, the Parties contemplate entering into strategic discussions and exploratory evaluations concerning a prospective technical integration, interoperability assessment, and collaborative commercial distribution arrangement (the Permitted Purpose);",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L019",
+    "line": 19,
+    "map": {
+     "not_a_term": 0.73,
+     "PB03": 0.26,
+     "definition_or_interpretation": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB03",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.88,
+      "probabilities": {
+       "matches_preferred": 0.91,
+       "meets_fallback": 0.08,
+       "breaches": 0.01,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.1,
+      "probabilities": {
+       "F1": 0.45,
+       "none": 0.55
+      }
+     }
+    }
+   },
+   "rule_id": "PB03",
+   "verdict": "matches",
+   "confidence": 0.91,
+   "why": "Jev reads the clause as matches preferred (0.91) against PB03 Purpose limitation."
+  },
+  {
+   "clause_no": "Parties",
+   "quote": "WHEREAS, within the scope of the Permitted Purpose, each Party may disclose to the other Party certain proprietary, non-public, technical, commercial, financial and organisational information considered sensitive and confidential; and",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L021",
+    "line": 21,
+    "map": {
+     "not_a_term": 0.69,
+     "PB02": 0.26,
+     "PB01": 0.03,
+     "PB03": 0.01,
+     "PB04": 0.0
+    },
+    "rule": "PB02",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.31,
+      "probabilities": {
+       "matches_preferred": 0.48,
+       "meets_fallback": 0.12,
+       "breaches": 0.17,
+       "unclear": 0.23
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.92,
+      "probabilities": {
+       "F1": 0.04,
+       "F2": 0.01,
+       "none": 0.95
+      }
+     }
+    }
+   },
+   "rule_id": "PB02",
+   "verdict": "matches",
+   "confidence": 0.48,
+   "why": "Jev reads the clause as matches preferred (0.48) against PB02 Definition of Confidential Information. Borderline: breach or unclear 0.40, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "1.1.5",
+   "quote": "1.1.5 Confidential Information means any information or data of any nature, whether technical, technological, industrial, financial, operational, strategic, commercial, customer-related, legal or otherwise, including without limitation computer programs, algorithms, data structures, source code, object code, APIs, database architectures, diagrams, flow charts, specifications, prototypes, know-how, product development roadmaps, financial plans, commercial conditions, and pricing models, disclosed directly or indirectly by the Disclosing Party to the Receiving Party, whether in verbal, written, graphic, electronic, physical, machine-readable or tangible form, on or after the Effective Date, which is designated as confidential or proprietary at the time of transmission or which, by reason of its character, content or the context of its communication, ought reasonably to be understood by a diligent professional operator to possess a confidential character. Confidential Information includes all analyses, summaries, synopses, extracts, records, notes and compilations prepared by the Receiving Party which contain, reflect or are developed from such disclosed data;",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L039",
+    "line": 39,
+    "map": {
+     "PB02": 1.0,
+     "PB01": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0
+    },
+    "rule": "PB02",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.48,
+      "probabilities": {
+       "matches_preferred": 0.61,
+       "meets_fallback": 0.03,
+       "breaches": 0.35,
+       "unclear": 0.01
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.94,
+      "probabilities": {
+       "F1": 0.01,
+       "F2": 0.03,
+       "none": 0.96
+      }
+     }
+    }
+   },
+   "rule_id": "PB02",
+   "verdict": "matches",
+   "confidence": 0.61,
+   "why": "Jev reads the clause as matches preferred (0.61) against PB02 Definition of Confidential Information. Borderline: breach or unclear 0.36, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "2.1",
+   "quote": "2.1 The Receiving Party undertakes to examine, handle, exploit and apply the Confidential Information transmitted by the Disclosing Party solely and exclusively in connection with, and to the extent strictly necessary for, the examination, implementation and furtherance of the Permitted Purpose.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L051",
+    "line": 51,
+    "map": {
+     "PB03": 0.94,
+     "PB08": 0.03,
+     "other_term": 0.03,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB03",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "unclear",
+      "confidence": 0.31,
+      "probabilities": {
+       "matches_preferred": 0.07,
+       "meets_fallback": 0.3,
+       "breaches": 0.15,
+       "unclear": 0.48
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.14,
+      "probabilities": {
+       "F1": 0.57,
+       "none": 0.43
+      }
+     }
+    }
+   },
+   "rule_id": "PB03",
+   "verdict": "deviation",
+   "confidence": 0.0,
+   "why": "Jev reads the clause as unclear (0.48) against PB03 Purpose limitation."
+  },
+  {
+   "clause_no": "2.2",
+   "quote": "2.2 The Receiving Party is strictly prohibited from using, deploying, adapting, or otherwise exploiting the Confidential Information of the Disclosing Party, directly or indirectly, in whole or in part, for any commercial, industrial, developmental, or operational objective other than the Permitted Purpose, including but not limited to the independent development, design, improvement, or sale of competing software, platforms, tools, or services.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L053",
+    "line": 53,
+    "map": {
+     "PB03": 0.67,
+     "PB16": 0.14,
+     "other_term": 0.11,
+     "PB08": 0.07,
+     "PB01": 0.0
+    },
+    "rule": "PB03",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.13,
+      "probabilities": {
+       "matches_preferred": 0.02,
+       "meets_fallback": 0.35,
+       "breaches": 0.3,
+       "unclear": 0.33
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.06,
+      "probabilities": {
+       "F1": 0.47,
+       "none": 0.53
+      }
+     }
+    }
+   },
+   "rule_id": "PB03",
+   "verdict": "acceptable",
+   "confidence": 0.35,
+   "why": "Jev reads the clause as meets fallback (0.35) against PB03 Purpose limitation. Borderline: breach or unclear 0.63, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "3.1",
+   "quote": "3.1 In consideration of the disclosure of Confidential Information, the Receiving Party covenants and agrees:\n3.1.1 to preserve the confidentiality of all Confidential Information with the highest standard of professional care, and in any event with no lesser degree of diligence, vigilance and protection than that which it accords to its own proprietary trade secrets and confidential assets of a similar elevated nature;\n3.1.2 to safeguard all tangible and digital embodiments of the Confidential Information against any unauthorised access, acquisition, theft, misappropriation, intrusion, transmission, copying or leak;\n3.1.3 to refrain from disclosing, publishing, disseminating, or communicating the Confidential Information to any external third party, whether a legal entity or a natural person, without having secured the prior, formal, explicit and written authorisation of the Disclosing Party;\n3.1.4 to restrict internal access to the Confidential Information strictly and exclusively to those of its own direct, permanent salaried employees who have an indispensable need to access such information for the sole accomplishment of the Permitted Purpose, and to ensure that such direct employees are bound by employment contracts or internal confidentiality undertakings imposing duties of secrecy and non-use no less rigorous than those set forth in this Agreement;\n3.1.5 to not disclose, disseminate or make available the Confidential Information to any external professional advisers, legal counsel, accountants, auditors, insurers, independent contractors, consultants, or corporate Affiliates without the prior written authorisation of the Disclosing Party, the Parties acknowledging that disclosure to any such external third parties or Group companies requires specific prior consent; and\n3.1.6 to refrain from disassembling, decompiling, decoding, reverse engineering, decrypting or attempting in any manner whatsoever to reconstruct, identify or derive the underlying design, logic, source code, data formats, trade secrets or operational algorithms of any software, binaries, libraries, cloud instances or technical assets provided under this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L057",
+    "line": 57,
+    "map": {
+     "PB05": 0.67,
+     "PB20": 0.2,
+     "other_term": 0.13,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB05",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.83,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.13,
+       "breaches": 0.87,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.69,
+      "probabilities": {
+       "F1": 0.12,
+       "F2": 0.09,
+       "none": 0.79
+      }
+     }
+    }
+   },
+   "rule_id": "PB05",
+   "verdict": "deviation",
+   "confidence": 0.87,
+   "why": "Jev reads the clause as breaches (0.87) against PB05 Permitted disclosure to Representatives and Group."
+  },
+  {
+   "clause_no": "4.1",
+   "quote": "4.1 The obligations established under Clause 3 shall not apply to any element of information in respect of which the Receiving Party is able to demonstrate conclusively by contemporaneous written documentation that such information:\n4.1.1 was already lawfully within the public domain prior to the time of its disclosure by the Disclosing Party, or subsequently entered the public domain through publication, open distribution or otherwise, without any direct or indirect breach, fault, negligence or omission on the part of the Receiving Party or its personnel;\n4.1.2 was already lawfully in the possession of the Receiving Party prior to its transmission under this Agreement, without any duty of secrecy or restriction on use;\n4.1.3 was lawfully obtained after the Effective Date from a bona fide third party who had the legitimate right to disclose such information without being subject to any direct or indirect obligation of confidentiality owed towards the Disclosing Party; or\n4.1.4 was conceived, authored and independently developed by employees or collaborators of the Receiving Party without having had access to, knowledge of, or reference to the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L073",
+    "line": 73,
+    "map": {
+     "PB04": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB05": 0.0
+    },
+    "rule": "PB04",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.77,
+      "probabilities": {
+       "matches_preferred": 0.83,
+       "meets_fallback": 0.13,
+       "breaches": 0.04,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.37,
+      "probabilities": {
+       "F1": 0.1,
+       "F2": 0.58,
+       "none": 0.32
+      }
+     }
+    }
+   },
+   "rule_id": "PB04",
+   "verdict": "matches",
+   "confidence": 0.83,
+   "why": "Jev reads the clause as matches preferred (0.83) against PB04 Carve-outs."
+  },
+  {
+   "clause_no": "5.1",
+   "quote": "5.1 In the event that the Receiving Party is commanded, summoned or legally compelled by a binding decree, writ, injunction or formal order issued by a court of competent jurisdiction, or by a lawful demand of an administrative or governmental supervisory authority possessing regulatory jurisdiction, to disclose any portion of the Disclosing Party's Confidential Information, the Receiving Party shall:\n5.1.1 advise the Disclosing Party in writing as promptly as possible, and in any case prior to making such disclosure, provided that such advance notification is not expressly prohibited by mandatory provisions of public order or criminal procedure;\n5.1.2 consult in good faith with the Disclosing Party regarding the appropriate avenues to oppose, limit, challenge or restrict the scope of the demanded disclosure; and\n5.1.3 in the event that disclosure cannot be avoided, disclose exclusively that portion of the Confidential Information which is strictly demanded by the judicial or administrative order, and use all reasonable commercial efforts to demand confidential and protected treatment for any data so released.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Obligation to use reasonable endeavours to obtain confidential treatment, at the Disclosing Party's cost.",
+   "evidence": {
+    "uid": "L085",
+    "line": 85,
+    "map": {
+     "PB06": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB06",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.23,
+      "probabilities": {
+       "matches_preferred": 0.21,
+       "meets_fallback": 0.42,
+       "breaches": 0.35,
+       "unclear": 0.02
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.18,
+      "probabilities": {
+       "F1": 0.24,
+       "F2": 0.45,
+       "none": 0.31
+      }
+     }
+    }
+   },
+   "rule_id": "PB06",
+   "verdict": "acceptable",
+   "confidence": 0.42,
+   "why": "Jev reads the clause as meets fallback (0.42) against PB06 Compelled disclosure. Borderline: breach or unclear 0.37, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "6.1",
+   "quote": "6.1 All Confidential Information, together with all intellectual and industrial property rights, patents, copyrights, database rights, design rights, software rights and know-how embodied therein, shall remain the sole and exclusive property of the Disclosing Party or its respective licensors.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L095",
+    "line": 95,
+    "map": {
+     "PB08": 0.99,
+     "not_a_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.65,
+      "probabilities": {
+       "matches_preferred": 0.74,
+       "meets_fallback": 0.22,
+       "breaches": 0.01,
+       "unclear": 0.03
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.58,
+      "probabilities": {
+       "F1": 0.21,
+       "none": 0.79
+      }
+     }
+    }
+   },
+   "rule_id": "PB08",
+   "verdict": "matches",
+   "confidence": 0.74,
+   "why": "Jev reads the clause as matches preferred (0.74) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "6.2",
+   "quote": "6.2 Except for the limited, non-exclusive, revocable right to review and evaluate the Confidential Information strictly for the Permitted Purpose, nothing contained in this Agreement shall be interpreted as conferring or granting, expressly, impliedly, by estoppel or otherwise, any licence, title, ownership, assignment, franchise, option or right under any patent, trademark, copyright, database right, trade secret or other industrial property right owned, managed or controlled by the Disclosing Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L097",
+    "line": 97,
+    "map": {
+     "PB08": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.99,
+      "probabilities": {
+       "matches_preferred": 0.99,
+       "meets_fallback": 0.01,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.4,
+      "probabilities": {
+       "F1": 0.7,
+       "none": 0.3
+      }
+     }
+    }
+   },
+   "rule_id": "PB08",
+   "verdict": "matches",
+   "confidence": 0.99,
+   "why": "Jev reads the clause as matches preferred (0.99) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "6.3",
+   "quote": "6.3 In the event that the Receiving Party, in the course of evaluating the Confidential Information or pursuing the Permitted Purpose, conceives, suggests, provides, designs or develops any improvements, modifications, derivative works, feedback, architectural recommendations or enhancements relating to the Disclosing Party's Confidential Information, software products, application interfaces or underlying algorithms, the Receiving Party hereby irrevocably assigns to the Disclosing Party, with full title guarantee, all right, title, interest and worldwide intellectual property rights in and to such improvements, modifications, derivative works, feedback, recommendations and enhancements, for the full duration of protection afforded under applicable intellectual property laws, without requirement of further consideration or royalties.",
+   "request_id": null,
+   "draft_redline": "Delete Clause 6.3 and state that each Party retains ownership of its own intellectual property, with no licence granted other than use for the Permitted Purpose.",
+   "note_to_counterparty": "We would ask to delete the assignment of improvements and feedback, as each party should retain its own developments; Clauses 6.1 and 6.2 already protect each party's disclosed IP.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L099",
+    "line": 99,
+    "map": {
+     "PB08": 0.88,
+     "other_term": 0.11,
+     "PB19": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.0,
+       "breaches": 1.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 0.0,
+       "none": 1.0
+      }
+     }
+    },
+    "draft_source": "v1 replay PB08 clause 6.3"
+   },
+   "rule_id": "PB08",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as breaches (1.00) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "7.1",
+   "quote": "7.1 All Confidential Information disclosed under this Agreement is furnished on an \"as is\" and \"with all faults\" basis. The Disclosing Party provides no guarantee, warranty or representation, express, statutory or implied, regarding the accuracy, exhaustiveness, reliability, quality, merchantability, freedom from infringement of third-party rights, or fitness for any particular intention or operational objective of any information so communicated.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Absence of a 'no obligation to proceed' sentence. (ASSUMED)",
+   "evidence": {
+    "uid": "L103",
+    "line": 103,
+    "map": {
+     "PB09": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB09",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.88,
+      "probabilities": {
+       "matches_preferred": 0.08,
+       "meets_fallback": 0.91,
+       "breaches": 0.01,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.94,
+      "probabilities": {
+       "F1": 0.03,
+       "F2": 0.96,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB09",
+   "verdict": "acceptable",
+   "confidence": 0.91,
+   "why": "Jev reads the clause as meets fallback (0.91) against PB09 Warranty and reliance disclaimers."
+  },
+  {
+   "clause_no": "7.2",
+   "quote": "7.2 The Disclosing Party shall incur no legal liability or civil responsibility towards the Receiving Party or any third party arising out of or resulting from the reception, interpretation, reliance upon or use of the Confidential Information by the Receiving Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Absence of a 'no obligation to proceed' sentence. (ASSUMED)",
+   "evidence": {
+    "uid": "L105",
+    "line": 105,
+    "map": {
+     "PB09": 0.9,
+     "PB14": 0.1,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB09",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.32,
+      "probabilities": {
+       "matches_preferred": 0.13,
+       "meets_fallback": 0.49,
+       "breaches": 0.38,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.76,
+      "probabilities": {
+       "F1": 0.05,
+       "F2": 0.84,
+       "none": 0.11
+      }
+     }
+    }
+   },
+   "rule_id": "PB09",
+   "verdict": "acceptable",
+   "confidence": 0.49,
+   "why": "Jev reads the clause as meets fallback (0.49) against PB09 Warranty and reliance disclaimers. Borderline: breach or unclear 0.38, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "8.1",
+   "quote": "8.1 Upon the written demand of the Disclosing Party, communicated at any moment, or automatically upon the expiry or termination of this Agreement, the Receiving Party shall promptly, and in all events within a strict delay of fifteen (15) Business Days:\n8.1.1 return to the Disclosing Party or, upon the explicit instruction of the Disclosing Party, permanently destroy, shred, erase or expunge all documents, dossiers, media, files, computer drives, tapes, storage units and tangible embodiments containing, reflecting or derived from the Disclosing Party's Confidential Information; and\n8.1.2 deliver to the Disclosing Party a formal certificate of destruction executed by an authorised corporate officer of the Receiving Party confirming the complete execution of the obligations provided under this Clause 8.1.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Any period of 5 Business Days or more. (ASSUMED)",
+   "evidence": {
+    "uid": "L109",
+    "line": 109,
+    "map": {
+     "PB07": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB07",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.51,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.63,
+       "breaches": 0.37,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "F2": 0.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB07",
+   "verdict": "acceptable",
+   "confidence": 0.63,
+   "why": "Jev reads the clause as meets fallback (0.63) against PB07 Return and destruction. Borderline: breach or unclear 0.37, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "8.2",
+   "quote": "8.2 By way of exception to Clause 8.1, the Receiving Party shall be entitled to retain one (1) copy of the Confidential Information strictly to the extent required to satisfy mandatory statutory obligations, audit requirements or legal compliance standards, or to the extent that such information is contained in automated, archived digital backups created in the regular course of disaster recovery operations; it being understood that any retained archival materials shall remain fully subject to the duties of confidentiality and non-use under this Agreement until their ultimate eradication.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L115",
+    "line": 115,
+    "map": {
+     "PB07": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB07",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.13,
+      "probabilities": {
+       "matches_preferred": 0.3,
+       "meets_fallback": 0.35,
+       "breaches": 0.28,
+       "unclear": 0.07
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.51,
+      "probabilities": {
+       "F1": 0.33,
+       "F2": 0.0,
+       "none": 0.67
+      }
+     }
+    }
+   },
+   "rule_id": "PB07",
+   "verdict": "acceptable",
+   "confidence": 0.35,
+   "why": "Jev reads the clause as meets fallback (0.35) against PB07 Return and destruction. Borderline: breach or unclear 0.35, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "9.1",
+   "quote": "9.1 The Parties recognise that the Confidential Information constitutes an essential proprietary asset possessing substantial commercial, technical and strategic value, the unauthorised disclosure or illicit exploitation of which would cause irreversible harm and profound commercial disturbance to the Disclosing Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L119",
+    "line": 119,
+    "map": {
+     "PB08": 0.36,
+     "other_term": 0.28,
+     "definition_or_interpretation": 0.16,
+     "not_a_term": 0.13,
+     "PB13": 0.03
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "unclear",
+      "confidence": 0.56,
+      "probabilities": {
+       "matches_preferred": 0.2,
+       "meets_fallback": 0.12,
+       "breaches": 0.01,
+       "unclear": 0.67
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.98,
+      "probabilities": {
+       "F1": 0.01,
+       "none": 0.99
+      }
+     }
+    }
+   },
+   "rule_id": "PB08",
+   "verdict": "deviation",
+   "confidence": 0.0,
+   "why": "Jev reads the clause as unclear (0.67) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "9.2",
+   "quote": "9.2 Each Party agrees to indemnify, defend and hold harmless the other Party against all direct losses, claims, liabilities, damages and reasonable legal expenses incurred as a direct consequence of any proven material breach of the confidentiality undertakings established herein.",
+   "request_id": null,
+   "draft_redline": "Delete Clause 9.2; liability for breach is left to general law.",
+   "note_to_counterparty": "We would ask to remove the indemnity and leave liability for breach to the general law, which already gives each party an effective remedy.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L121",
+    "line": 121,
+    "map": {
+     "PB14": 0.86,
+     "other_term": 0.08,
+     "PB01": 0.03,
+     "PB13": 0.03,
+     "PB02": 0.0
+    },
+    "rule": "PB14",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.0,
+       "breaches": 1.0,
+       "unclear": 0.0
+      }
+     }
+    },
+    "draft_source": "v1 replay PB14 clause 9.2"
+   },
+   "rule_id": "PB14",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as breaches (1.00) against PB14 Indemnities and liability."
+  },
+  {
+   "clause_no": "9.3",
+   "quote": "9.3 In recognition of the severe difficulty in quantifying the precise damage, commercial disruption and loss of competitive advantage occasioned by a breach of secrecy, the Parties expressly agree that in the event of any proven breach by the Receiving Party of its obligations under Clause 2, Clause 3 or Clause 8 of this Agreement, the Receiving Party shall pay to the Disclosing Party, as fixed liquidated damages and by way of stipulated compensation, the sum of €75,000 for each such individual breach, payable within thirty (30) days following formal written notification thereof, without prejudice to the Disclosing Party's right to pursue injunctive relief or claim higher proven damages in excess of this amount.",
+   "request_id": null,
+   "draft_redline": "Delete Clause 9.3 and replace with: Each Party shall be entitled to seek injunctive and other equitable relief for any actual or threatened breach, and remedies are cumulative.",
+   "note_to_counterparty": "We would ask to delete the fixed per-breach sum and instead provide for mutual rights to seek injunctive relief, with remedies otherwise cumulative.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L123",
+    "line": 123,
+    "map": {
+     "PB13": 0.86,
+     "other_term": 0.1,
+     "PB14": 0.04,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB13",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.0,
+       "breaches": 1.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.87,
+      "probabilities": {
+       "F1": 0.03,
+       "F2": 0.03,
+       "F3": 0.04,
+       "none": 0.9
+      }
+     }
+    },
+    "draft_source": "v1 replay PB13 clause 9.3"
+   },
+   "rule_id": "PB13",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as breaches (1.00) against PB13 Remedies."
+  },
+  {
+   "clause_no": "10.1",
+   "quote": "10.1 This Agreement takes effect on the Effective Date and shall remain in force for an initial term of two (2) years, unless terminated earlier by either Party by serving thirty (30) days' prior written notice to the other Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L127",
+    "line": 127,
+    "map": {
+     "PB12": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB12",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.91,
+      "probabilities": {
+       "matches_preferred": 0.93,
+       "meets_fallback": 0.06,
+       "breaches": 0.0,
+       "unclear": 0.01
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.51,
+      "probabilities": {
+       "F1": 0.61,
+       "F2": 0.0,
+       "F3": 0.0,
+       "F4": 0.0,
+       "none": 0.39
+      }
+     }
+    }
+   },
+   "rule_id": "PB12",
+   "verdict": "matches",
+   "confidence": 0.93,
+   "why": "Jev reads the clause as matches preferred (0.93) against PB12 Term and survival."
+  },
+  {
+   "clause_no": "10.2",
+   "quote": "10.2 The confidentiality, non-use and non-disclosure obligations stipulated under this Agreement shall survive the expiration or termination of this Agreement for an additional duration of five (5) years reckoned from the date of such expiration or termination, save that with respect to any Confidential Information that constitutes a trade secret under Applicable Law, such undertakings shall survive indefinitely for as long as the underlying information retains its character as a trade secret.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Indefinite protection limited to Trade Secrets.",
+   "evidence": {
+    "uid": "L129",
+    "line": 129,
+    "map": {
+     "PB12": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB12",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.96,
+      "probabilities": {
+       "matches_preferred": 0.03,
+       "meets_fallback": 0.97,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F3",
+      "confidence": 0.39,
+      "probabilities": {
+       "F1": 0.0,
+       "F2": 0.48,
+       "F3": 0.51,
+       "F4": 0.0,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB12",
+   "verdict": "acceptable",
+   "confidence": 0.97,
+   "why": "Jev reads the clause as meets fallback (0.97) against PB12 Term and survival."
+  },
+  {
+   "clause_no": "11.1",
+   "quote": "11.1 This Agreement and any dispute, controversy, proceedings or claim of whatever nature (including non-contractual disputes or claims) arising out of or in connection with it or its subject matter, formation, interpretation, performance or termination shall be governed by, and construed in accordance with, the law of England and Wales.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "England and Wales law with non-exclusive jurisdiction.",
+   "evidence": {
+    "uid": "L133",
+    "line": 133,
+    "map": {
+     "PB18": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB18",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.73,
+      "probabilities": {
+       "matches_preferred": 0.08,
+       "meets_fallback": 0.8,
+       "breaches": 0.01,
+       "unclear": 0.11
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.5,
+      "probabilities": {
+       "F1": 0.75,
+       "none": 0.25
+      }
+     }
+    }
+   },
+   "rule_id": "PB18",
+   "verdict": "acceptable",
+   "confidence": 0.8,
+   "why": "Jev reads the clause as meets fallback (0.80) against PB18 Governing law and jurisdiction."
+  },
+  {
+   "clause_no": "11.2",
+   "quote": "11.2 Each Party irrevocably agrees that the courts of England and Wales shall have exclusive jurisdiction to settle, hear and adjudicate any dispute, claim, litigation or controversy (including non-contractual disputes or claims) arising out of or in connection with this Agreement or its subject matter or formation.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L135",
+    "line": 135,
+    "map": {
+     "PB18": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB18",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.72,
+      "probabilities": {
+       "matches_preferred": 0.79,
+       "meets_fallback": 0.12,
+       "breaches": 0.02,
+       "unclear": 0.07
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 0.0,
+       "none": 1.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB18",
+   "verdict": "matches",
+   "confidence": 0.79,
+   "why": "Jev reads the clause as matches preferred (0.79) against PB18 Governing law and jurisdiction."
+  },
+  {
+   "clause_no": "12.1",
+   "quote": "12.1 Entire Agreement. This Agreement sets forth the entire understanding and contractual agreement between the Parties with respect to the subject matter hereof, and cancels, supersedes and extinguishes all prior oral or written representations, declarations, discussions, undertakings and preliminary agreements between them regarding such subject matter.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L139",
+    "line": 139,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.85,
+      "probabilities": {
+       "matches_preferred": 0.89,
+       "meets_fallback": 0.1,
+       "breaches": 0.01,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.98,
+      "probabilities": {
+       "F1": 0.99,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.89,
+   "why": "Jev reads the clause as matches preferred (0.89) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.2",
+   "quote": "12.2 Amendments. No modification, supplement, variation or waiver of any term or condition of this Agreement shall be legally valid or operative unless documented in writing and duly signed by an authorised corporate representative of each Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L141",
+    "line": 141,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.81,
+      "probabilities": {
+       "matches_preferred": 0.86,
+       "meets_fallback": 0.14,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.98,
+      "probabilities": {
+       "F1": 0.99,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.86,
+   "why": "Jev reads the clause as matches preferred (0.86) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.3",
+   "quote": "12.3 Severability. If any provision, clause or stipulation of this Agreement is held by any competent court or authority to be null, void, illegal or unenforceable, whether in whole or in part, such invalidity or unenforceability shall not affect or impair the validity, legality and enforceability of the remaining provisions of this Agreement, which shall remain in full force and effect.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L143",
+    "line": 143,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.83,
+      "probabilities": {
+       "matches_preferred": 0.87,
+       "meets_fallback": 0.13,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.87,
+   "why": "Jev reads the clause as matches preferred (0.87) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.4",
+   "quote": "12.4 Non-Waiver. The failure or delay by either Party at any time to require strict performance by the other Party of any provision of this Agreement shall in no circumstance be deemed to constitute a waiver or abandonment of that provision or of the right to enforce that or any other provision at a later date.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L145",
+    "line": 145,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.73,
+      "probabilities": {
+       "matches_preferred": 0.8,
+       "meets_fallback": 0.2,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.8,
+   "why": "Jev reads the clause as matches preferred (0.80) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.5",
+   "quote": "12.5 Assignment. Neither Party may assign, transfer, delegate, subcontract or novate any of its rights, benefits, burdens or obligations under this Agreement to any third party, whether by operation of law, merger, change of control or otherwise, without having procured the prior written consent of the other Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L147",
+    "line": 147,
+    "map": {
+     "PB19": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB19",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 1.0,
+       "meets_fallback": 0.0,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 0.0,
+       "none": 1.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB19",
+   "verdict": "matches",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as matches preferred (1.00) against PB19 Assignment."
+  },
+  {
+   "clause_no": "12.6",
+   "quote": "12.6 Notices. Any notice, formal demand, communication or request required or permitted under this Agreement shall be in writing in the English language and shall be deemed duly delivered when remitted by hand against written receipt, sent by international registered airmail or recorded courier service, or transmitted by electronic mail with confirmed delivery report, to the registered addresses of the Parties indicated in the preamble of this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L149",
+    "line": 149,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.68,
+      "probabilities": {
+       "matches_preferred": 0.76,
+       "meets_fallback": 0.24,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.76,
+   "why": "Jev reads the clause as matches preferred (0.76) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.7",
+   "quote": "12.7 Counterparts and Electronic Execution. This Agreement may be executed in any number of counterparts, each of which shall be deemed an original, and all of which together shall constitute one and the same instrument. Execution and transmission of this Agreement via an electronic signature system (such as DocuSign or Adobe Sign) or by exchange of electronic PDF copies shall be valid, binding and effective for all legal intents and purposes.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L151",
+    "line": 151,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.67,
+      "probabilities": {
+       "matches_preferred": 0.75,
+       "meets_fallback": 0.25,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.75,
+   "why": "Jev reads the clause as matches preferred (0.75) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "12.8",
+   "quote": "12.8 Legal Fees and Dispute Costs. In the event of any judicial proceeding, litigation or contentious action arising out of or in connection with the enforcement, interpretation or alleged breach of this Agreement, the prevailing Party shall be entitled to recover from the non-prevailing Party all of its legal costs, attorney fees, disbursements and related litigation expenses on a full indemnity basis, irrespective of any procedural rules of court or judicial discretion governing the allocation of statutory costs.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L153",
+    "line": 153,
+    "map": {
+     "other_term": 0.88,
+     "PB14": 0.06,
+     "PB13": 0.03,
+     "PB21": 0.02,
+     "PB18": 0.01
+    }
+   },
+   "rule_id": null,
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "why": "Substantive term that no playbook rule covers (Jev other_term 0.88)."
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB01",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB01 Mutuality: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB01"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB10",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB10 Publicity: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB10"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB11",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB11 Personal data: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB11"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB20",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB20 Reverse engineering: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB20"
+   }
+  }
+ ],
+ "prompt_version": "v2.0"
+}

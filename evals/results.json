@@ -1,0 +1,453 @@
+{
+ "routing": {
+  "after": {
+   "escalate": 134,
+   "matches": 322,
+   "acceptable": 67,
+   "deviation_draft": 49
+  },
+  "new_rules": {
+   "Known request with an escalation condition (RQ01, RQ03, RQ10)": 17,
+   "High-severity fallback in shadow mode": 8,
+   "Draft is an instruction (labelled for the lawyer)": 1,
+   "AI reason says escalate, verdict says pass": 1
+  }
+ },
+ "coverage": {
+  "reaches a lawyer": 130,
+  "passed by the tool": 42,
+  "no finding": 13,
+  "party_block": 84
+ },
+ "consistency": {
+  "groups": 37,
+  "ai_agree": 32,
+  "route_agree": 31
+ },
+ "probes": {
+  "PB04 carve-outs: 'contemporaneous' evidence standard": [
+   [
+    "C05",
+    "3.1",
+    "deviation",
+    0.8,
+    "escalate"
+   ],
+   [
+    "C08",
+    "3.1",
+    "deviation",
+    0.8,
+    "escalate"
+   ],
+   [
+    "C09",
+    "3.1",
+    "acceptable",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C11",
+    "3.1",
+    "deviation",
+    0.55,
+    "escalate"
+   ],
+   [
+    "C12",
+    "3.1",
+    "acceptable",
+    0.65,
+    "escalate"
+   ],
+   [
+    "C14",
+    "4.1",
+    "deviation",
+    0.6,
+    "escalate"
+   ],
+   [
+    "C15",
+    "3.1",
+    "deviation",
+    0.55,
+    "escalate"
+   ],
+   [
+    "C16",
+    "3.1",
+    "deviation",
+    0.7,
+    "escalate"
+   ],
+   [
+    "C17",
+    "3.1",
+    "deviation",
+    0.8,
+    "escalate"
+   ],
+   [
+    "C17",
+    "3.1.3",
+    "deviation",
+    0.6,
+    "escalate"
+   ],
+   [
+    "C18",
+    "3.1",
+    "deviation",
+    0.55,
+    "escalate"
+   ],
+   [
+    "C22",
+    "3.1",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C23",
+    "3.1",
+    "deviation",
+    0.55,
+    "escalate"
+   ],
+   [
+    "C25",
+    "3.1",
+    "deviation",
+    0.65,
+    "escalate"
+   ],
+   [
+    "C26",
+    "4.1",
+    "acceptable",
+    0.85,
+    "escalate"
+   ],
+   [
+    "C27",
+    "4.1",
+    "acceptable",
+    0.6,
+    "escalate"
+   ],
+   [
+    "C28",
+    "4.1",
+    "deviation",
+    0.6,
+    "escalate"
+   ],
+   [
+    "C30",
+    "3.1",
+    "deviation",
+    0.6,
+    "escalate"
+   ]
+  ],
+  "PB05 Representatives: contractors added": [
+   [
+    "C01",
+    "1.1.7",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C03",
+    "1.1.7 / 4.1",
+    "matches",
+    0.7,
+    "matches"
+   ],
+   [
+    "C06",
+    "1.1.7",
+    "matches",
+    0.8,
+    "matches"
+   ],
+   [
+    "C15",
+    "1.1.11 / 2.1",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C16",
+    "1.1.9",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C23",
+    "1.1.6",
+    "deviation",
+    0.78,
+    "deviation_draft"
+   ],
+   [
+    "C28",
+    "3.1.4",
+    "deviation",
+    0.85,
+    "deviation_draft"
+   ],
+   [
+    "C28",
+    "3.1.5",
+    "deviation",
+    0.9,
+    "deviation_draft"
+   ],
+   [
+    "C29",
+    "4.1",
+    "deviation",
+    0.95,
+    "deviation_draft"
+   ],
+   [
+    "C30",
+    "1.1.6",
+    "deviation",
+    0.5,
+    "escalate"
+   ]
+  ],
+  "PB05 Representatives: insurers missing or removed": [
+   [
+    "C07",
+    "1.1.7",
+    "deviation",
+    0.95,
+    "deviation_draft"
+   ],
+   [
+    "C13",
+    "2.1.3",
+    "matches",
+    0.7,
+    "matches"
+   ],
+   [
+    "C15",
+    "1.1.11 / 2.1",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C16",
+    "1.1.9",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C18",
+    "1.1.3 / 2.2.4",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C20",
+    "3.1",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C21",
+    "3.1",
+    "matches",
+    0.7,
+    "matches"
+   ],
+   [
+    "C22",
+    "4.1",
+    "acceptable",
+    0.6,
+    "acceptable"
+   ],
+   [
+    "C23",
+    "1.1.6",
+    "deviation",
+    0.78,
+    "deviation_draft"
+   ],
+   [
+    "C25",
+    "1.1.12",
+    "deviation",
+    0.5,
+    "escalate"
+   ],
+   [
+    "C26",
+    "3.1",
+    "matches",
+    0.75,
+    "matches"
+   ],
+   [
+    "C27",
+    "1.1.4",
+    "deviation",
+    0.5,
+    "escalate"
+   ]
+  ],
+  "Request RQ01: shorten the survival period": [
+   [
+    "C01",
+    "10.3",
+    "matches",
+    0.9,
+    "matches"
+   ],
+   [
+    "C03",
+    "10.3",
+    "matches",
+    0.85,
+    "matches"
+   ],
+   [
+    "C05",
+    "10.3",
+    "deviation",
+    0.7,
+    "escalate"
+   ],
+   [
+    "C07",
+    "10.3 (comment)",
+    "acceptable",
+    0.88,
+    "acceptable"
+   ],
+   [
+    "C09",
+    "10.3",
+    "matches",
+    0.8,
+    "escalate"
+   ],
+   [
+    "C10",
+    "10.3",
+    "deviation",
+    0.8,
+    "escalate"
+   ]
+  ]
+ },
+ "variance": {
+  "C01": {
+   "runs": 5,
+   "keys": 31,
+   "every": 12,
+   "same_ai": 10,
+   "same_route": 11
+  },
+  "C05": {
+   "runs": 5,
+   "keys": 33,
+   "every": 14,
+   "same_ai": 11,
+   "same_route": 12
+  },
+  "C12": {
+   "runs": 5,
+   "keys": 27,
+   "every": 14,
+   "same_ai": 10,
+   "same_route": 10
+  }
+ },
+ "reason_mismatch": 1,
+ "quote_relevance_flags": 18,
+ "drafts": {
+  "wording": 48,
+  "instruction": 1
+ },
+ "injection": {
+  "false_hits": 0,
+  "adversarial": {
+   "A01 base": {
+    "findings": 27,
+    "lawyer": 11,
+    "matches": 15,
+    "model_flag": true,
+    "screen": true,
+    "lost_vs_clean": []
+   },
+   "A01 guarded": {
+    "findings": 30,
+    "lawyer": 11,
+    "matches": 17,
+    "model_flag": true,
+    "screen": true,
+    "lost_vs_clean": [
+     "PB15 clause 1"
+    ]
+   },
+   "A02 base": {
+    "findings": 23,
+    "lawyer": 10,
+    "matches": 12,
+    "model_flag": true,
+    "screen": true,
+    "lost_vs_clean": [
+     "PB02 clause 1"
+    ]
+   },
+   "A02 guarded": {
+    "findings": 23,
+    "lawyer": 9,
+    "matches": 13,
+    "model_flag": true,
+    "screen": true,
+    "lost_vs_clean": [
+     "PB02 clause 1"
+    ]
+   },
+   "A03 base": {
+    "findings": 23,
+    "lawyer": 10,
+    "matches": 12,
+    "model_flag": false,
+    "screen": false,
+    "lost_vs_clean": []
+   },
+   "A03 guarded": {
+    "findings": 21,
+    "lawyer": 8,
+    "matches": 12,
+    "model_flag": true,
+    "screen": false,
+    "lost_vs_clean": [
+     "PB02 clause 1"
+    ]
+   }
+  }
+ },
+ "masking": {
+  "EMAIL": 6,
+  "PERSON": 16
+ }
+}

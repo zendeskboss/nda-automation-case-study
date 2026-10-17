@@ -1,0 +1,3220 @@
+{
+ "contract_id": "C20",
+ "engine": "v2.0",
+ "model": "jev-latest",
+ "thresholds": {
+  "map_min": 0.25,
+  "map_other": 0.5,
+  "comment_request": 0.5,
+  "request_match": 0.5,
+  "borderline": 0.3
+ },
+ "playbook_version": "1.0",
+ "contract_sha256": "1d667297bd32ba22f79a342a00555d62b94e9c9ac6745ee701fe61f43d1b1e55",
+ "created": "2026-10-17T18:26:07",
+ "units": [
+  {
+   "uid": "L005",
+   "line": 5,
+   "clause_no": "Parties",
+   "raw": "(1) NORDIC CLOUD LOGISTICS AB, a private limited liability company incorporated under the laws of Sweden, company registration number 556912-4481, having its principal place of business at Klarabergsviadukten 70, 111 64 Stockholm, Sweden (\"NCL\"); and",
+   "after_edits": "(1) NORDIC CLOUD LOGISTICS AB, a private limited liability company incorporated under the laws of Sweden, company registration number 556912-4481, having its principal place of business at Klarabergsviadukten 70, 111 64 Stockholm, Sweden (\"NCL\"); and",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    5
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 1.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1505,
+     "output_tokens": 237
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L007",
+   "line": 7,
+   "clause_no": "Parties",
+   "raw": "(2) HALYARD SOFTWARE LTD, a company registered in England and Wales with company number 09876543, whose registered office is at 12 Mill Lane, Manchester M1 2AB, United Kingdom (\"Halyard\").",
+   "after_edits": "(2) HALYARD SOFTWARE LTD, a company registered in England and Wales with company number 09876543, whose registered office is at 12 Mill Lane, Manchester M1 2AB, United Kingdom (\"Halyard\").",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    7
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.99,
+     "definition_or_interpretation": 0.01
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1461,
+     "output_tokens": 237
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L009",
+   "line": 9,
+   "clause_no": "Parties",
+   "raw": "NCL and Halyard are each referred to individually as a \"Party\" and collectively as the \"Parties\".",
+   "after_edits": "NCL and Halyard are each referred to individually as a \"Party\" and collectively as the \"Parties\".",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    9
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.84,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.15,
+     "definition_or_interpretation": 0.85
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1401,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L012",
+   "line": 12,
+   "clause_no": "Parties",
+   "raw": "A. The Parties are exploring a potential business relationship concerning enterprise workflow automation, logistics platform integration and related software services (the \"Purpose\").",
+   "after_edits": "A. The Parties are exploring a potential business relationship concerning enterprise workflow automation, logistics platform integration and related software services (the \"Purpose\").",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    12
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 0.44,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.39,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.01,
+     "not_a_term": 0.46,
+     "definition_or_interpretation": 0.14
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1407,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 802,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB03"
+   ],
+   "checks": {
+    "PB03": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.75,
+       "probabilities": {
+        "matches_preferred": 0.81,
+        "meets_fallback": 0.05,
+        "breaches": 0.08,
+        "unclear": 0.06
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.7,
+       "probabilities": {
+        "F1": 0.15,
+        "none": 0.85
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L013",
+   "line": 13,
+   "clause_no": "Parties",
+   "raw": "B. To evaluate and pursue the Purpose, each Party may disclose to the other Party certain non-public, proprietary or confidential commercial and technical information.",
+   "after_edits": "B. To evaluate and pursue the Purpose, each Party may disclose to the other Party certain non-public, proprietary or confidential commercial and technical information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    13
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB02",
+    "confidence": 0.32,
+    "probabilities": {
+     "PB01": 0.25,
+     "PB02": 0.35000000000000003,
+     "PB03": 0.12,
+     "PB04": 0.0,
+     "PB05": 0.02,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.17,
+     "not_a_term": 0.09,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1411,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 896,
+     "output_tokens": 93
+    },
+    {
+     "input_tokens": 900,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB02",
+    "PB01"
+   ],
+   "checks": {
+    "PB02": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "unclear",
+       "confidence": 0.11,
+       "probabilities": {
+        "matches_preferred": 0.26,
+        "meets_fallback": 0.12,
+        "breaches": 0.29,
+        "unclear": 0.33
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.86,
+       "probabilities": {
+        "F1": 0.08,
+        "F2": 0.01,
+        "none": 0.91
+       }
+      }
+     },
+     "code": []
+    },
+    "PB01": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.89,
+       "probabilities": {
+        "matches_preferred": 0.92,
+        "meets_fallback": 0.01,
+        "breaches": 0.01,
+        "unclear": 0.06
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.35,
+       "probabilities": {
+        "F1": 0.43,
+        "F2": 0.0,
+        "none": 0.57
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L014",
+   "line": 14,
+   "clause_no": "Parties",
+   "raw": "C. This Agreement sets forth the conditions under which such information will be shared, maintained and protected.",
+   "after_edits": "C. This Agreement sets forth the conditions under which such information will be shared, maintained and protected.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    14
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.63,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.01,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.03,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.01,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.02,
+     "other_term": 0.65,
+     "not_a_term": 0.23,
+     "definition_or_interpretation": 0.05
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1393,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L019",
+   "line": 19,
+   "clause_no": "1.1",
+   "raw": "1.1 In this Agreement, the following capitalised terms have the following meanings:",
+   "after_edits": "1.1 In this Agreement, the following capitalised terms have the following meanings:",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    19
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.97,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.03,
+     "definition_or_interpretation": 0.97
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1390,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L020",
+   "line": 20,
+   "clause_no": "1.1.1",
+   "raw": "1.1.1 \"Affiliate\" means any entity that directly or indirectly controls, is controlled by, or is under common control with a Party, where \"control\" means the direct or indirect ownership of more than 50% of the voting shares or equity interests.",
+   "after_edits": "1.1.1 \"Affiliate\" means any entity that directly or indirectly controls, is controlled by, or is under common control with a Party, where \"control\" means the direct or indirect ownership of more than 50% of the voting shares or equity interests.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    20
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 1.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1470,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L021",
+   "line": 21,
+   "clause_no": "1.1.2",
+   "raw": "1.1.2 \"Discloser\" means the Party disclosing Confidential Information to the Recipient, whether directly or through its Representatives.",
+   "after_edits": "1.1.2 \"Discloser\" means the Party disclosing Confidential Information to the Recipient, whether directly or through its Representatives.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    21
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.01,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.99
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1418,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L022",
+   "line": 22,
+   "clause_no": "1.1.3",
+   "raw": "1.1.3 \"Information\" or \"Confidential Information\" means all information of commercial, technical, financial, strategic or operational value disclosed by or on behalf of the Discloser to the Recipient, whether orally, visually, electronically or in tangible form, including without limitation software code, architectural designs, algorithms, business processes, customer data, product specifications, roadmaps and pricing, which is designated as confidential or which by its nature ought reasonably to be considered confidential.",
+   "after_edits": "1.1.3 \"Information\" or \"Confidential Information\" means all information of commercial, technical, financial, strategic or operational value disclosed by or on behalf of the Discloser to the Recipient, whether orally, visually, electronically or in tangible form, including without limitation software code, architectural designs, algorithms, business processes, customer data, product specifications, roadmaps and pricing, which is designated as confidential or which by its nature ought reasonably to be considered confidential.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    22
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB02",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.99,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.01
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1554,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1039,
+     "output_tokens": 93
+    }
+   ],
+   "mapped": [
+    "PB02"
+   ],
+   "checks": {
+    "PB02": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.33,
+       "probabilities": {
+        "matches_preferred": 0.39,
+        "meets_fallback": 0.07,
+        "breaches": 0.5,
+        "unclear": 0.04
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.92,
+       "probabilities": {
+        "F1": 0.02,
+        "F2": 0.03,
+        "none": 0.95
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L023",
+   "line": 23,
+   "clause_no": "1.1.4",
+   "raw": "1.1.4 \"Recipient\" means the Party receiving Confidential Information from or on behalf of the Discloser.",
+   "after_edits": "1.1.4 \"Recipient\" means the Party receiving Confidential Information from or on behalf of the Discloser.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    23
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.01,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.99
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1404,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L024",
+   "line": 24,
+   "clause_no": "1.1.5",
+   "raw": "1.1.5 \"Representative\" means a director, officer, employee, external consultant, legal adviser or auditor of a Party or of any of its Affiliates.",
+   "after_edits": "1.1.5 \"Representative\" means a director, officer, employee, external consultant, legal adviser or auditor of a Party or of any of its Affiliates.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    24
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.93,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.07,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.93
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1432,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L027",
+   "line": 27,
+   "clause_no": "2.1",
+   "raw": "2.1 The Recipient shall treat all Confidential Information disclosed by the Discloser with strict confidentiality.",
+   "after_edits": "2.1 The Recipient shall treat all Confidential Information disclosed by the Discloser with strict confidentiality.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    27
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.95,
+    "probabilities": {
+     "PB01": 0.02,
+     "PB02": 0.02,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.95,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1398,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L028",
+   "line": 28,
+   "clause_no": "2.2",
+   "raw": "2.2 The Recipient shall apply the same degree of care to safeguard the Discloser's Confidential Information as it applies to its own confidential material of like character, but in no event less than a reasonable commercial standard of care.",
+   "after_edits": "2.2 The Recipient shall apply the same degree of care to safeguard the Discloser's Confidential Information as it applies to its own confidential material of like character, but in no event less than a reasonable commercial standard of care.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    28
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.99,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1450,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L029",
+   "line": 29,
+   "clause_no": "2.3",
+   "raw": "2.3 The Recipient shall not disclose, publish or otherwise make available the Discloser's Confidential Information to any third party, except as expressly permitted under Clause 3.",
+   "after_edits": "2.3 The Recipient shall not disclose, publish or otherwise make available the Discloser's Confidential Information to any third party, except as expressly permitted under Clause 3.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    29
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.67,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.01,
+     "PB03": 0.0,
+     "PB04": 0.03,
+     "PB05": 0.16,
+     "PB06": 0.01,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.09,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.68,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1428,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L030",
+   "line": 30,
+   "clause_no": "2.4",
+   "raw": "2.4 The Recipient shall use the Confidential Information solely for the Purpose and shall not exploit, commercialise or adapt such information for its own benefit or the benefit of any third party without prior written consent.",
+   "after_edits": "2.4 The Recipient shall use the Confidential Information solely for the Purpose and shall not exploit, commercialise or adapt such information for its own benefit or the benefit of any third party without prior written consent.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    30
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB03",
+    "confidence": 0.66,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.67,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.21,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.12,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1444,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 839,
+     "output_tokens": 85
+    }
+   ],
+   "mapped": [
+    "PB03"
+   ],
+   "checks": {
+    "PB03": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "unclear",
+       "confidence": 0.36,
+       "probabilities": {
+        "matches_preferred": 0.18,
+        "meets_fallback": 0.19,
+        "breaches": 0.11,
+        "unclear": 0.52
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.6,
+       "probabilities": {
+        "F1": 0.2,
+        "none": 0.8
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L031",
+   "line": 31,
+   "clause_no": "2.5",
+   "raw": "2.5 The Recipient shall not reverse engineer, decompile, disassemble or analyse the technical composition of any software binaries, application interfaces or hardware units supplied by the Discloser under this Agreement.",
+   "after_edits": "2.5 The Recipient shall not reverse engineer, decompile, disassemble or analyse the technical composition of any software binaries, application interfaces or hardware units supplied by the Discloser under this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    31
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB20",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 1.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1442,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 839,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB20"
+   ],
+   "checks": {
+    "PB20": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 1.0,
+        "meets_fallback": 0.0,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.01,
+        "none": 0.99
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L034",
+   "line": 34,
+   "clause_no": "3.1",
+   "raw": "3.1 The Recipient may disclose the Discloser's Confidential Information only to those of its Representatives and Affiliates who need to know such information for the implementation or assessment of the Purpose.",
+   "after_edits": "3.1 The Recipient may disclose the Discloser's Confidential Information only to those of its Representatives and Affiliates who need to know such information for the implementation or assessment of the Purpose.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    34
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB05",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 1.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1436,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 937,
+     "output_tokens": 93
+    }
+   ],
+   "mapped": [
+    "PB05"
+   ],
+   "checks": {
+    "PB05": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "unclear",
+       "confidence": 0.15,
+       "probabilities": {
+        "matches_preferred": 0.25,
+        "meets_fallback": 0.08,
+        "breaches": 0.31,
+        "unclear": 0.36
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.79,
+       "probabilities": {
+        "F1": 0.14,
+        "F2": 0.0,
+        "none": 0.86
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L035",
+   "line": 35,
+   "clause_no": "3.2",
+   "raw": "3.2 Prior to granting access, the Recipient shall ensure that each such Representative or Affiliate is bound by confidentiality undertakings substantially similar to those contained in this Agreement.",
+   "after_edits": "3.2 Prior to granting access, the Recipient shall ensure that each such Representative or Affiliate is bound by confidentiality undertakings substantially similar to those contained in this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    35
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB05",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.99,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.01,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1424,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 925,
+     "output_tokens": 96
+    }
+   ],
+   "mapped": [
+    "PB05"
+   ],
+   "checks": {
+    "PB05": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.17,
+       "probabilities": {
+        "matches_preferred": 0.38,
+        "meets_fallback": 0.3,
+        "breaches": 0.02,
+        "unclear": 0.3
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.58,
+       "probabilities": {
+        "F1": 0.01,
+        "F2": 0.72,
+        "none": 0.27
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L036",
+   "line": 36,
+   "clause_no": "3.3",
+   "raw": "3.3 The Recipient remains directly responsible for any breach of this Agreement caused by an act or omission of its Representatives or Affiliates as if committed by the Recipient itself.",
+   "after_edits": "3.3 The Recipient remains directly responsible for any breach of this Agreement caused by an act or omission of its Representatives or Affiliates as if committed by the Recipient itself.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    36
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB05",
+    "confidence": 0.92,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.92,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.06,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.02,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1432,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 933,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB05"
+   ],
+   "checks": {
+    "PB05": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.49,
+       "probabilities": {
+        "matches_preferred": 0.62,
+        "meets_fallback": 0.04,
+        "breaches": 0.04,
+        "unclear": 0.3
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.94,
+       "probabilities": {
+        "F1": 0.04,
+        "F2": 0.0,
+        "none": 0.96
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L039",
+   "line": 39,
+   "clause_no": "4.1",
+   "raw": "4.1 The confidentiality obligations in Clause 2 do not apply to any Information that the Recipient can verify by written evidence:\n4.1.1 is already publicly known at the time of disclosure, or subsequently enters the public domain without fault or breach by the Recipient or its Representatives;\n4.1.2 was already lawfully known to the Recipient prior to disclosure by the Discloser, without restriction on use or disclosure;\n4.1.3 is received in good faith from an independent third party who is entitled to make such disclosure without breaching any legal or fiduciary duty; or\n4.1.4 was independently developed by the Recipient's employees or contractors who had no access to or knowledge of the Discloser's Confidential Information.",
+   "after_edits": "4.1 The confidentiality obligations in Clause 2 do not apply to any Information that the Recipient can verify by written evidence:\n4.1.1 is already publicly known at the time of disclosure, or subsequently enters the public domain without fault or breach by the Recipient or its Representatives;\n4.1.2 was already lawfully known to the Recipient prior to disclosure by the Discloser, without restriction on use or disclosure;\n4.1.3 is received in good faith from an independent third party who is entitled to make such disclosure without breaching any legal or fiduciary duty; or\n4.1.4 was independently developed by the Recipient's employees or contractors who had no access to or knowledge of the Discloser's Confidential Information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    39,
+    40,
+    41,
+    42,
+    43
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB04",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 1.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1676,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1151,
+     "output_tokens": 96
+    }
+   ],
+   "mapped": [
+    "PB04"
+   ],
+   "checks": {
+    "PB04": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.92,
+       "probabilities": {
+        "matches_preferred": 0.94,
+        "meets_fallback": 0.06,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.77,
+       "probabilities": {
+        "F1": 0.04,
+        "F2": 0.85,
+        "none": 0.11
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L046",
+   "line": 46,
+   "clause_no": "5.1",
+   "raw": "5.1 If the Recipient or any of its Affiliates is requested or ordered by a court, regulatory body or government agency to disclose any of the Discloser's Confidential Information, the Recipient shall immediately notify the Discloser in writing to the extent legally permissible.",
+   "after_edits": "5.1 If the Recipient or any of its Affiliates is requested or ordered by a court, regulatory body or government agency to disclose any of the Discloser's Confidential Information, the Recipient shall immediately notify the Discloser in writing to the extent legally permissible.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    46
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB06",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 1.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1472,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 979,
+     "output_tokens": 97
+    }
+   ],
+   "mapped": [
+    "PB06"
+   ],
+   "checks": {
+    "PB06": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.4,
+       "probabilities": {
+        "matches_preferred": 0.21,
+        "meets_fallback": 0.55,
+        "breaches": 0.16,
+        "unclear": 0.08
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.4,
+       "probabilities": {
+        "F1": 0.6,
+        "F2": 0.0,
+        "none": 0.4
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L047",
+   "line": 47,
+   "clause_no": "5.2",
+   "raw": "5.2 The Recipient shall, at its sole cost and expense, exhaust all legal remedies, applications and appeals to resist, stay, limit or challenge such disclosure demand before disclosing any Confidential Information, and shall not provide any documents or testimony unless a final and non-appealable order compelling production has been issued by a court of competent jurisdiction.",
+   "after_edits": "5.2 The Recipient shall, at its sole cost and expense, exhaust all legal remedies, applications and appeals to resist, stay, limit or challenge such disclosure demand before disclosing any Confidential Information, and shall not provide any documents or testimony unless a final and non-appealable order compelling production has been issued by a court of competent jurisdiction.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    47
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB06",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 1.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1500,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1007,
+     "output_tokens": 93
+    }
+   ],
+   "mapped": [
+    "PB06"
+   ],
+   "checks": {
+    "PB06": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.0,
+        "breaches": 1.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 1.0,
+       "probabilities": {
+        "F1": 0.0,
+        "F2": 0.0,
+        "none": 1.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L048",
+   "line": 48,
+   "clause_no": "5.3",
+   "raw": "5.3 If disclosure remains strictly compulsory following the exhaustion of such remedies, the Recipient shall disclose only that portion of the Confidential Information that its external legal counsel advises in writing is strictly necessary to satisfy the mandate, and shall use its best efforts to obtain reliable assurances that confidential treatment will be accorded to the disclosed Information.",
+   "after_edits": "5.3 If disclosure remains strictly compulsory following the exhaustion of such remedies, the Recipient shall disclose only that portion of the Confidential Information that its external legal counsel advises in writing is strictly necessary to satisfy the mandate, and shall use its best efforts to obtain reliable assurances that confidential treatment will be accorded to the disclosed Information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    48
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB06",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 1.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1488,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 995,
+     "output_tokens": 97
+    }
+   ],
+   "mapped": [
+    "PB06"
+   ],
+   "checks": {
+    "PB06": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.67,
+       "probabilities": {
+        "matches_preferred": 0.06,
+        "meets_fallback": 0.75,
+        "breaches": 0.16,
+        "unclear": 0.03
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.69,
+       "probabilities": {
+        "F1": 0.0,
+        "F2": 0.79,
+        "none": 0.21
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L051",
+   "line": 51,
+   "clause_no": "6.1",
+   "raw": "6.1 Upon written request from the Discloser, or upon conclusion of the discussions regarding the Purpose, the Recipient shall promptly:\n6.1.1 deliver to the Discloser or destroy all original documents, copies, extracts and tangible summaries containing or reflecting any Confidential Information; and\n6.1.2 provide written certification signed by an authorised officer confirming that all relevant physical and electronic files have been deleted or destroyed.",
+   "after_edits": "6.1 Upon written request from the Discloser, or upon conclusion of the discussions regarding the Purpose, the Recipient shall promptly:\n6.1.1 deliver to the Discloser or destroy all original documents, copies, extracts and tangible summaries containing or reflecting any Confidential Information; and\n6.1.2 provide written certification signed by an authorised officer confirming that all relevant physical and electronic files have been deleted or destroyed.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    51,
+    52,
+    53
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB07",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 1.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1530,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 991,
+     "output_tokens": 93
+    }
+   ],
+   "mapped": [
+    "PB07"
+   ],
+   "checks": {
+    "PB07": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.87,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.02,
+        "breaches": 0.9,
+        "unclear": 0.08
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.62,
+       "probabilities": {
+        "F1": 0.25,
+        "F2": 0.0,
+        "none": 0.75
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L054",
+   "line": 54,
+   "clause_no": "6.2",
+   "raw": "6.2 The Recipient shall not be required to expunge electronic copies created pursuant to automated system backup schedules, provided that all such retained files remain subject to the confidentiality and non-use provisions of this Agreement until permanently overwritten or purged.",
+   "after_edits": "6.2 The Recipient shall not be required to expunge electronic copies created pursuant to automated system backup schedules, provided that all such retained files remain subject to the confidentiality and non-use provisions of this Agreement until permanently overwritten or purged.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    54
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB07",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 1.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1452,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 913,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB07"
+   ],
+   "checks": {
+    "PB07": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.29,
+       "probabilities": {
+        "matches_preferred": 0.47,
+        "meets_fallback": 0.12,
+        "breaches": 0.14,
+        "unclear": 0.27
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.94,
+       "probabilities": {
+        "F1": 0.04,
+        "F2": 0.0,
+        "none": 0.96
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L057",
+   "line": 57,
+   "clause_no": "7.1",
+   "raw": "7.1 All Confidential Information remains the exclusive property of the Discloser. No licence, title or interest under any patent, copyright, trademark, trade secret or other intellectual property right is granted or implied under this Agreement, other than the restricted right to use the Information strictly for the Purpose.",
+   "after_edits": "7.1 All Confidential Information remains the exclusive property of the Discloser. No licence, title or interest under any patent, copyright, trademark, trade secret or other intellectual property right is granted or implied under this Agreement, other than the restricted right to use the Information strictly for the Purpose.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    57
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB08",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 1.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1472,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 914,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB08"
+   ],
+   "checks": {
+    "PB08": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 1.0,
+        "meets_fallback": 0.0,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.3,
+       "probabilities": {
+        "F1": 0.35,
+        "none": 0.65
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L058",
+   "line": 58,
+   "clause_no": "7.2",
+   "raw": "7.2 Neither Party warrants the accuracy, completeness, viability or fitness for purpose of any Information shared hereunder. All materials are disclosed on an \"as is\" basis without warranty of any kind.",
+   "after_edits": "7.2 Neither Party warrants the accuracy, completeness, viability or fitness for purpose of any Information shared hereunder. All materials are disclosed on an \"as is\" basis without warranty of any kind.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    58
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB09",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 1.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1434,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 898,
+     "output_tokens": 97
+    }
+   ],
+   "mapped": [
+    "PB09"
+   ],
+   "checks": {
+    "PB09": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.92,
+       "probabilities": {
+        "matches_preferred": 0.05,
+        "meets_fallback": 0.94,
+        "breaches": 0.01,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.67,
+       "probabilities": {
+        "F1": 0.78,
+        "F2": 0.22,
+        "none": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L059",
+   "line": 59,
+   "clause_no": "7.3",
+   "raw": "7.3 Notwithstanding anything to the contrary in this Agreement, the Recipient and its personnel shall be free to use and exploit for any purpose any general ideas, concepts, know-how, skills or techniques related to the Discloser's Confidential Information that are retained in the unaided memory of the Recipient's personnel who have had authorised access to the Confidential Information.",
+   "after_edits": "7.3 Notwithstanding anything to the contrary in this Agreement, the Recipient and its personnel shall be free to use and exploit for any purpose any general ideas, concepts, know-how, skills or techniques related to the Discloser's Confidential Information that are retained in the unaided memory of the Recipient's personnel who have had authorised access to the Confidential Information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    59
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB17",
+    "confidence": 0.55,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.21,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.01,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.5700000000000001,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.21,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1510,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 794,
+     "output_tokens": 56
+    }
+   ],
+   "mapped": [
+    "PB17"
+   ],
+   "checks": {
+    "PB17": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.0,
+        "breaches": 1.0,
+        "unclear": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L062",
+   "line": 62,
+   "clause_no": "8.1",
+   "raw": "8.1 This Agreement takes effect on the Effective Date and shall remain in effect for two (2) years, unless terminated earlier by either Party upon thirty (30) days' prior written notice to the other Party.",
+   "after_edits": "8.1 This Agreement takes effect on the Effective Date and shall remain in effect for two (2) years, unless terminated earlier by either Party upon thirty (30) days' prior written notice to the other Party.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    62
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB12",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.99,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.01,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1444,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 995,
+     "output_tokens": 112
+    }
+   ],
+   "mapped": [
+    "PB12"
+   ],
+   "checks": {
+    "PB12": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.68,
+       "probabilities": {
+        "matches_preferred": 0.76,
+        "meets_fallback": 0.2,
+        "breaches": 0.01,
+        "unclear": 0.03
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.68,
+       "probabilities": {
+        "F1": 0.74,
+        "F2": 0.0,
+        "F3": 0.0,
+        "F4": 0.0,
+        "none": 0.26
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L063",
+   "line": 63,
+   "clause_no": "8.2",
+   "raw": "8.2 The obligations of confidentiality, non-disclosure and limited use in this Agreement shall survive termination or expiry and shall continue to bind the Parties for a period of three (3) years following the date of termination or expiry of this Agreement.",
+   "after_edits": "8.2 The obligations of confidentiality, non-disclosure and limited use in this Agreement shall survive termination or expiry and shall continue to bind the Parties for a period of three (3) years following the date of termination or expiry of this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    63
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB12",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 1.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1454,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1005,
+     "output_tokens": 112
+    }
+   ],
+   "mapped": [
+    "PB12"
+   ],
+   "checks": {
+    "PB12": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.8,
+       "probabilities": {
+        "matches_preferred": 0.85,
+        "meets_fallback": 0.14,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.97,
+       "probabilities": {
+        "F1": 0.0,
+        "F2": 0.98,
+        "F3": 0.0,
+        "F4": 0.0,
+        "none": 0.02
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L066",
+   "line": 66,
+   "clause_no": "9.1",
+   "raw": "9.1 Each Party acknowledges that an unauthorised use or disclosure of Confidential Information may cause irreparable harm for which monetary damages alone would provide inadequate relief. A Party shall therefore be entitled to seek injunctive relief, orders for specific performance or other interim measures from any court of competent jurisdiction without having to prove special damage.",
+   "after_edits": "9.1 Each Party acknowledges that an unauthorised use or disclosure of Confidential Information may cause irreparable harm for which monetary damages alone would provide inadequate relief. A Party shall therefore be entitled to seek injunctive relief, orders for specific performance or other interim measures from any court of competent jurisdiction without having to prove special damage.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    66
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB13",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 1.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1490,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1015,
+     "output_tokens": 104
+    }
+   ],
+   "mapped": [
+    "PB13"
+   ],
+   "checks": {
+    "PB13": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.8,
+       "probabilities": {
+        "matches_preferred": 0.85,
+        "meets_fallback": 0.15,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.35,
+       "probabilities": {
+        "F1": 0.51,
+        "F2": 0.46,
+        "F3": 0.0,
+        "none": 0.03
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L067",
+   "line": 67,
+   "clause_no": "9.2",
+   "raw": "9.2 Because the actual damage resulting from a breach of this Agreement is difficult to calculate, the Parties agree that if the Recipient breaches any provision of Clause 2, Clause 3 or Clause 5, the Recipient shall pay to the Discloser as liquidated damages an amount of £75,000 for each individual breach, payable within fourteen (14) days of written notice of breach from the Discloser, without prejudice to the Discloser's right to seek injunctive relief or to claim compensation for additional demonstrated loss exceeding that sum.",
+   "after_edits": "9.2 Because the actual damage resulting from a breach of this Agreement is difficult to calculate, the Parties agree that if the Recipient breaches any provision of Clause 2, Clause 3 or Clause 5, the Recipient shall pay to the Discloser as liquidated damages an amount of £75,000 for each individual breach, payable within fourteen (14) days of written notice of breach from the Discloser, without prejudice to the Discloser's right to seek injunctive relief or to claim compensation for additional demonstrated loss exceeding that sum.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    67
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB13",
+    "confidence": 0.9,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.9,
+     "PB14": 0.05,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.05,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1596,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1121,
+     "output_tokens": 101
+    }
+   ],
+   "mapped": [
+    "PB13"
+   ],
+   "checks": {
+    "PB13": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.99,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.01,
+        "breaches": 0.99,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.85,
+       "probabilities": {
+        "F1": 0.05,
+        "F2": 0.02,
+        "F3": 0.04,
+        "none": 0.89
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L070",
+   "line": 70,
+   "clause_no": "10.1",
+   "raw": "10.1 Neither Party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other Party, except that NCL may assign or transfer this Agreement or any of its rights or obligations hereunder without consent to any Affiliate or to a corporate successor in connection with a merger, acquisition or sale of substantially all its business assets.",
+   "after_edits": "10.1 Neither Party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other Party, except that NCL may assign or transfer this Agreement or any of its rights or obligations hereunder without consent to any Affiliate or to a corporate successor in connection with a merger, acquisition or sale of substantially all its business assets.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    70
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB19",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 1.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1499,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 881,
+     "output_tokens": 85
+    }
+   ],
+   "mapped": [
+    "PB19"
+   ],
+   "checks": {
+    "PB19": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.28,
+       "probabilities": {
+        "matches_preferred": 0.2,
+        "meets_fallback": 0.34,
+        "breaches": 0.46,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.74,
+       "probabilities": {
+        "F1": 0.13,
+        "none": 0.87
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L071",
+   "line": 71,
+   "clause_no": "10.2",
+   "raw": "10.2 All notices given under this Agreement shall be in writing and delivered by registered mail or email to the addresses set out on the first page of this Agreement or to such other contact details as either Party may designate in writing.",
+   "after_edits": "10.2 All notices given under this Agreement shall be in writing and delivered by registered mail or email to the addresses set out on the first page of this Agreement or to such other contact details as either Party may designate in writing.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    71
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1449,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 858,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.56,
+       "probabilities": {
+        "matches_preferred": 0.67,
+        "meets_fallback": 0.32,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 1.0,
+       "probabilities": {
+        "F1": 1.0,
+        "none": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L072",
+   "line": 72,
+   "clause_no": "10.3",
+   "raw": "10.3 No amendment, modification or waiver of any provision of this Agreement shall be effective unless recorded in writing and duly signed by authorised representatives of both Parties.",
+   "after_edits": "10.3 No amendment, modification or waiver of any provision of this Agreement shall be effective unless recorded in writing and duly signed by authorised representatives of both Parties.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    72
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1421,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 830,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.76,
+       "probabilities": {
+        "matches_preferred": 0.82,
+        "meets_fallback": 0.18,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 1.0,
+       "probabilities": {
+        "F1": 1.0,
+        "none": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L073",
+   "line": 73,
+   "clause_no": "10.4",
+   "raw": "10.4 If any provision of this Agreement is found to be invalid, illegal or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect.",
+   "after_edits": "10.4 If any provision of this Agreement is found to be invalid, illegal or unenforceable by a court of competent jurisdiction, the remaining provisions shall continue in full force and effect.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    73
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1433,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 842,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.71,
+       "probabilities": {
+        "matches_preferred": 0.78,
+        "meets_fallback": 0.21,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 1.0,
+       "probabilities": {
+        "F1": 1.0,
+        "none": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L074",
+   "line": 74,
+   "clause_no": "10.5",
+   "raw": "10.5 Nothing in this Agreement creates any partnership, joint venture, agency or employment relationship between the Parties.",
+   "after_edits": "10.5 Nothing in this Agreement creates any partnership, joint venture, agency or employment relationship between the Parties.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    74
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.79,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.11,
+     "other_term": 0.8,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.09
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1401,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L075",
+   "line": 75,
+   "clause_no": "10.6",
+   "raw": "10.6 A person who is not a party to this Agreement has no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this Agreement.",
+   "after_edits": "10.6 A person who is not a party to this Agreement has no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    75
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1435,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 844,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.95,
+       "probabilities": {
+        "matches_preferred": 0.96,
+        "meets_fallback": 0.04,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L076",
+   "line": 76,
+   "clause_no": "10.7",
+   "raw": "10.7 This Agreement constitutes the complete and exclusive agreement between the Parties regarding the subject matter hereof and supersedes all prior proposals, understandings and negotiations.",
+   "after_edits": "10.7 This Agreement constitutes the complete and exclusive agreement between the Parties regarding the subject matter hereof and supersedes all prior proposals, understandings and negotiations.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    76
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1425,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 834,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.73,
+       "probabilities": {
+        "matches_preferred": 0.8,
+        "meets_fallback": 0.18,
+        "breaches": 0.01,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L077",
+   "line": 77,
+   "clause_no": "10.8",
+   "raw": "10.8 This Agreement may be executed in counterparts, each of which shall be considered an original, and electronic or digital signatures shall be deemed to carry equal legal validity as handwritten originals.",
+   "after_edits": "10.8 This Agreement may be executed in counterparts, each of which shall be considered an original, and electronic or digital signatures shall be deemed to carry equal legal validity as handwritten originals.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    77
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1431,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 840,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.72,
+       "probabilities": {
+        "matches_preferred": 0.79,
+        "meets_fallback": 0.21,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L078",
+   "line": 78,
+   "clause_no": "10.9",
+   "raw": "10.9 This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales.",
+   "after_edits": "10.9 This Agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    78
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB18",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 1.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1459,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 852,
+     "output_tokens": 89
+    }
+   ],
+   "mapped": [
+    "PB18"
+   ],
+   "checks": {
+    "PB18": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.69,
+       "probabilities": {
+        "matches_preferred": 0.08,
+        "meets_fallback": 0.77,
+        "breaches": 0.01,
+        "unclear": 0.14
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.62,
+       "probabilities": {
+        "F1": 0.81,
+        "none": 0.19
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L079",
+   "line": 79,
+   "clause_no": "10.10",
+   "raw": "10.10 The Parties irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this Agreement or its subject matter or formation.",
+   "after_edits": "10.10 The Parties irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this Agreement or its subject matter or formation.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    79
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB18",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 1.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1446,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 839,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB18"
+   ],
+   "checks": {
+    "PB18": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.63,
+       "probabilities": {
+        "matches_preferred": 0.72,
+        "meets_fallback": 0.15,
+        "breaches": 0.02,
+        "unclear": 0.11
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 1.0,
+       "probabilities": {
+        "F1": 0.0,
+        "none": 1.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  }
+ ],
+ "contract_checks": {
+  "mutuality": {
+   "type": "noul",
+   "noul": 0.97
+  }
+ },
+ "contract_usage": {
+  "input_tokens": 2780,
+  "output_tokens": 22
+ },
+ "patches": [
+  "v2.1"
+ ]
+}

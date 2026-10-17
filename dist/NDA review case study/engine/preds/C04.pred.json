@@ -1,0 +1,173 @@
+{
+ "contract_id": "C04",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R08",
+   "clause_no": "11.2",
+   "quote": "the Receiving Party hereby covenants and undertakes to indemnify, keep indemnified and hold harmless the Disclosing Party and each member of its Group",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "our Board's preference is for this Agreement to be governed by the laws of Ireland and subject to the exclusive jurisdiction of the Irish courts in Clause 12.11",
+   "request_id": "RQ03",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R16",
+   "clause_no": "9.1",
+   "quote": "shall include personal data (as defined in the Data Protection Legislation) relating to prospective end-users, customer contacts and key account personnel within the territory",
+   "request_id": "RQ10",
+   "confidence": 0.92
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R16",
+   "clause_no": "9.2",
+   "quote": "Not used.",
+   "request_id": "RQ10",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "Parties",
+   "quote": "KILMACUD COMMERCIAL SYSTEMS LIMITED",
+   "request_id": "RQ07",
+   "confidence": 0.6
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "[[INS: three (3)]] Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R12",
+   "clause_no": "6.2",
+   "quote": "Not used.",
+   "request_id": "RQ09",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "which is either marked or identified as confidential at the time of disclosure or would reasonably be considered confidential given the nature of the information and the circumstances of its disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.2 / 1.1.4 / 1.1.6",
+   "quote": "Disclosing Party means the Party that discloses, or procures the disclosure of, Confidential Information to the other Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1 / 10.3",
+   "quote": "for a period of three (3) years from the effective date of expiry or termination",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "Neither Party may assign, novate, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "12.11",
+   "quote": "the courts of England and Wales shall have exclusive jurisdiction",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "not use or exploit the Disclosing Party's Confidential Information in any way except solely for the Purpose",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure of any software, prototypes or other tangible objects",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "is independently developed by or on behalf of the Receiving Party without access to, use of, or reference to any of the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to those of its Representatives and members of its Group who strictly need to know",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1-5.3",
+   "quote": "to the extent that it is legally permitted to do so",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1-7.2",
+   "quote": "All Confidential Information, and all intellectual property rights in or relating to it, shall remain the exclusive property of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.3-7.5",
+   "quote": "All Confidential Information is provided by the Disclosing Party on an \"as is\" basis.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement, press release or other public disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

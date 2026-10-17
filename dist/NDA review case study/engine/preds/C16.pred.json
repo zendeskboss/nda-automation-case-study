@@ -1,0 +1,221 @@
+{
+ "contract_id": "C16",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "1.1.5",
+   "quote": "Confidential Information means any and all non-public information, data, or materials disclosed, furnished, or made accessible by or on behalf of the Disclosing Party to the Receiving Party",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R16",
+   "clause_no": "1.1.5(b)",
+   "quote": "business plans, financial projections, customer data, pricing strategies, vendor lists, audits, compliance reports, risk assessments, and marketing plans",
+   "request_id": "RQ10",
+   "confidence": 0.55
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R11",
+   "clause_no": "1.1.9",
+   "quote": "directors, officers, employees, seconded personnel, agents, professional legal advisers, independent public accountants, financial advisers, consultants, and permitted subcontractors",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "2.7",
+   "quote": "shall notify the Disclosing Party in writing immediately, and in any event within twenty-four (24) hours, upon discovering or suspecting any unauthorised use, exposure, theft, copying, or disclosure",
+   "request_id": "RQ12",
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "which the Receiving Party can prove by contemporaneous written documentation",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "5.2",
+   "quote": "either Party may disclose Confidential Information without prior notice to the other Party in response to routine supervisory examinations or requests for information conducted by any banking, financial services, or prudential regulatory authority",
+   "request_id": "RQ12",
+   "confidence": 0.55
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "7.2",
+   "quote": "the Receiving Party hereby irrevocably assigns to the Disclosing Party, with full title guarantee, all right, title, and interest throughout the world in and to such Work Product",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "11.4",
+   "quote": "provided, however, that the Bank may assign this Agreement or any rights or obligations hereunder, in whole or in part, without the consent of Halyard, to any Affiliate or to any successor entity",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "11.7",
+   "quote": "Except as expressly provided herein with respect to Affiliates of the Bank, a person who is not a party to this Agreement shall have no rights under the Contracts (Rights of Third Parties) Act 1999",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R12",
+   "clause_no": "6.1.1",
+   "quote": "within three (3) calendar days following receipt of such notice, immediately return to the Disclosing Party or completely destroy",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R12",
+   "clause_no": "6.1.1",
+   "quote": "without retaining any copies or extracts whatsoever, whether in hard copy, digital, magnetic, or electronic format",
+   "request_id": "RQ09",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R12",
+   "clause_no": "6.1.2",
+   "quote": "a senior corporate officer of the Receiving Party shall, within three (3) calendar days following such demand, certify in writing under oath",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "8.2",
+   "quote": "Neither Party nor its Representatives shall have any liability or responsibility to the other Party or any other person resulting from any use of, evaluation of, or reliance upon the Disclosing Party's Confidential Information",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R14",
+   "clause_no": "Recitals / 1.1.4",
+   "quote": "as well as to facilitate any broader commercial, financial, operational, or strategic interactions, evaluations, or prospective engagements between the Parties and their respective Group companies as may arise from time to time (the Authorised Purpose)",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R15",
+   "clause_no": "General",
+   "quote": "11.5 No Waiver. No failure or delay by either Party in exercising any right, power, or privilege under this Agreement shall operate as a waiver thereof",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "10.2",
+   "quote": "the Disclosing Party shall be entitled, in addition to all other legal and equitable remedies available to it, to seek and obtain injunctive relief",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "11.1",
+   "quote": "supersedes and extinguishes all prior oral or written agreements, negotiations, draft agreements, understandings, representations, and warranties between the Parties relating to such subject matter",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "11.10",
+   "quote": "governed by and construed in accordance with the laws of England and Wales. Each Party irrevocably submits to the exclusive jurisdiction of the courts of England and Wales",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "2.1",
+   "quote": "The Receiving Party agrees that it shall hold in strict confidence, and shall exercise all reasonable care and precautions to protect, all Confidential Information of the Disclosing Party.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.3",
+   "quote": "shall use the Confidential Information of the Disclosing Party solely and exclusively for the Authorised Purpose",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.5",
+   "quote": "shall not decompile, disassemble, reverse engineer, translate, or otherwise attempt to derive the composition, structure, protocols, or source code of any software, system, model, or hardware",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "only to those of its Representatives and Affiliates who have a demonstrable need to know such information directly in connection with the Authorised Purpose",
+   "request_id": "RQ02",
+   "confidence": 0.75
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1",
+   "quote": "the Receiving Party shall, to the extent legally permissible:",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "8.1",
+   "quote": "furnished by each Disclosing Party strictly on an as is and where is basis, without any warranty, express, implied, statutory, or otherwise",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.1",
+   "quote": "shall remain in effect for a period of two (2) years from the Effective Date, unless terminated earlier by either Party upon thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.2",
+   "quote": "shall survive any termination or expiration of this Agreement for a period of three (3) years from the effective date of such termination or expiration",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

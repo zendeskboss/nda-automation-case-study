@@ -1,0 +1,141 @@
+{
+ "contract_id": "C26",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R08",
+   "clause_no": "10.3",
+   "quote": "neither Party shall be entitled to recover, and each Party hereby expressly and irrevocably waives any and all rights to claim or seek reimbursement for, its legal fees",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "4.1",
+   "quote": "the Receiving Party can establish by contemporaneous written records",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "5.2",
+   "quote": "Nothing contained in this Agreement shall restrict either Party or its Affiliates from independently acquiring, designing, developing, procuring, evaluating, marketing or licensing products, software, architectures or services that may be competitive with or functionally similar to those offered or developed by the other Party",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R03",
+   "clause_no": "5.3",
+   "quote": "the Receiving Party and its Affiliates shall be free to use for any purpose the residuals resulting from access to or work with the Disclosing Party's Confidential Information",
+   "request_id": "RQ08",
+   "confidence": 0.97
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R14",
+   "clause_no": "1.1.7",
+   "quote": "or any broader internal operational evaluation, development or business activity of either Party or its Affiliates",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "11.1",
+   "quote": "except that Meridian may assign or novate this Agreement, in whole or in part, without consent to any Affiliate or to any successor entity",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "11.7",
+   "quote": "save that Meridian's Affiliates shall be entitled to enforce any rights expressly conferred upon them hereunder",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R10",
+   "clause_no": "6.3",
+   "quote": "Meridian shall not be required to provide notice to or seek consent from Halyard in respect of any such regulatory disclosures or examinations",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R02",
+   "clause_no": "9.2",
+   "quote": "shall continue in full force and effect indefinitely",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R10",
+   "clause_no": "6.1",
+   "quote": "the Receiving Party shall, to the extent legally permissible and reasonably practicable, give the Disclosing Party prompt written notice thereof",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "7.3",
+   "quote": "All Confidential Information is provided \"as is\" and without any warranty of any kind.",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "8.1",
+   "quote": "within twenty (20) Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.3",
+   "quote": "whether or not marked or identified as confidential",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "10.2",
+   "quote": "the non-breaching Party shall be entitled to seek injunctive relief, specific performance and other equitable remedies",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "12.2",
+   "quote": "the courts of England and Wales shall have exclusive jurisdiction",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "3.1",
+   "quote": "those of its Representatives who have a need to know such information in furtherance of the Transaction Purpose",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party or its respective licensors",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

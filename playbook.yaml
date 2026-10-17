@@ -1,0 +1,382 @@
+# Halyard Software Ltd: Mutual NDA review playbook
+# Built from the Halyard standard mutual NDA (T00). Positions marked ASSUMED are the
+# candidate's assumptions for a UK B2B software company; on day one each is validated
+# with the legal team (interviews and past redlines) before the tool relies on it.
+
+meta:
+  version: "1.0"
+  status: frozen            # do not edit after test-set generation starts
+  frozen_on: "2026-10-14"
+  owner: "Head of Legal (assumed)"
+  scope: "Mutual NDAs where Halyard Software Ltd is a party. Our paper (T00) and their paper."
+  out_of_scope: "Order forms, MSAs, DPAs, one-off commercial terms. Route to a lawyer untouched."
+  template: "T00 Halyard standard mutual NDA"
+  severity_scale:
+    High:   {cost_of_mistake: 5, meaning: "Could expose IP, money or freedom to operate."}
+    Medium: {cost_of_mistake: 3, meaning: "Weakens protection or adds friction; usually negotiable."}
+    Low:    {cost_of_mistake: 1, meaning: "Administrative or easily managed."}
+
+# How the tool may act on each verdict. Phase 1: a lawyer approves everything that leaves the building.
+routing:
+  verdicts:
+    matches:            "Clause matches the preferred position. Shown collapsed to the lawyer."
+    acceptable:         "Within a listed fallback. Shown with the fallback cited; no redline drafted."
+    deviation_draft:    "Outside fallbacks, purple_ai lane. Tool drafts redline + note; lawyer approves."
+    escalate:           "Rule is in purple_human or orange, OR confidence below threshold, OR clause maps to no rule. No draft; lawyer handles."
+  lanes:
+    blue:         "Rules, no model: contract type, our paper vs theirs, party details present."
+    purple_ai:    "AI judgement lane (Low/Medium severity). AI compares and drafts; lawyer approves."
+    purple_human: "Human judgement lane (High severity, bounded judgement). Lawyer judges. AI runs in shadow: it logs its verdict and draft but does not show them until the lawyer has decided. Candidate for promotion."
+    orange:       "Stays human by design (IP, money on breach, freedom to operate, unrecognised terms). AI flags and quotes only. No promotion path."
+  confidence:
+    escalate_below: "SET FROM EVAL (threshold chosen on the miss-rate vs lawyer-load curve)"
+    note: "Calibration comes from labelled outcomes (eval set, then lawyer overrides). Lawyer decisions update this playbook and the thresholds; they never train a model."
+  unrecognised_clause: escalate   # any clause that maps to no rule below (see PB22)
+
+# Moving a rule from purple_human to purple_ai. Thresholds ASSUMED; agreed with the Head of Legal before go-live.
+promotion:
+  applies_to: purple_human
+  evidence_source: "Shadow log: AI verdict recorded before the lawyer decides, then compared with the lawyer's decision."
+  criteria:
+    - "Eval set: 100% recall on this rule's planted deviations, at the threshold to be used."
+    - "Production shadow: at least 50 occurrences of this rule's clause type reviewed by a lawyer."
+    - "Zero cases where the lawyer found a deviation and the AI marked 'matches' or 'acceptable'."
+    - "Lawyer agreement with the AI verdict of 95% or more across those occurrences."
+  decision: "Head of Legal signs off. Promotion is a new playbook version, logged with the evidence."
+  demotion: "Any single missed deviation after promotion returns the rule to purple_human and restarts the count."
+
+rules:
+
+  - id: PB01
+    topic: Mutuality
+    template_ref: ["1.1.4", "1.1.6", "2.1"]
+    risk_ids: [R01]
+    severity: High
+    lane: purple_human   # High severity: shadow mode until promoted
+    preferred: "Obligations bind both parties equally; Disclosing Party and Receiving Party defined so either party can be either."
+    acceptable:
+      - "Obligations stated once and applied to both parties by cross-reference."
+      - "One-way NDA where ONLY Halyard discloses and the counterparty is the sole recipient."
+    deviation:
+      - "Titled or recited as mutual, but operative obligations or the definition of Confidential Information protect only the counterparty."
+      - "One-way NDA where Halyard is the recipient and will also disclose."
+    draft_guidance: "Restore mutual Disclosing/Receiving Party definitions and make clause 2 obligations apply to each Party."
+    note_to_counterparty: "As both parties will share information, we need the obligations to apply equally to each of us."
+
+  - id: PB02
+    topic: Definition of Confidential Information
+    template_ref: ["1.1.2"]
+    risk_ids: [R04]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Information disclosed for the Purpose that is marked confidential OR would reasonably be considered confidential; includes derived notes and analyses."
+    acceptable:
+      - "Marked-only definition, where oral or visual disclosures are confirmed in writing within 30 days. (ASSUMED)"
+      - "Standard carve-outs placed inside the definition rather than a separate clause."
+    deviation:
+      - "Definition covers information not disclosed for the Purpose, or information Halyard already held."
+      - "Definition only covers one party's information (see PB01)."
+    draft_guidance: "Revert to the T00 1.1.2 'marked or reasonably considered confidential' formulation."
+
+  - id: PB03
+    topic: Purpose limitation
+    template_ref: ["Recital A", "2.1.2"]
+    risk_ids: [R14]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Use solely for discussions regarding a potential commercial relationship between the parties."
+    acceptable:
+      - "Purpose limited to a named project, product evaluation or pilot."
+    deviation:
+      - "No purpose limitation, or use permitted 'for any purpose', 'for its business purposes' or similar."
+    draft_guidance: "Insert or narrow the Purpose to discussions about the potential relationship, and restrict use to the Purpose."
+
+  - id: PB04
+    topic: Carve-outs
+    template_ref: ["3.1"]
+    risk_ids: [R04]
+    severity: High
+    lane: purple_human   # High severity: shadow mode until promoted
+    preferred: "All four: public domain (not via breach), already lawfully held, lawfully received from a third party, independently developed."
+    acceptable:
+      - "Different wording or location (including inside the definition) with the same substance."
+      - "Evidence standard 'written records' or 'reasonable evidence'."
+    deviation:
+      - "Any of the four is missing."
+      - "Any is narrowed, e.g. independent development only if documented contemporaneously by named personnel, or public domain only if published by the Disclosing Party."
+    draft_guidance: "Reinstate the missing or narrowed exception using T00 3.1 wording."
+    note_to_counterparty: "These are standard exceptions; without them we could breach by using information we already have or develop ourselves."
+
+  - id: PB05
+    topic: Permitted disclosure to Representatives and Group
+    template_ref: ["1.1.7", "4.1"]
+    risk_ids: [R11]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Disclosure to employees, officers, directors, professional advisers, auditors, insurers and Group members on a need-to-know basis; recipient liable for them."
+    acceptable:
+      - "Group disclosure only with consent not to be unreasonably withheld, provided advisers, auditors and insurers remain permitted. (ASSUMED)"
+      - "Requirement for written confidentiality undertakings from advisers who are not under professional duties."
+    deviation:
+      - "No disclosure permitted to professional advisers, auditors or insurers."
+      - "No disclosure to Group members and no consent mechanism."
+    draft_guidance: "Reinstate T00 clause 4.1 permitted recipients."
+
+  - id: PB06
+    topic: Compelled disclosure
+    template_ref: ["5.1", "5.2", "5.3"]
+    risk_ids: [R10]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Disclosure permitted to the extent required by law, regulator, court or stock exchange; notice and cooperation only where legally permitted; resisting disclosure at the Disclosing Party's cost."
+    acceptable:
+      - "Notice 'where lawful' and cooperation at the Disclosing Party's cost."
+      - "Obligation to use reasonable endeavours to obtain confidential treatment, at the Disclosing Party's cost."
+    deviation:
+      - "No compelled-disclosure exception."
+      - "Notice required in all cases, with no 'where legally permitted' qualifier."
+      - "Receiving Party must resist or challenge disclosure at its own cost."
+    draft_guidance: "Insert T00 clause 5 or add the 'to the extent legally permitted' and 'at the Disclosing Party's cost' qualifiers."
+
+  - id: PB07
+    topic: Return and destruction
+    template_ref: ["6.1", "6.2", "6.3"]
+    risk_ids: [R12]
+    severity: Low
+    lane: purple_ai
+    preferred: "Return or destroy within 10 Business Days of written request; officer-signed confirmation; exception for automated backups and legally required copies, which stay confidential."
+    acceptable:
+      - "Any period of 5 Business Days or more. (ASSUMED)"
+      - "Confirmation by email from an authorised person rather than an officer."
+    deviation:
+      - "No exception for automated backups or copies retained by law or regulation."
+      - "Period under 5 Business Days."
+    draft_guidance: "Add T00 clause 6.2 retention exceptions and 6.3 continuing confidentiality; extend period to 10 Business Days."
+
+  - id: PB08
+    topic: Ownership, licences and IP
+    template_ref: ["7.1", "7.2"]
+    risk_ids: [R06]
+    severity: High
+    lane: orange
+    preferred: "All Confidential Information and IP stays with the Disclosing Party; no licence other than use for the Purpose."
+    acceptable:
+      - "Statement that each party owns its own IP and no licence is granted (any wording)."
+    deviation:
+      - "Any assignment of IP, or ownership of improvements, derivatives, feedback or developments, to the other party."
+      - "Any licence beyond use for the Purpose, including a licence over feedback that could capture Halyard product information."
+    draft_guidance: null   # orange: no AI draft; lawyer handles
+    note_to_lawyer: "IP terms can affect product ownership. Tool flags and quotes the clause only."
+
+  - id: PB09
+    topic: Warranty and reliance disclaimers
+    template_ref: ["7.3", "7.4", "7.5"]
+    risk_ids: []
+    severity: Low
+    lane: purple_ai
+    preferred: "Information 'as is'; no warranty; no liability for reliance except fraud; no obligation to proceed."
+    acceptable:
+      - "Mutual disclaimers in any reasonable wording."
+      - "Absence of a 'no obligation to proceed' sentence. (ASSUMED)"
+    deviation:
+      - "Halyard gives any warranty as to accuracy or completeness of its information."
+      - "Fraud carve-out removed from a liability exclusion."
+    draft_guidance: "Replace with T00 7.3 and 7.4."
+
+  - id: PB10
+    topic: Publicity
+    template_ref: ["8.1"]
+    risk_ids: [R15]
+    severity: Low
+    lane: purple_ai
+    preferred: "No announcement or disclosure of the discussions without prior written consent, except as required by law."
+    acceptable:
+      - "Mutual publicity restriction in any reasonable wording."
+      - "No publicity clause at all. (ASSUMED: discussions remain confidential information anyway)"
+    deviation:
+      - "Either party may announce the relationship, or use the other's name or logo, without consent."
+    draft_guidance: "Insert T00 8.1 or make any publicity right subject to prior written consent."
+
+  - id: PB11
+    topic: Personal data
+    template_ref: ["1.1.3", "9.1", "9.2"]
+    risk_ids: [R16]
+    severity: Medium
+    lane: purple_ai
+    preferred: "No personal data beyond business contact details; any other sharing only after a separate data processing or sharing agreement."
+    acceptable:
+      - "Counterparty clause committing both parties to UK GDPR / EU GDPR compliance and a separate DPA before sharing personal data."
+    deviation:
+      - "Purpose or clauses indicate personal data (customer, employee or end-user data) will be shared, with no data protection terms or DPA commitment."
+    draft_guidance: "Insert T00 clause 9; flag to the lawyer that a DPA may be needed before any data is shared."
+
+  - id: PB12
+    topic: Term and survival
+    template_ref: ["10.1", "10.2", "10.3"]
+    risk_ids: [R02]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Agreement term 2 years (30 days' notice to terminate early); confidentiality survives 3 years after expiry or termination; Trade Secrets protected while they remain Trade Secrets."
+    acceptable:
+      - "Agreement term 1 to 3 years. (ASSUMED)"
+      - "Survival 2 to 5 years. (ASSUMED)"
+      - "Indefinite protection limited to Trade Secrets."
+      - "No early-termination right."
+    deviation:
+      - "Perpetual or indefinite confidentiality for ALL information."
+      - "Survival over 5 years, or under 2 years."
+      - "Termination ends confidentiality obligations immediately."
+    draft_guidance: "Revert to T00 10.3: 3 years' survival with the Trade Secret carve-out."
+
+  - id: PB13
+    topic: Remedies
+    template_ref: ["11.1", "11.2"]
+    risk_ids: [R09]
+    severity: High
+    lane: orange
+    preferred: "Mutual right to seek injunction and equitable relief; remedies cumulative."
+    acceptable:
+      - "'Entitled to seek' rather than 'entitled to'; no requirement to post a bond."
+      - "Strongly worded but mutual equitable relief."
+      - "Deletion of the equitable relief clause (relief still available at law). (ASSUMED)"
+    deviation:
+      - "Liquidated damages, fixed sums or per-breach payments."
+      - "Waiver of Halyard's right to seek equitable relief while the counterparty keeps it."
+    draft_guidance: null
+    note_to_lawyer: "Money on breach is human-only. Tool flags and quotes."
+
+  - id: PB14
+    topic: Indemnities and liability
+    template_ref: []        # T00 has no indemnity
+    risk_ids: [R08]
+    severity: High
+    lane: orange
+    preferred: "No indemnity. Liability for breach left to general law."
+    acceptable: []          # any indemnity goes to a lawyer
+    deviation:
+      - "Any indemnity, capped or uncapped, mutual or one-way."
+      - "Any cap or exclusion that limits Halyard's recovery for the counterparty's breach of confidence."
+    draft_guidance: null
+    note_to_lawyer: "Unusual liability terms stay human by design."
+
+  - id: PB15
+    topic: Non-solicitation
+    template_ref: []        # T00 has none
+    risk_ids: [R05]
+    severity: Medium
+    lane: purple_ai
+    preferred: "No non-solicitation clause."
+    acceptable:
+      - "Mutual, 12 months or less, limited to staff the party worked with in the discussions, with a general-advertising exception. (ASSUMED)"
+    deviation:
+      - "One-way, over 12 months, no general-advertising exception, or covering all staff and contractors."
+    draft_guidance: "Delete; or as fallback make it mutual, 12 months, limited to staff met in the discussions, with a general-advertising exception."
+
+  - id: PB16
+    topic: Non-compete and exclusivity
+    template_ref: []        # T00 has none
+    risk_ids: [R13]
+    severity: High
+    lane: orange
+    preferred: "No restriction on either party's business."
+    acceptable: []
+    deviation:
+      - "Any non-compete, exclusivity, standstill or restriction on dealing with the counterparty's competitors or customers."
+    draft_guidance: null
+    note_to_lawyer: "Freedom-to-operate issue. Human only."
+
+  - id: PB17
+    topic: Residuals
+    template_ref: []        # T00 has none
+    risk_ids: [R03]
+    severity: High
+    lane: purple_human   # High severity: shadow mode until promoted
+    preferred: "No residuals clause."
+    acceptable: []
+    deviation:
+      - "Any right to use information retained in unaided memory, however limited."
+    draft_guidance: "Delete the residuals clause."
+    note_to_counterparty: "A residuals clause would let either party use our confidential information freely once remembered, which defeats the purpose of the agreement. We're unable to accept it."
+
+  - id: PB18
+    topic: Governing law and jurisdiction
+    template_ref: ["12.10", "12.11"]
+    risk_ids: [R07]
+    severity: Medium
+    lane: purple_ai
+    preferred: "Law of England and Wales; exclusive jurisdiction of the courts of England and Wales."
+    acceptable:
+      - "England and Wales law with non-exclusive jurisdiction."
+    deviation:
+      - "Any other governing law, or exclusive jurisdiction outside England and Wales, or mandatory arbitration abroad."
+    draft_guidance: "Revert to T00 12.10 and 12.11; as fallback offer non-exclusive jurisdiction."
+    note_to_counterparty: "We contract under English law as standard. We can make jurisdiction non-exclusive if that helps."
+
+  - id: PB19
+    topic: Assignment
+    template_ref: ["12.1"]
+    risk_ids: []
+    severity: Low
+    lane: purple_ai
+    preferred: "No assignment without prior written consent."
+    acceptable:
+      - "Either party may assign to a Group member or successor on notice."
+    deviation:
+      - "Counterparty may assign freely while Halyard needs consent."
+    draft_guidance: "Make assignment rights mutual."
+
+  - id: PB20
+    topic: Reverse engineering
+    template_ref: ["2.1.5"]
+    risk_ids: []
+    severity: Low
+    lane: purple_ai
+    preferred: "No reverse engineering of software or prototypes."
+    acceptable:
+      - "Deletion where no software, prototypes or tangible items will be shared. (ASSUMED)"
+    deviation:
+      - "Express permission to reverse engineer or benchmark Halyard software."
+    draft_guidance: "Reinstate T00 2.1.5."
+
+  - id: PB21
+    topic: Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)
+    template_ref: ["12.2", "12.3", "12.4", "12.5", "12.6", "12.7", "12.8", "12.9"]
+    risk_ids: []
+    severity: Low
+    lane: purple_ai
+    preferred: "As T00."
+    acceptable:
+      - "Any customary drafting, including archaic wording of standard positions."
+    deviation:
+      - "Entire-agreement clause that excludes liability for fraud."
+      - "Third parties granted enforcement rights."
+    draft_guidance: "Revert the specific deviation to T00 wording."
+
+  - id: PB22
+    topic: Unrecognised clause (catch-all)
+    template_ref: []
+    risk_ids: []
+    severity: High          # treated as High until a lawyer classifies it
+    lane: orange
+    preferred: "n/a"
+    acceptable: []
+    deviation:
+      - "Any clause or obligation the tool cannot map to PB01-PB21 with confidence."
+    draft_guidance: null
+    note_to_lawyer: "Novel term. Once classified, the lawyer's decision becomes a new rule or fallback in the next playbook version."
+
+# Answers to routine counterparty requests (the 'answer known questions' step).
+# Tool drafts the reply; lawyer approves in Phase 1.
+known_requests:
+  RQ01: {topic: "Shorten confidentiality period", rule: PB12, answer: "Accept survival down to 2 years, keeping indefinite protection for Trade Secrets. Below 2 years: escalate."}
+  RQ02: {topic: "Extend to affiliates", rule: PB05, answer: "Already covered: clause 4 permits disclosure to Group members on a need-to-know basis. Offer to make it explicit if they want."}
+  RQ03: {topic: "Change governing law", rule: PB18, answer: "Decline; offer English law with non-exclusive jurisdiction. Any other law: escalate."}
+  RQ04: {topic: "Query or remove equitable relief", rule: PB13, answer: "Explain it's mutual and standard; accept 'entitled to seek' or deletion."}
+  RQ05: {topic: "Add mutual non-solicit", rule: PB15, answer: "Accept only within PB15 fallback limits; otherwise decline."}
+  RQ06: {topic: "E-signature and counterparts", rule: PB21, answer: "Already permitted by clause 12.9."}
+  RQ07: {topic: "Correct entity details", rule: null, answer: "Accept; lawyer confirms the entity against the company register."}
+  RQ08: {topic: "Request residuals", rule: PB17, answer: "Decline with the PB17 note."}
+  RQ09: {topic: "Backup copies", rule: PB07, answer: "Already covered: clause 6.2 permits retention in automated backups, which stay confidential."}
+  RQ10: {topic: "Personal data terms", rule: PB11, answer: "Point to clause 9. If they plan to share personal data, escalate: a DPA is needed first."}
+  RQ11: {topic: "Make it one-way", rule: PB01, answer: "Accept only if Halyard is the sole discloser; otherwise keep it mutual."}
+  RQ12: {topic: "Other / novel", rule: PB22, answer: "Escalate."}

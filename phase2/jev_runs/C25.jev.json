@@ -1,0 +1,1191 @@
+{
+ "contract_id": "C25",
+ "model": "jev-latest",
+ "result": "lawyer",
+ "findings": [
+  {
+   "clause_no": "1.1.12",
+   "rule_id": "PB05",
+   "lane": "purple_ai",
+   "llm_verdict": "deviation",
+   "routed": "escalate",
+   "confidence": 0.5,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 0.86,
+     "probabilities": {
+      "fits": 0.91,
+      "fits_other_rule": 0.05,
+      "no_rule_fits": 0.04
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 0.23,
+     "probabilities": {
+      "matches_preferred": 0.08,
+      "meets_fallback": 0.33,
+      "breaches": 0.42,
+      "unclear": 0.17
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.42,
+     "confidence": 0.33,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.15,
+      "1": 0.33,
+      "2": 0.48,
+      "3": 0.04
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1300,
+    "output_tokens": 133
+   },
+   "seconds": 0.24,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "2.4",
+   "rule_id": "PB17",
+   "lane": "purple_human",
+   "llm_verdict": "deviation",
+   "routed": "escalate",
+   "confidence": 0.97,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 1.0,
+     "probabilities": {
+      "matches_preferred": 0.0,
+      "meets_fallback": 0.0,
+      "breaches": 1.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 2.67,
+     "confidence": 0.69,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.07,
+      "1": 0.01,
+      "2": 0.08,
+      "3": 0.84
+     }
+    },
+    "draft_fixes_breach": {
+     "type": "noul",
+     "noul": 0.97
+    },
+    "draft_extra_change": {
+     "type": "noul",
+     "noul": 0.43
+    },
+    "draft_new_duty_for_us": {
+     "type": "noul",
+     "noul": 0.16
+    }
+   },
+   "usage": {
+    "input_tokens": 1433,
+    "output_tokens": 193
+   },
+   "seconds": 0.32,
+   "jev_escalate": [
+    "draft extra change 0.43"
+   ],
+   "notes": []
+  },
+  {
+   "clause_no": "3.1",
+   "rule_id": "PB04",
+   "lane": "purple_human",
+   "llm_verdict": "deviation",
+   "routed": "escalate",
+   "confidence": 0.65,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 0.93,
+     "probabilities": {
+      "matches_preferred": 0.01,
+      "meets_fallback": 0.02,
+      "breaches": 0.95,
+      "unclear": 0.02
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.66,
+     "confidence": 0.4,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.19,
+      "1": 0.09,
+      "2": 0.59,
+      "3": 0.13
+     }
+    },
+    "draft_fixes_breach": {
+     "type": "noul",
+     "noul": 0.9
+    },
+    "draft_extra_change": {
+     "type": "noul",
+     "noul": 0.18
+    },
+    "draft_new_duty_for_us": {
+     "type": "noul",
+     "noul": 0.1
+    }
+   },
+   "usage": {
+    "input_tokens": 1435,
+    "output_tokens": 193
+   },
+   "seconds": 0.29,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "4.1.2",
+   "rule_id": "PB06",
+   "lane": "purple_ai",
+   "llm_verdict": "deviation",
+   "routed": "deviation_draft",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 1.0,
+     "probabilities": {
+      "matches_preferred": 0.0,
+      "meets_fallback": 0.0,
+      "breaches": 1.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 2.37,
+     "confidence": 0.35,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.07,
+      "1": 0.01,
+      "2": 0.42,
+      "3": 0.5
+     }
+    },
+    "draft_fixes_breach": {
+     "type": "noul",
+     "noul": 0.81
+    },
+    "draft_extra_change": {
+     "type": "noul",
+     "noul": 0.44
+    },
+    "draft_new_duty_for_us": {
+     "type": "noul",
+     "noul": 0.14
+    }
+   },
+   "usage": {
+    "input_tokens": 1508,
+    "output_tokens": 193
+   },
+   "seconds": 0.22,
+   "jev_escalate": [
+    "risk score 2.4",
+    "draft extra change 0.44"
+   ],
+   "notes": []
+  },
+  {
+   "clause_no": "4.2",
+   "rule_id": "PB06",
+   "lane": "purple_ai",
+   "llm_verdict": "deviation",
+   "routed": "deviation_draft",
+   "confidence": 0.92,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 1.0,
+     "probabilities": {
+      "matches_preferred": 0.0,
+      "meets_fallback": 0.0,
+      "breaches": 1.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 2.41,
+     "confidence": 0.4,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.11,
+      "1": 0.01,
+      "2": 0.25,
+      "3": 0.63
+     }
+    },
+    "draft_fixes_breach": {
+     "type": "noul",
+     "noul": 0.82
+    },
+    "draft_extra_change": {
+     "type": "noul",
+     "noul": 0.25
+    },
+    "draft_new_duty_for_us": {
+     "type": "noul",
+     "noul": 0.09
+    }
+   },
+   "usage": {
+    "input_tokens": 1556,
+    "output_tokens": 193
+   },
+   "seconds": 0.23,
+   "jev_escalate": [
+    "risk score 2.4"
+   ],
+   "notes": []
+  },
+  {
+   "clause_no": "5.1",
+   "rule_id": "PB15",
+   "lane": "purple_ai",
+   "llm_verdict": "deviation",
+   "routed": "deviation_draft",
+   "confidence": 0.85,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "breaches",
+     "confidence": 0.96,
+     "probabilities": {
+      "matches_preferred": 0.0,
+      "meets_fallback": 0.02,
+      "breaches": 0.97,
+      "unclear": 0.01
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.99,
+     "confidence": 0.69,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.08,
+      "1": 0.01,
+      "2": 0.77,
+      "3": 0.14
+     }
+    },
+    "draft_fixes_breach": {
+     "type": "noul",
+     "noul": 0.74
+    },
+    "draft_extra_change": {
+     "type": "noul",
+     "noul": 0.45
+    },
+    "draft_new_duty_for_us": {
+     "type": "noul",
+     "noul": 0.06
+    }
+   },
+   "usage": {
+    "input_tokens": 1519,
+    "output_tokens": 193
+   },
+   "seconds": 0.24,
+   "jev_escalate": [
+    "draft extra change 0.45"
+   ],
+   "notes": []
+  },
+  {
+   "clause_no": "10.2",
+   "rule_id": "PB13",
+   "lane": "orange",
+   "llm_verdict": "acceptable",
+   "routed": "acceptable",
+   "confidence": 0.8,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "meets_fallback",
+     "confidence": 0.56,
+     "probabilities": {
+      "matches_preferred": 0.06,
+      "meets_fallback": 0.67,
+      "breaches": 0.23,
+      "unclear": 0.04
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.0,
+     "confidence": 0.0,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.46,
+      "1": 0.18,
+      "2": 0.25,
+      "3": 0.11
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1300,
+    "output_tokens": 136
+   },
+   "seconds": 0.23,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "2.2.1",
+   "rule_id": "PB03",
+   "lane": "purple_ai",
+   "llm_verdict": "acceptable",
+   "routed": "acceptable",
+   "confidence": 0.8,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.57,
+     "probabilities": {
+      "matches_preferred": 0.68,
+      "meets_fallback": 0.23,
+      "breaches": 0.02,
+      "unclear": 0.07
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.04
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.42,
+     "confidence": 0.59,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.63,
+      "1": 0.33,
+      "2": 0.04,
+      "3": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1171,
+    "output_tokens": 135
+   },
+   "seconds": 0.27,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "1.1.5",
+   "rule_id": "PB02",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.7,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.61,
+     "probabilities": {
+      "matches_preferred": 0.71,
+      "meets_fallback": 0.08,
+      "breaches": 0.18,
+      "unclear": 0.03
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.66,
+     "confidence": 0.17,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.21,
+      "1": 0.16,
+      "2": 0.38,
+      "3": 0.25
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1320,
+    "output_tokens": 135
+   },
+   "seconds": 0.25,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "1.1.7",
+   "rule_id": "PB01",
+   "lane": "purple_human",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 0.98,
+     "probabilities": {
+      "fits": 0.99,
+      "fits_other_rule": 0.01,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.92,
+     "probabilities": {
+      "matches_preferred": 0.94,
+      "meets_fallback": 0.01,
+      "breaches": 0.0,
+      "unclear": 0.05
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.04,
+     "confidence": 0.97,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.98,
+      "1": 0.01,
+      "2": 0.01,
+      "3": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1252,
+    "output_tokens": 135
+   },
+   "seconds": 0.27,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "11.1",
+   "rule_id": "PB19",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.95,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 1.0,
+     "probabilities": {
+      "matches_preferred": 1.0,
+      "meets_fallback": 0.0,
+      "breaches": 0.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.02,
+     "confidence": 0.97,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.98,
+      "1": 0.01,
+      "2": 0.01,
+      "3": 0.0
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1184,
+    "output_tokens": 135
+   },
+   "seconds": 0.23,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "11.6.2",
+   "rule_id": "PB18",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.95,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.76,
+     "probabilities": {
+      "matches_preferred": 0.82,
+      "meets_fallback": 0.1,
+      "breaches": 0.02,
+      "unclear": 0.06
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.35,
+     "confidence": 0.65,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.8,
+      "1": 0.06,
+      "2": 0.13,
+      "3": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1169,
+    "output_tokens": 135
+   },
+   "seconds": 0.28,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "2.2.4",
+   "rule_id": "PB20",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 1.0,
+     "probabilities": {
+      "matches_preferred": 1.0,
+      "meets_fallback": 0.0,
+      "breaches": 0.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.48,
+     "confidence": 0.21,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.27,
+      "1": 0.11,
+      "2": 0.48,
+      "3": 0.14
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1182,
+    "output_tokens": 135
+   },
+   "seconds": 0.25,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "6.1",
+   "rule_id": "PB07",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.85,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 0.94,
+     "probabilities": {
+      "fits": 0.96,
+      "fits_other_rule": 0.02,
+      "no_rule_fits": 0.02
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "meets_fallback",
+     "confidence": 0.51,
+     "probabilities": {
+      "matches_preferred": 0.14,
+      "meets_fallback": 0.63,
+      "breaches": 0.15,
+      "unclear": 0.08
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 1.08,
+     "confidence": 0.35,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.28,
+      "1": 0.38,
+      "2": 0.31,
+      "3": 0.03
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1217,
+    "output_tokens": 136
+   },
+   "seconds": 0.23,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "7.1",
+   "rule_id": "PB08",
+   "lane": "orange",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.89,
+     "probabilities": {
+      "matches_preferred": 0.92,
+      "meets_fallback": 0.06,
+      "breaches": 0.0,
+      "unclear": 0.02
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.23,
+     "confidence": 0.76,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.86,
+      "1": 0.07,
+      "2": 0.04,
+      "3": 0.03
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1233,
+    "output_tokens": 135
+   },
+   "seconds": 0.22,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "8.1",
+   "rule_id": "PB09",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "meets_fallback",
+     "confidence": 0.48,
+     "probabilities": {
+      "matches_preferred": 0.39,
+      "meets_fallback": 0.61,
+      "breaches": 0.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.06
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.11,
+     "confidence": 0.88,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.93,
+      "1": 0.03,
+      "2": 0.03,
+      "3": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1260,
+    "output_tokens": 136
+   },
+   "seconds": 0.24,
+   "jev_escalate": [],
+   "notes": []
+  },
+  {
+   "clause_no": "9.2",
+   "rule_id": "PB12",
+   "lane": "purple_ai",
+   "llm_verdict": "matches",
+   "routed": "matches",
+   "confidence": 0.9,
+   "quote_found": true,
+   "jev": {
+    "rule_fit": {
+     "type": "choice",
+     "choice": "fits",
+     "confidence": 1.0,
+     "probabilities": {
+      "fits": 1.0,
+      "fits_other_rule": 0.0,
+      "no_rule_fits": 0.0
+     }
+    },
+    "position_check": {
+     "type": "choice",
+     "choice": "matches_preferred",
+     "confidence": 0.88,
+     "probabilities": {
+      "matches_preferred": 0.91,
+      "meets_fallback": 0.09,
+      "breaches": 0.0,
+      "unclear": 0.0
+     }
+    },
+    "changed_elsewhere": {
+     "type": "noul",
+     "noul": 0.05
+    },
+    "risk_to_us": {
+     "type": "score",
+     "score": 0.36,
+     "confidence": 0.62,
+     "legend": {
+      "0": "No risk: the clause protects us, or it is neutral and mutual.",
+      "1": "Low risk: a small departure that a business owner can accept without legal advice.",
+      "2": "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+      "3": "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+     },
+     "probabilities": {
+      "0": 0.72,
+      "1": 0.19,
+      "2": 0.08,
+      "3": 0.01
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1276,
+    "output_tokens": 135
+   },
+   "seconds": 0.25,
+   "jev_escalate": [],
+   "notes": []
+  }
+ ],
+ "contract": {
+  "answers": {
+   "document_type": {
+    "type": "choice",
+    "choice": "nda_mutual",
+    "confidence": 1.0,
+    "probabilities": {
+     "nda_mutual": 1.0,
+     "nda_one_way": 0.0,
+     "nda_inside_larger_deal": 0.0,
+     "not_nda": 0.0
+    }
+   },
+   "has_non_compete": {
+    "type": "noul",
+    "noul": 0.46
+   },
+   "has_non_solicit": {
+    "type": "noul",
+    "noul": 0.49
+   },
+   "has_ip_transfer": {
+    "type": "noul",
+    "noul": 0.05
+   },
+   "has_exclusivity": {
+    "type": "noul",
+    "noul": 0.15
+   },
+   "has_uncapped_liability": {
+    "type": "noul",
+    "noul": 0.35
+   },
+   "findings_conflict": {
+    "type": "noul",
+    "noul": 0.44
+   },
+   "overall_unusual": {
+    "type": "score",
+    "score": 1.82,
+    "confidence": 0.82,
+    "legend": {
+     "0": "Standard: the usual NDA clauses in the usual order, with nothing extra.",
+     "1": "Slightly unusual: one extra clause or an unusual definition, but the agreement works like a normal NDA.",
+     "2": "Unusual: several extra terms, a non-standard structure, or terms that serve a purpose other than confidentiality.",
+     "3": "Highly unusual: the document works mainly as a different type of agreement."
+    },
+    "probabilities": {
+     "0": 0.02,
+     "1": 0.14,
+     "2": 0.84,
+     "3": 0.0
+    }
+   },
+   "topic_present__PB10": {
+    "type": "noul",
+    "noul": 0.04
+   },
+   "topic_present__PB11": {
+    "type": "noul",
+    "noul": 0.07
+   },
+   "topic_present__PB14": {
+    "type": "noul",
+    "noul": 0.54
+   },
+   "topic_present__PB16": {
+    "type": "noul",
+    "noul": 0.14
+   }
+  },
+  "usage": {
+   "input_tokens": 5900,
+   "output_tokens": 277
+  },
+  "seconds": 0.25,
+  "urgent": [],
+  "lawyer": [
+   "has_non_compete 0.46",
+   "has_non_solicit 0.49",
+   "has_uncapped_liability 0.35",
+   "missing PB10 0.04",
+   "missing PB11 0.07",
+   "unreviewed PB14 clause present 0.54",
+   "findings conflict 0.44"
+  ]
+ },
+ "summary": {
+  "findings": 17,
+  "routed_escalate": 3,
+  "jev_new_escalations": 3,
+  "notes": 0,
+  "quote_missing": 0,
+  "errors": 0
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "contract_id": "C06",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "1.1.4",
+   "quote": "Counterparty or any member of its Group that discloses, or procures the disclosure of, Confidential Information to Halyard",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "1.1.6",
+   "quote": "Halyard in its capacity as the recipient of Confidential Information from or on behalf of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "all vendor NDAs to be governed by the laws of the State of New York with exclusive jurisdiction in the federal and state courts located in New York County, plus a mutual waiver of jury trial",
+   "request_id": "RQ03",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R13",
+   "clause_no": "2.1.6",
+   "quote": "not enter into any agreement or arrangement to provide software or related implementation services substantially similar to those evaluated under the Purpose to any Tier 1 retail or investment banking institution operating in North America or the United Kingdom",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "Halyard hereby irrevocably assigns to Counterparty with full title guarantee all right, title and interest (including all intellectual property rights) worldwide in and to such Work Product",
+   "request_id": null,
+   "confidence": 0.98
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "grants to Counterparty and each member of its Group a perpetual, irrevocable, worldwide, royalty-free, transferable and sublicensable licence to use, copy, modify and commercialise the same without restriction",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "which is either marked or identified as confidential at the time of disclosure or would reasonably be considered confidential given the nature of the information and the circumstances of its disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "1.1.7",
+   "quote": "the employees, officers, directors, professional advisers, auditors [[INS: , contractors]] and insurers of that Party",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1",
+   "quote": "for a period of two (2) years, unless terminated earlier by either Party giving not less than thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief",
+   "request_id": null,
+   "confidence": 0.92
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "Neither Party may assign, novate, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of the other Party",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "not use or exploit the Disclosing Party's Confidential Information in any way except solely for the Purpose",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure of any software, prototypes or other tangible objects",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "can demonstrate by written records or other reasonable evidence",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to those of its Representatives and members of its Group who strictly need to know",
+   "request_id": "RQ02",
+   "confidence": 0.92
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to the minimum extent required by an order of any court of competent jurisdiction",
+   "request_id": null,
+   "confidence": 0.92
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.2",
+   "quote": "copies of any Confidential Information that are securely stored in routine, automated electronic backup or archiving systems",
+   "request_id": "RQ09",
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.3",
+   "quote": "Neither Party makes any representation or gives any warranty, express or implied, as to the accuracy, completeness, adequacy or fitness for a particular purpose of any Confidential Information",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement, press release or other public disclosure",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R16",
+   "clause_no": "9.1",
+   "quote": "The Parties do not anticipate that the disclosure of Confidential Information for the Purpose will involve the sharing or processing of any personal data",
+   "request_id": null,
+   "confidence": 0.93
+  }
+ ]
+}

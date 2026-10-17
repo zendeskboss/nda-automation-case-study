@@ -1,0 +1,141 @@
+{
+ "contract_id": "C29",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "1.1.3",
+   "quote": "which is disclosed or made available by or on behalf of that Party (the Disclosing Party) to the other Party (the Recipient), directly or indirectly, in written, electronic, oral, visual or any other tangible or intangible form, whether before, on or after the date of this Agreement",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.2",
+   "quote": "is received on an unrestricted basis after disclosure hereunder from an independent third party who, to the best of the Recipient's knowledge after diligent enquiry, is not under any obligation of confidentiality to the Disclosing Party in respect of such information.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R10",
+   "clause_no": "4.3",
+   "quote": "The Recipient may disclose Confidential Information to the minimum extent required by an order of a court of competent jurisdiction or by mandatory statutory requirement",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R03",
+   "clause_no": "5.1",
+   "quote": "Nothing in this Agreement shall restrict or prevent the Recipient from using or developing any ideas, concepts, know-how, methods or techniques retained in the unaided memory of its personnel",
+   "request_id": "RQ08",
+   "confidence": 0.97
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "The Recipient shall not disclose, transmit or make available any Confidential Information to any other person, entity or organisation whatsoever, including any external legal, financial or tax advisers, auditors, insurers, sub-contractors or corporate affiliates of the Recipient.",
+   "request_id": "RQ02",
+   "confidence": 0.95
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "the Recipient shall within five (5) Business Days:",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "7.3",
+   "quote": "All Confidential Information is furnished without warranty of any kind, whether express, implied or statutory, including warranties as to accuracy, completeness, non-infringement or fitness for purpose.",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R02",
+   "clause_no": "8.1",
+   "quote": "shall continue in force for a period of two (2) years, unless terminated earlier by either Party upon giving fourteen (14) days' written notice to the other Party.",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "9.2",
+   "quote": "constitutes the entire and whole understanding and covenant between the Parties with respect to the subject matter hereof",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.3",
+   "quote": "relating to a Party, which is disclosed or made available by or on behalf of that Party (the Disclosing Party) to the other Party (the Recipient)",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "use the Disclosing Party's Confidential Information solely and exclusively for the Purpose",
+   "request_id": null,
+   "confidence": 0.65
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.2",
+   "quote": "the Recipient may retain one archival copy of the Confidential Information solely in off-site automated disaster recovery backups, provided that such retained copies shall remain subject to the obligations of this Agreement",
+   "request_id": "RQ09",
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "All Confidential Information, including all intellectual property rights subsisting therein, shall remain the sole and exclusive property of the Disclosing Party or its third-party licensors.",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "8.2",
+   "quote": "shall remain binding on the Recipient for a period of three (3) years from the effective date of termination or expiry.",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "9.1",
+   "quote": "each Party shall be entitled to seek injunctive relief, specific performance or other equitable remedies in respect of any actual or threatened breach.",
+   "request_id": "RQ04",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "9.3",
+   "quote": "Neither Party may assign, novate, transfer or subcontract any of its rights or obligations under this Agreement without the prior written consent of the other Party.",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "9.6",
+   "quote": "shall be governed by and construed in accordance with the laws of England and Wales. Each Party irrevocably submits to the exclusive jurisdiction of the courts of England and Wales",
+   "request_id": "RQ03",
+   "confidence": 0.95
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NDA review</title>
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#fff; --ink:#1d2327; --muted:#5d6670; --line:#dcdad4;
+  --accent:#0f766e; --accent-ink:#fff;
+  --red:#b42318; --red-bg:#fdecea; --amber:#8a5a00; --amber-bg:#fdf2d8; --green:#256a3d; --green-bg:#e3f4e8;
+  --purple:#5b3fa8; --purple-bg:#eee9fb; --mark:#fff0a8;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#14171a; --panel:#1c2024; --ink:#e8eaec; --muted:#9aa4ad; --line:#323840;
+    --accent:#2dd4bf; --accent-ink:#06201d; --red:#ff8a80; --red-bg:#3a1f1d; --amber:#f0c36a; --amber-bg:#35291200;
+    --green:#7fd49a; --green-bg:#173222; --purple:#b9a6f5; --purple-bg:#2a2347; --mark:#5c5200; }
+  :root{ --amber-bg:#3a2e12; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:center;padding:12px 16px;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+h1{font-size:17px;margin:0 8px 0 0}
+select,button,textarea{font:inherit;color:inherit}
+select{padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);max-width:280px}
+button{padding:7px 14px;border:1px solid var(--line);border-radius:8px;background:var(--panel);cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+button:disabled{opacity:.5;cursor:not-allowed}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{border:0;border-radius:0;background:transparent}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);font-weight:600}
+.meta{color:var(--muted);font-size:13px;margin-left:auto}
+main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px;padding:16px;max-width:1500px;margin:0 auto}
+@media (max-width:900px){main{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+#doc{padding:16px 20px;max-height:calc(100vh - 110px);overflow:auto;white-space:pre-wrap;font:14px/1.6 Georgia,"Times New Roman",serif}
+#doc mark{background:var(--mark);color:inherit;border-radius:3px;padding:0 1px}
+#doc mark.on{outline:2px solid var(--accent)}
+#paste{width:100%;min-height:300px;border:0;padding:16px 20px;background:transparent;resize:vertical}
+#right{display:flex;flex-direction:column;gap:12px;min-width:0}
+.summary{padding:14px 16px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline}
+.summary b{font-size:22px}
+.empty{padding:40px 20px;text-align:center;color:var(--muted)}
+.group h2{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:8px 4px}
+.card{padding:12px 14px;border:1px solid var(--line);border-left-width:5px;border-radius:10px;background:var(--panel);margin-bottom:10px;cursor:default}
+.card.escalate{border-left-color:var(--red)} .card.deviation_draft{border-left-color:var(--amber)}
+.card.acceptable,.card.matches{border-left-color:var(--green)} .card.shadow{border-left-color:var(--purple)}
+.row{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.clause{font-weight:700}
+.chip{font-size:12px;padding:1px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.chip.red{color:var(--red);background:var(--red-bg)} .chip.amber{color:var(--amber);background:var(--amber-bg)}
+.chip.green{color:var(--green);background:var(--green-bg)} .chip.purple{color:var(--purple);background:var(--purple-bg)}
+.chip.grey{color:var(--muted)}
+.quote{margin:8px 0;padding:6px 10px;border-left:3px solid var(--line);color:var(--muted);font-style:italic;font-size:14px}
+.why{margin:6px 0}
+.note{font-size:13px;color:var(--muted)}
+details{margin-top:6px} summary{cursor:pointer;color:var(--accent);font-size:14px}
+textarea.edit{width:100%;min-height:90px;margin:6px 0;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.done{color:var(--green);font-weight:600;margin-top:8px}
+.err{padding:14px 16px;color:var(--red);background:var(--red-bg);border-radius:10px}
+.sr{position:absolute;left:-9999px}
+</style>
+</head>
+<body>
+<header>
+  <h1>NDA review</h1>
+  <div class="seg" role="group" aria-label="Mode">
+    <button id="m-replay" aria-pressed="true">Replay</button>
+    <button id="m-live" aria-pressed="false">Live</button>
+  </div>
+  <label class="sr" for="pick">Contract</label>
+  <select id="pick"></select>
+  <button id="go" class="primary">Review</button>
+  <span class="meta" id="meta"></span>
+</header>
+<main>
+  <section class="panel" aria-label="Contract">
+    <div id="doc" tabindex="0"></div>
+    <textarea id="paste" placeholder="Paste the NDA text here" hidden></textarea>
+  </section>
+  <section id="right" aria-live="polite" aria-label="Findings">
+    <div class="panel empty">Pick a contract and press Review.</div>
+  </section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => (s ?? "").toString().replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let status = {}, samples = [], mode = "replay", current = {id:null,text:"",result:null};
+
+async function j(url, opts){ const r = await fetch(url, opts); const d = await r.json(); if(!r.ok) throw new Error(d.error||r.statusText); return d; }
+
+async function init(){
+  status = await j("/api/status"); samples = await j("/api/samples");
+  $("#meta").textContent = `Playbook v${status.playbook} · ${status.model}`;
+  $("#m-live").title = status.live ? "" : "No API key set. Live mode is off.";
+  setMode("replay"); fillPick();
+}
+function fillPick(){
+  const list = mode==="replay" ? samples.filter(s=>s.replay) : samples;
+  const pasteOpt = mode==="live" ? `<option value="__paste">Paste your own…</option>` : "";
+  $("#pick").innerHTML = list.map(s=>`<option value="${s.id}">${s.id} · ${esc(s.counterparty)}</option>`).join("") + pasteOpt;
+  if(!list.length) $("#pick").innerHTML = `<option value="">No saved runs yet</option>`;
+  loadDoc();
+}
+function setMode(m){
+  mode = m;
+  $("#m-replay").setAttribute("aria-pressed", m==="replay"); $("#m-live").setAttribute("aria-pressed", m==="live");
+  $("#go").disabled = (m==="live" && !status.live);
+  fillPick();
+}
+$("#m-replay").onclick = ()=>setMode("replay");
+$("#m-live").onclick = ()=>{ if(!status.live){ showErr("Live mode needs an API key. Set ANTHROPIC_API_KEY and restart the server."); return; } setMode("live"); };
+$("#pick").onchange = loadDoc;
+
+async function loadDoc(){
+  const v = $("#pick").value;
+  if(v==="__paste"){ $("#doc").hidden = true; $("#paste").hidden = false; current = {id:"PASTED",text:"",result:null}; return; }
+  $("#paste").hidden = true; $("#doc").hidden = false;
+  if(!v){ $("#doc").textContent = ""; return; }
+  const d = await j("/api/contract/"+v); current = {id:v,text:d.text,result:null};
+  $("#doc").textContent = d.text;
+  $("#right").innerHTML = `<div class="panel empty">Press Review.</div>`;
+}
+function showErr(m){ $("#right").innerHTML = `<div class="err" role="alert">${esc(m)}</div>`; }
+
+$("#go").onclick = async ()=>{
+  const paste = !$("#paste").hidden;
+  const text = paste ? $("#paste").value : current.text;
+  $("#go").disabled = true; $("#right").innerHTML = `<div class="panel empty">${mode==="live"?"Reviewing. This takes a minute or two.":"Loading saved run…"}</div>`;
+  try{
+    const res = await j("/api/review", {method:"POST", headers:{"content-type":"application/json"}, body: JSON.stringify({mode, id: paste?"PASTED":current.id, text})});
+    current.result = res; if(paste){ current.text = text; }
+    render(res);
+  }catch(e){ showErr(e.message); }
+  $("#go").disabled = (mode==="live" && !status.live);
+};
+
+const CHIP = {
+  escalate:["red","For a lawyer"], deviation_draft:["amber","Draft ready"], acceptable:["green","Acceptable"], matches:["green","Matches"]
+};
+const LANE = {purple_ai:"Tool drafts", purple_human:"Your call first", orange:"Stays with a lawyer"};
+
+function render(res){
+  const f = res.findings;
+  const shadow = f.filter(x=>x.shadow);
+  const lawyer = f.filter(x=>x.verdict==="escalate" && !x.shadow);
+  const drafts = f.filter(x=>x.verdict==="deviation_draft");
+  const fine = f.filter(x=>x.verdict==="acceptable"||x.verdict==="matches");
+  const odd = f.filter(x=>x.verdict==="escalate"&&x.shadow===false&&false);
+  const sec = (title, arr, kind)=> arr.length ? `<div class="group"><h2>${title} (${arr.length})</h2>${arr.map(x=>card(x,kind)).join("")}</div>` : "";
+  $("#right").innerHTML = `
+    <div class="panel summary">
+      <div><b>${shadow.length+lawyer.length}</b> need a lawyer</div>
+      <div><b>${drafts.length}</b> with a draft</div>
+      <div><b>${fine.length}</b> fine</div>
+      <div class="note" style="flex-basis:100%">${esc(res.summary||"")} ${res.contract_type&&res.contract_type!=="mutual_nda"?`<b>Type: ${esc(res.contract_type)}.</b>`:""} ${res.parties_ok===false?"<b>Check the party details.</b>":""}</div>
+    </div>
+    ${sec("Your call first", shadow, "shadow")}
+    ${sec("For a lawyer", lawyer, "lawyer")}
+    ${sec("Draft ready", drafts, "draft")}
+    ${sec("Fine", fine, "fine")}`;
+  highlight(f);
+  document.querySelectorAll(".card").forEach(c=>c.addEventListener("click", ()=>focusQuote(+c.dataset.i)));
+  wire(res);
+}
+let idx = 0;
+function card(x,kind){
+  const i = current.result.findings.indexOf(x); const [col,label] = CHIP[x.verdict];
+  const lane = `<span class="chip grey">${LANE[x.lane]||x.lane}</span>`;
+  const sev = `<span class="chip grey">${x.severity}</span>`;
+  const head = `<div class="row"><span class="clause">Clause ${esc(x.clause_no||"?")}</span><span>${esc(x.topic)}</span>${kind==="shadow"?`<span class="chip purple">Your call first</span>`:`<span class="chip ${col}">${label}</span>`}${sev}${kind==="fine"?"":lane}</div>`;
+  const quote = x.quote ? `<div class="quote">“${esc(x.quote)}”</div>` : "";
+  if(kind==="shadow"){
+    return `<div class="card shadow" data-i="${i}">${head}${quote}
+      <div class="note">Read the clause, then decide. The tool's view appears after you choose.</div>
+      <div class="actions" data-shadow="${i}">
+        <button data-d="deviation">Deviation</button><button data-d="acceptable">Acceptable</button><button data-d="matches">Matches</button>
+      </div><div class="reveal" id="rv${i}"></div></div>`;
+  }
+  const why = x.why ? `<div class="why">${esc(x.why)}</div>` : "";
+  const cite = x.fallback_cited ? `<div class="note">Fallback used: ${esc(x.fallback_cited)}</div>` : "";
+  const routing = (x.routing_notes||[]).map(n=>`<div class="note">${esc(n)}</div>`).join("");
+  const req = x.request_answer ? `<div class="note"><b>Known request ${esc(x.request_id)}.</b> ${esc(x.request_answer)}</div>` : "";
+  let extra = "";
+  if(kind==="draft"){
+    extra = `<textarea class="edit" aria-label="Redline for clause ${esc(x.clause_no)}" id="dr${i}">${esc(x.draft_redline||"")}</textarea>
+      ${x.note_to_counterparty?`<div class="note">Note to counterparty</div><textarea class="edit" id="nt${i}" style="min-height:60px">${esc(x.note_to_counterparty)}</textarea>`:""}
+      <div class="actions" data-draft="${i}"><button class="primary" data-a="approve">Approve draft</button><button data-a="lawyer">Send to a lawyer</button></div><div class="reveal" id="rv${i}"></div>`;
+  }
+  return `<div class="card ${x.verdict}" data-i="${i}">${head}${quote}${why}${cite}${routing}${req}${extra}</div>`;
+}
+function wire(res){
+  document.querySelectorAll("[data-shadow]").forEach(box=>{
+    const i = +box.dataset.shadow, x = res.findings[i];
+    box.querySelectorAll("button").forEach(b=>b.onclick=async e=>{
+      e.stopPropagation();
+      const d = b.dataset.d, agree = d===x.ai_verdict;
+      box.hidden = true;
+      $("#rv"+i).innerHTML = `<div class="done">You said ${d}. The tool said ${x.ai_verdict} (${Math.round(x.confidence*100)}% sure): ${agree?"agreed.":"you differ. Your call stands."}</div>
+        ${x.why?`<div class="why">${esc(x.why)}</div>`:""}
+        ${x.draft_redline?`<div class="note">Tool's draft (not applied)</div><textarea class="edit" id="dr${i}">${esc(x.draft_redline)}</textarea>`:""}`;
+      log(res, x, {lawyer_decision:d, action: agree?"agree":"disagree"});
+    });
+  });
+  document.querySelectorAll("[data-draft]").forEach(box=>{
+    const i = +box.dataset.draft, x = res.findings[i];
+    box.querySelectorAll("button").forEach(b=>b.onclick=e=>{
+      e.stopPropagation(); const a = b.dataset.a; box.hidden = true;
+      $("#rv"+i).innerHTML = `<div class="done">${a==="approve"?"Approved. Nothing is sent from here.":"Sent to a lawyer."}</div>`;
+      log(res, x, {lawyer_decision:null, action:a});
+    });
+  });
+}
+function log(res, x, extra){
+  fetch("/api/decision",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({contract:current.id, clause_no:x.clause_no, rule_id:x.rule_id, ai_verdict:x.ai_verdict, ...extra})});
+}
+function highlight(f){
+  const doc = $("#doc"), t = current.text; let html = "", pos = 0;
+  const spans = [];
+  f.forEach((x,i)=>{ if(!x.quote) return; let q = x.quote, p = t.indexOf(q);
+    if(p<0){ q = q.slice(0,50); p = t.indexOf(q); }
+    if(p>=0) spans.push([p, p+(p>=0&&q===x.quote?x.quote.length:q.length), i]); });
+  spans.sort((a,b)=>a[0]-b[0]);
+  for(const [s,e,i] of spans){ if(s<pos) continue; html += esc(t.slice(pos,s)) + `<mark id="q${i}">${esc(t.slice(s,e))}</mark>`; pos = e; }
+  doc.innerHTML = html + esc(t.slice(pos));
+}
+function focusQuote(i){
+  document.querySelectorAll("#doc mark.on").forEach(m=>m.classList.remove("on"));
+  const m = document.getElementById("q"+i); if(m){ m.classList.add("on"); m.scrollIntoView({block:"center",behavior:"smooth"}); }
+}
+init();
+</script>
+</body>
+</html>

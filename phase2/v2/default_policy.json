@@ -1,0 +1,7 @@
+{
+ "default": "v2.1",
+ "decided": "2026-10-17",
+ "source": "case study: no lawyer check",
+ "lawyer_checked": false,
+ "note": "v2.1 is the default for the case study only. The 8 clauses in spotcheck/SPOTCHECK_v2.1.xlsx are not confirmed by a lawyer. Before production use, run that spot-check and import it with import_spotcheck.py."
+}

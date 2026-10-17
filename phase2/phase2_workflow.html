@@ -1,0 +1,175 @@
+<title>Phase 2 Review Flow</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one wide flow diagram (scrolls inside its own box on phones), key above, tap-for-detail panel below. */
+:root{
+  --bg:#f6f5f2; --panel:#fff; --ink:#1d2327; --muted:#5d6670; --line:#dcdad4;
+  --code:#5d6670; --llm:#5b3fa8; --jev:#0f766e; --lawyer:#8a5a00; --ok:#256a3d; --stop:#b42318;
+  --icon:#fff; --new:#0f766e; --new-bg:#ddf3ef;
+  --sans:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#14171a; --panel:#1c2024; --ink:#e8eaec; --muted:#9aa4ad; --line:#323840;
+  --code:#9aa4ad; --llm:#b9a6f5; --jev:#2dd4bf; --lawyer:#f0c36a; --ok:#7fd49a; --stop:#ff8a80;
+  --icon:#14171a; --new:#2dd4bf; --new-bg:#123330; color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#14171a; --panel:#1c2024; --ink:#e8eaec; --muted:#9aa4ad; --line:#323840;
+  --code:#9aa4ad; --llm:#b9a6f5; --jev:#2dd4bf; --lawyer:#f0c36a; --ok:#7fd49a; --stop:#ff8a80;
+  --icon:#14171a; --new:#2dd4bf; --new-bg:#123330; color-scheme:dark; }
+
+body{ background:var(--bg); color:var(--ink); font-family:var(--sans); }
+.wrap{ max-width:1240px; margin:0 auto; padding-block:28px 40px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px));
+  display:grid; gap:18px; }
+h1{ margin:0; font-size:26px; font-weight:600; text-wrap:balance; }
+.key{ display:flex; flex-wrap:wrap; gap:8px 18px; align-items:center; font-size:13px; color:var(--muted); }
+.key span{ display:inline-flex; align-items:center; gap:7px; }
+.dot{ width:12px; height:12px; border-radius:50%; display:inline-block; }
+.newtag{ font-family:var(--mono); font-size:10px; letter-spacing:.06em; color:var(--new); background:var(--new-bg);
+  border:1px solid var(--new); border-radius:4px; padding:1px 5px; }
+.diagram{ background:var(--panel); border:1px solid var(--line); border-radius:10px; overflow-x:auto; }
+svg{ display:block; min-width:980px; width:100%; height:auto; }
+svg text{ font-family:var(--sans); fill:var(--ink); }
+.lbl{ font-size:13px; font-weight:500; text-anchor:middle; }
+.edge{ font-size:11px; fill:var(--muted); font-family:var(--mono); }
+.node{ cursor:pointer; }
+.node:focus{ outline:none; }
+.node:focus-visible .ring, .node.sel .ring{ stroke:var(--ink); stroke-width:2.5; }
+.ring{ fill:none; stroke:transparent; }
+.node:hover circle.fill{ filter:brightness(1.08); }
+.detail{ background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px 18px;
+  display:grid; gap:4px; min-height:64px; }
+.detail b{ font-size:15px; }
+.detail p{ margin:0; max-width:70ch; color:var(--muted); line-height:1.5; }
+.foot{ font-size:13px; color:var(--muted); margin:0; }
+@media (prefers-reduced-motion: no-preference){ .flow{ stroke-dasharray:5 5; animation:dash 1.2s linear infinite; } }
+@keyframes dash{ to{ stroke-dashoffset:-20; } }
+</style>
+
+<div class="wrap">
+  <h1>Phase 2 review flow</h1>
+  <div class="key">
+    <span><i class="dot" style="background:var(--code)"></i>Code</span>
+    <span><i class="dot" style="background:var(--llm)"></i>LLM</span>
+    <span><i class="dot" style="background:var(--jev)"></i>Jev</span>
+    <span><i class="dot" style="background:var(--lawyer)"></i>Lawyer</span>
+    <span><span class="newtag">NEW</span>Phase 2</span>
+    <span style="color:var(--stop)">- - - Escalate</span>
+  </div>
+
+  <div class="diagram">
+  <svg viewBox="0 0 1260 540" role="img" aria-label="Phase 2 NDA review flow diagram">
+    <defs>
+      <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/></marker>
+      <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--stop)"/></marker>
+      <marker id="aj" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" style="fill:var(--jev)"/></marker>
+    </defs>
+
+    <!-- main flow arrows -->
+    <g style="stroke:var(--muted); stroke-width:2; fill:none" marker-end="url(#ah)">
+      <path d="M106 170H157"/><path d="M231 170H282"/><path d="M356 170H407"/><path d="M481 170H532"/>
+      <path d="M606 170H657"/><path d="M731 170H782"/><path d="M856 170H907"/><path d="M981 170H1032"/>
+      <path d="M1106 170H1152"/>
+      <path d="M1070 206V402"/>
+    </g>
+    <text class="edge" x="1129" y="160" text-anchor="middle">clear</text>
+    <text class="edge" x="1080" y="300">escalate</text>
+
+    <!-- re-review loop: quote check back to LLM review -->
+    <path d="M570 134C570 70 445 70 445 128" style="stroke:var(--stop); stroke-width:2; fill:none; stroke-dasharray:6 5" marker-end="url(#ar)"/>
+    <text class="edge" x="507" y="64" text-anchor="middle" style="fill:var(--stop)">quote not found → re-review</text>
+
+    <!-- escalation rail -->
+    <g style="stroke:var(--stop); stroke-width:2; fill:none; stroke-dasharray:6 5">
+      <path d="M320 262V330H1036"/>
+      <path d="M820 262V330"/><path d="M945 262V330"/>
+    </g>
+    <path d="M1036 330C1060 330 1066 360 1067 400" style="stroke:var(--stop); stroke-width:2; fill:none; stroke-dasharray:6 5" marker-end="url(#ar)"/>
+    <text class="edge" x="330" y="322" style="fill:var(--stop)">not an NDA</text>
+    <text class="edge" x="830" y="322" style="fill:var(--stop)">doubt · error</text>
+
+    <!-- feedback loop -->
+    <g style="stroke:var(--jev); stroke-width:2; fill:none" class="flow">
+      <path d="M1034 440H858"/><path d="M782 440H608"/><path d="M356 440H532"/>
+      <path d="M585 408C620 340 690 320 695 266"/>
+      <path d="M600 414C700 370 800 330 806 266"/>
+    </g>
+    <g style="fill:none">
+      <path d="M1034 440H858" marker-end="url(#aj)" style="stroke:transparent"/>
+      <path d="M782 440H608" marker-end="url(#aj)" style="stroke:transparent"/>
+      <path d="M356 440H532" marker-end="url(#aj)" style="stroke:transparent"/>
+      <path d="M585 408C620 340 690 320 695 266" marker-end="url(#aj)" style="stroke:transparent"/>
+      <path d="M600 414C700 370 800 330 806 266" marker-end="url(#aj)" style="stroke:transparent"/>
+    </g>
+    <text class="edge" x="945" y="430" text-anchor="middle" style="fill:var(--jev)">decisions</text>
+    <text class="edge" x="444" y="430" text-anchor="middle" style="fill:var(--jev)">labels</text>
+    <text class="edge" x="660" y="396" style="fill:var(--jev)">thresholds · rules</text>
+
+    <g id="nodes"></g>
+  </svg>
+  </div>
+
+  <div class="detail" id="detail" aria-live="polite"><b id="dt"></b><p id="dd"></p></div>
+  <p class="foot">Jev can only escalate. A lawyer still approves every contract.</p>
+</div>
+
+<script>
+const ICONS = {
+  doc:"M7 3h7l4 4v14H7z M14 3v4h4 M12 17v-6 M9.5 13.5 12 11l2.5 2.5",
+  shield:"M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6z M9 12l2 2 4-4",
+  tag:"M3 12V4h8l10 10-8 8z M7.5 8.5h.01",
+  spark:"M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2z M19 3v4 M17 5h4",
+  quote:"M6 8h4v4c0 3-1.5 4.5-4 5.5 M14 8h4v4c0 3-1.5 4.5-4 5.5",
+  book:"M4 5c3-1 6-1 8 1 2-2 5-2 8-1v14c-3-1-6-1-8 1-2-2-5-2-8-1z M12 6v14",
+  lens:"M10.5 4a6.5 6.5 0 1 0 0 13 6.5 6.5 0 1 0 0-13z M15.5 15.5 21 21 M7.5 10.5l2 2 3.5-3.5",
+  clip:"M8 3h8v3H8z M6 4.5H5V21h14V4.5h-1 M9 14l2 2 4-4",
+  scale:"M12 4v16 M7 20h10 M5 7h14 M5 7l-3 6h6z M19 7l-3 6h6z",
+  check:"M5 12.5l4.5 4.5L19 7",
+  person:"M12 4a4 4 0 1 0 0 8 4 4 0 1 0 0-8z M4 21c1-4 4-6 8-6s7 2 8 6",
+  list:"M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01",
+  sliders:"M4 7h10 M18 7h2 M4 17h4 M12 17h8 M16 5v4 M10 15v4",
+  archive:"M3 4h18v4H3z M5 8v12h14V8 M10 12h4"
+};
+const N = [
+  {id:"upload", x:70,  y:170, c:"code", i:"doc", l:["Upload"], t:"Upload", d:"Code reads the contract file into plain text."},
+  {id:"screen", x:195, y:170, c:"code", i:"shield", l:["Injection","screen"], t:"Injection screen", d:"Code finds text addressed to the reviewer and reports it as its own finding. This step exists today."},
+  {id:"type", x:320, y:170, c:"jev", i:"tag", l:["Doc type"], n:1, t:"Doc type (Jev)", d:"Jev sorts the document: mutual NDA, one-way NDA, NDA inside a larger deal, or not an NDA. Anything but a stand-alone NDA goes straight to a lawyer."},
+  {id:"llm", x:445, y:170, c:"llm", i:"spark", l:["Clause","review"], t:"Clause review (LLM)", d:"The LLM reviews each clause against the playbook and returns findings with quotes, verdicts and drafts. This step exists today."},
+  {id:"quote", x:570, y:170, c:"code", i:"quote", l:["Quote check"], n:1, t:"Quote check", d:"Code checks that every quote is word for word in the contract. A quote that is not found sends the contract back for a fresh review. No model is needed."},
+  {id:"lanes", x:695, y:170, c:"code", i:"book", l:["Playbook","lanes"], t:"Playbook lanes", d:"Code sets each finding's lane from the playbook rule: AI drafts, lawyer only, or shadow. This step exists today."},
+  {id:"jev", x:820, y:170, c:"jev", i:"lens", l:["Finding","check"], n:1, t:"Finding check (Jev)", d:"For each finding, Jev answers: does the rule fit, does the clause breach it, does another clause change it, and does the draft fix it without extra changes. Any doubt escalates."},
+  {id:"contract", x:945, y:170, c:"jev", i:"clip", l:["Contract","check"], n:1, t:"Contract check (Jev)", d:"For the whole contract, Jev looks for non-competes, IP transfer, exclusivity, uncapped liability, missing topics and findings that conflict."},
+  {id:"decide", x:1070, y:170, c:"code", i:"scale", l:["Decide"], n:1, t:"Decide", d:"Code applies fixed rules to Jev's answers: quick sign-off, lawyer, or urgent. Jev never makes this call itself, and a Jev error counts as escalate."},
+  {id:"ok", x:1190, y:170, c:"ok", i:"check", l:["Quick","sign-off"], t:"Quick sign-off", d:"The lawyer gets a clean pack with drafts ready, and approves it in minutes."},
+  {id:"lawyer", x:1070, y:440, c:"lawyer", i:"person", l:["Lawyer"], t:"Lawyer", d:"The lawyer reviews escalated findings, with each reason listed. Urgent contracts go to the top of the queue."},
+  {id:"log", x:820, y:440, c:"code", i:"list", l:["Shadow log"], t:"Shadow log", d:"Each lawyer decision is saved next to what the LLM and Jev said. This log exists today; phase 2 adds Jev's answers to it."},
+  {id:"tune", x:570, y:440, c:"jev", i:"sliders", l:["Tune"], n:1, t:"Tune", d:"Monthly: compare Jev and the LLM with lawyer decisions. Adjust thresholds and playbook rules from the evidence, not from opinion."},
+  {id:"past", x:320, y:440, c:"code", i:"archive", l:["Past NDAs"], n:1, t:"Past NDAs", d:"Past redlines become a labelled test set. Every change to a prompt, threshold or rule runs against it before go-live."}
+];
+const g = document.getElementById("nodes"), ns = "http://www.w3.org/2000/svg";
+const el = (t, a, p) => { const e = document.createElementNS(ns, t); for (const k in a) e.setAttribute(k, a[k]); (p || g).appendChild(e); return e; };
+function pick(n){
+  document.querySelectorAll(".node").forEach(x => x.classList.toggle("sel", x.dataset.id === n.id));
+  document.getElementById("dt").textContent = n.t;
+  document.getElementById("dd").textContent = n.d;
+}
+N.forEach(n => {
+  const grp = el("g", {class:"node", tabindex:"0", role:"button", "aria-label":n.t, "data-id":n.id});
+  el("circle", {class:"ring", cx:n.x, cy:n.y, r:41}, grp);
+  el("circle", {class:"fill", cx:n.x, cy:n.y, r:34, style:"fill:var(--" + (n.c === "ok" ? "ok" : n.c) + ")"}, grp);
+  el("path", {d:ICONS[n.i], transform:`translate(${n.x-15.6} ${n.y-15.6}) scale(1.3)`,
+    style:"fill:none; stroke:var(--icon); stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round"}, grp);
+  n.l.forEach((s, k) => { const t = el("text", {class:"lbl", x:n.x, y:n.y + 58 + k*16}, grp); t.textContent = s; });
+  if (n.n) {
+    el("rect", {x:n.x-18, y:n.y-58, width:36, height:15, rx:3, style:"fill:var(--new-bg); stroke:var(--new)"}, grp);
+    const t = el("text", {x:n.x, y:n.y-47, "text-anchor":"middle", style:"font-family:var(--mono); font-size:9.5px; letter-spacing:.06em; fill:var(--new)"}, grp);
+    t.textContent = "NEW";
+  }
+  grp.addEventListener("click", () => pick(n));
+  grp.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pick(n); } });
+});
+pick(N.find(n => n.id === "jev"));
+</script>

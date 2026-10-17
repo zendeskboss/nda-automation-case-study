@@ -1,0 +1,141 @@
+{
+ "contract_id": "C22",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "1.1.4",
+   "quote": "disclosed directly or indirectly by or on behalf of Vectra Logix to Halyard",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "11.1",
+   "quote": "shall be governed exclusively by, and construed in accordance with, the substantive laws of the Federal Republic of Germany",
+   "request_id": "RQ03",
+   "confidence": 0.98
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "11.2",
+   "quote": "exclusive place of jurisdiction (ausschließlicher Gerichtsstand) for all disputes, controversies, or claims arising out of or in connection with this Agreement, its formation, or its breach shall be Frankfurt am Main, Germany",
+   "request_id": "RQ03",
+   "confidence": 0.98
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "can prove by objective, contemporaneous written records",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "7.3",
+   "quote": "Halyard hereby assigns to Vectra Logix all present and future worldwide right, title, and interest in and to any such developments",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "7.4",
+   "quote": "Halyard undertakes to execute all such formal declarations, transfer deeds, assignments, and patent application forms",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "provided, however, that Vectra Logix shall be entitled to assign this Agreement without consent to an Affiliate or in connection with a merger, reorganization, or sale of substantially all of its assets",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "only to those of its Representatives who have a strict need to know",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "8.2",
+   "quote": "except in instances of deliberate intent (Vorsatz) or gross negligence (grobe Fahrlässigkeit)",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R02",
+   "clause_no": "9.2",
+   "quote": "for a period of five (5) years following the effective date of such termination or expiration",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "10.2",
+   "quote": "shall be entitled, in addition to all other statutory claims for monetary damages or restitution, to seek preliminary and permanent injunctive relief",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "solely, strictly, and exclusively to the extent indispensable for the performance and realization of the Permitted Purpose",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not decompile, reverse engineer, disassemble, decrypt, decode",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1.1",
+   "quote": "provide the Disclosing Party with prompt written notice thereof as soon as legally permissible",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.1.1",
+   "quote": "within ten (10) Business Days, return to the Disclosing Party all documents",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party or its respective licensors",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.1",
+   "quote": "for a term of two (2) years, unless terminated earlier by either Party upon serving thirty (30) calendar days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

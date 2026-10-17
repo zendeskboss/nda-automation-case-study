@@ -1,0 +1,181 @@
+{
+ "contract_id": "C05",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R02",
+   "clause_no": "10.3",
+   "quote": "Our internal policy caps post-termination confidentiality obligations at 18 months from the date of disclosure. Please confirm if Clause 10.3 can be amended accordingly.",
+   "request_id": "RQ01",
+   "confidence": 0.7
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "our standard position is for Dutch law and the District Court of Amsterdam (Rechtbank Amsterdam) to apply under Clauses 12.10 and 12.11",
+   "request_id": "RQ03",
+   "confidence": 0.7
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "[[INS: contemporaneous documentary]] evidence",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.2",
+   "quote": "as evidenced by the Receiving Party's written records dated prior to the date of this Agreement",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.4",
+   "quote": "3.1.4 is independently developed by or on behalf of the Receiving Party without access to, use of, or reference to any of the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R05",
+   "clause_no": "1.1.9 and 10.4",
+   "quote": "neither Party shall, and each Party shall procure that no member of its Group shall, without the prior written consent of the other Party, directly or indirectly solicit, entice away, offer employment to, engage or employ any Key Personnel",
+   "request_id": "RQ05",
+   "confidence": 0.95
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "or for its internal business assessment, service benchmarking and market evaluation",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R14",
+   "clause_no": "Recital (A)",
+   "quote": "potential commercial opportunities, strategic evaluations, advisory engagements, and any other internal or external business activities of the respective Parties from time to time",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "7.4",
+   "quote": "nothing in this Agreement shall operate or be construed so as to exclude, restrict or limit the liability of either Party in respect of fraud or fraudulent misrepresentation",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "which is either marked or identified as confidential at the time of disclosure or would reasonably be considered confidential given the nature of the information and the circumstances of its disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1, 10.3",
+   "quote": "for a period of two (2) years, unless terminated earlier by either Party giving not less than thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1-11.2",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "without the prior written consent of the other Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "12.11",
+   "quote": "the courts of England and Wales shall have exclusive jurisdiction",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "2.1 and 1.1.2",
+   "quote": "Disclosing Party means the Party that discloses, or procures the disclosure of, Confidential Information to the other Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to those of its Representatives and members of its Group who strictly need to know",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1-5.3",
+   "quote": "to the extent that it is legally permitted to do so",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.1-6.3",
+   "quote": "within ten Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1-7.2",
+   "quote": "shall remain the exclusive property of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R16",
+   "clause_no": "9.1-9.2",
+   "quote": "that Party shall not disclose such personal data unless and until the Parties have agreed and entered into a separate written data processing agreement or data sharing agreement",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

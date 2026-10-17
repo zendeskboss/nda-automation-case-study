@@ -1,0 +1,149 @@
+{
+ "contract_id": "C23",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "1.1.3",
+   "quote": "disclosed by or on behalf of LedgerFlow to Halyard in connection with the Purpose",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "2.1",
+   "quote": "Halyard undertakes that it shall:",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "2.3",
+   "quote": "shall cooperate fully with LedgerFlow to mitigate and remedy the effects of any such occurrence",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "can clearly establish by contemporaneous written records",
+   "request_id": null,
+   "confidence": 0.55
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.3",
+   "quote": "is independently developed by employees or contractors of Halyard who have had no access to, knowledge of, or reference to the Confidential Information",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R08",
+   "clause_no": "7.1",
+   "quote": "Halyard shall defend, indemnify and hold harmless LedgerFlow",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R09",
+   "clause_no": "9.1",
+   "quote": "LedgerFlow shall be entitled to seek injunctive relief, specific performance or other equitable remedies",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R16",
+   "clause_no": "1.1.3",
+   "quote": "client transaction records, user identity data and associated individual account holder personal data",
+   "request_id": null,
+   "confidence": 0.88
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R11",
+   "clause_no": "1.1.6",
+   "quote": "directors, officers, employees, professional legal advisers, accountants and authorized technical contractors directly involved in assessing the Purpose",
+   "request_id": null,
+   "confidence": 0.78
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": null,
+   "clause_no": "9.8",
+   "quote": "LedgerFlow may at any time assign, novate, transfer, mortgage, charge, subcontract or deal in any other manner with all or any of its rights or obligations under this Agreement to any affiliate or successor entity without the consent of Halyard.",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "1.1.5",
+   "quote": "the evaluation, testing and discussion of the Purpose between the Parties",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "5.1",
+   "quote": "Halyard shall within five (5) Business Days:",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R02",
+   "clause_no": "8.1",
+   "quote": "continue in force for a period of twelve (12) months",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "4.1",
+   "quote": "Halyard may disclose Confidential Information to the extent required by an order of a court of competent jurisdiction or by any applicable statutory, regulatory or governmental body.",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "6.2",
+   "quote": "other than the limited right to use the Confidential Information strictly for the Permitted Purpose",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "6.3",
+   "quote": "provided on an \"as is\" basis without warranty of any kind",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "8.2",
+   "quote": "for a period of three (3) years following the date of termination or expiry",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "9.7",
+   "quote": "shall be governed by and construed in accordance with the laws of England and Wales",
+   "request_id": null,
+   "confidence": 0.95
+  }
+ ]
+}

@@ -1,0 +1,7967 @@
+{
+ "runs": 5,
+ "model": "jev-latest",
+ "summary": {
+  "document_type": {
+   "cases": 30,
+   "same_decision": 30,
+   "max_spread": null,
+   "median_spread": null,
+   "same_answer": 30
+  },
+  "has_non_compete": {
+   "cases": 30,
+   "same_decision": 30,
+   "max_spread": 0.05,
+   "median_spread": 0.01,
+   "same_answer": null
+  },
+  "has_non_solicit": {
+   "cases": 30,
+   "same_decision": 29,
+   "max_spread": 0.12,
+   "median_spread": 0.01,
+   "same_answer": null
+  },
+  "has_ip_transfer": {
+   "cases": 30,
+   "same_decision": 30,
+   "max_spread": 0.02,
+   "median_spread": 0.01,
+   "same_answer": null
+  },
+  "has_exclusivity": {
+   "cases": 30,
+   "same_decision": 30,
+   "max_spread": 0.11,
+   "median_spread": 0.02,
+   "same_answer": null
+  },
+  "has_uncapped_liability": {
+   "cases": 30,
+   "same_decision": 28,
+   "max_spread": 0.08,
+   "median_spread": 0.03,
+   "same_answer": null
+  },
+  "findings_conflict": {
+   "cases": 30,
+   "same_decision": 27,
+   "max_spread": 0.08,
+   "median_spread": 0.03,
+   "same_answer": null
+  },
+  "overall_unusual": {
+   "cases": 30,
+   "same_decision": 29,
+   "max_spread": 0.12,
+   "median_spread": 0.06,
+   "same_answer": null
+  },
+  "topic_present": {
+   "cases": 136,
+   "same_decision": 131,
+   "max_spread": 0.07,
+   "median_spread": 0.02,
+   "same_answer": null
+  }
+ },
+ "rows": [
+  {
+   "contract": "C01",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "has_exclusivity",
+   "values": [
+    0.16,
+    0.17,
+    0.17,
+    0.15,
+    0.16
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.43,
+    0.43,
+    0.43,
+    0.4,
+    0.44
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "findings_conflict",
+   "values": [
+    0.24,
+    0.23,
+    0.24,
+    0.22,
+    0.24
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "overall_unusual",
+   "values": [
+    0.53,
+    0.53,
+    0.53,
+    0.58,
+    0.53
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "topic_present__PB14",
+   "values": [
+    0.51,
+    0.54,
+    0.52,
+    0.52,
+    0.53
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "topic_present__PB15",
+   "values": [
+    0.15,
+    0.17,
+    0.18,
+    0.17,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "topic_present__PB16",
+   "values": [
+    0.2,
+    0.21,
+    0.22,
+    0.2,
+    0.21
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C01",
+   "question": "topic_present__PB17",
+   "values": [
+    0.14,
+    0.14,
+    0.13,
+    0.14,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "has_exclusivity",
+   "values": [
+    0.14,
+    0.14,
+    0.16,
+    0.15,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.41,
+    0.36,
+    0.4,
+    0.37,
+    0.39
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "findings_conflict",
+   "values": [
+    0.49,
+    0.46,
+    0.45,
+    0.5,
+    0.43
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "overall_unusual",
+   "values": [
+    1.3,
+    1.32,
+    1.34,
+    1.29,
+    1.32
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "topic_present__PB14",
+   "values": [
+    0.55,
+    0.56,
+    0.55,
+    0.53,
+    0.53
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "topic_present__PB15",
+   "values": [
+    0.16,
+    0.22,
+    0.22,
+    0.16,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "topic_present__PB16",
+   "values": [
+    0.2,
+    0.2,
+    0.22,
+    0.19,
+    0.2
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C02",
+   "question": "topic_present__PB17",
+   "values": [
+    0.14,
+    0.13,
+    0.12,
+    0.16,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.06,
+    0.06,
+    0.07,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "has_exclusivity",
+   "values": [
+    0.17,
+    0.18,
+    0.16,
+    0.16,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.35,
+    0.37,
+    0.36,
+    0.31,
+    0.37
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "findings_conflict",
+   "values": [
+    0.23,
+    0.23,
+    0.25,
+    0.21,
+    0.23
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "overall_unusual",
+   "values": [
+    0.71,
+    0.67,
+    0.74,
+    0.7,
+    0.66
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "topic_present__PB14",
+   "values": [
+    0.48,
+    0.52,
+    0.48,
+    0.47,
+    0.52
+   ],
+   "decisions": [
+    false,
+    true,
+    false,
+    false,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": false
+  },
+  {
+   "contract": "C03",
+   "question": "topic_present__PB15",
+   "values": [
+    0.17,
+    0.15,
+    0.15,
+    0.14,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "topic_present__PB16",
+   "values": [
+    0.16,
+    0.19,
+    0.19,
+    0.2,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C03",
+   "question": "topic_present__PB17",
+   "values": [
+    0.14,
+    0.16,
+    0.19,
+    0.15,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.06,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "has_exclusivity",
+   "values": [
+    0.14,
+    0.14,
+    0.14,
+    0.14,
+    0.12
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.96,
+    0.96,
+    0.96,
+    0.97,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "findings_conflict",
+   "values": [
+    0.49,
+    0.49,
+    0.49,
+    0.51,
+    0.51
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "overall_unusual",
+   "values": [
+    1.6,
+    1.58,
+    1.58,
+    1.5,
+    1.5
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.1,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "topic_present__PB15",
+   "values": [
+    0.13,
+    0.12,
+    0.14,
+    0.13,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "topic_present__PB16",
+   "values": [
+    0.14,
+    0.16,
+    0.15,
+    0.15,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C04",
+   "question": "topic_present__PB17",
+   "values": [
+    0.1,
+    0.12,
+    0.09,
+    0.11,
+    0.11
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "has_non_compete",
+   "values": [
+    0.15,
+    0.16,
+    0.13,
+    0.15,
+    0.14
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "has_non_solicit",
+   "values": [
+    0.65,
+    0.66,
+    0.64,
+    0.64,
+    0.67
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.06,
+    0.07,
+    0.07,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "has_exclusivity",
+   "values": [
+    0.18,
+    0.16,
+    0.17,
+    0.16,
+    0.17
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.4,
+    0.41,
+    0.45,
+    0.46,
+    0.41
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "findings_conflict",
+   "values": [
+    0.5,
+    0.46,
+    0.54,
+    0.47,
+    0.47
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "overall_unusual",
+   "values": [
+    1.95,
+    1.95,
+    1.95,
+    1.93,
+    1.96
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "topic_present__PB14",
+   "values": [
+    0.54,
+    0.54,
+    0.54,
+    0.54,
+    0.53
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "topic_present__PB16",
+   "values": [
+    0.16,
+    0.15,
+    0.15,
+    0.16,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C05",
+   "question": "topic_present__PB17",
+   "values": [
+    0.12,
+    0.12,
+    0.12,
+    0.1,
+    0.12
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "document_type",
+   "values": [
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "has_non_compete",
+   "values": [
+    0.86,
+    0.85,
+    0.86,
+    0.85,
+    0.86
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "has_non_solicit",
+   "values": [
+    0.11,
+    0.13,
+    0.12,
+    0.15,
+    0.11
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "has_ip_transfer",
+   "values": [
+    0.98,
+    0.99,
+    0.98,
+    0.98,
+    0.98
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "has_exclusivity",
+   "values": [
+    0.71,
+    0.75,
+    0.76,
+    0.74,
+    0.76
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.36,
+    0.36,
+    0.39,
+    0.4,
+    0.41
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "findings_conflict",
+   "values": [
+    0.42,
+    0.43,
+    0.42,
+    0.45,
+    0.43
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "overall_unusual",
+   "values": [
+    2.05,
+    2.05,
+    2.06,
+    2.06,
+    2.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "topic_present__PB14",
+   "values": [
+    0.47,
+    0.52,
+    0.52,
+    0.49,
+    0.49
+   ],
+   "decisions": [
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": false
+  },
+  {
+   "contract": "C06",
+   "question": "topic_present__PB15",
+   "values": [
+    0.19,
+    0.21,
+    0.2,
+    0.18,
+    0.21
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C06",
+   "question": "topic_present__PB17",
+   "values": [
+    0.22,
+    0.22,
+    0.2,
+    0.19,
+    0.22
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.05,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "has_ip_transfer",
+   "values": [
+    0.08,
+    0.07,
+    0.07,
+    0.08,
+    0.08
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "has_exclusivity",
+   "values": [
+    0.12,
+    0.14,
+    0.14,
+    0.13,
+    0.13
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "findings_conflict",
+   "values": [
+    0.35,
+    0.39,
+    0.36,
+    0.38,
+    0.36
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "overall_unusual",
+   "values": [
+    1.33,
+    1.34,
+    1.39,
+    1.33,
+    1.37
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "topic_present__PB15",
+   "values": [
+    0.13,
+    0.13,
+    0.12,
+    0.11,
+    0.12
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C07",
+   "question": "topic_present__PB16",
+   "values": [
+    0.15,
+    0.19,
+    0.18,
+    0.2,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "document_type",
+   "values": [
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way",
+    "nda_one_way"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "has_non_compete",
+   "values": [
+    0.89,
+    0.87,
+    0.88,
+    0.88,
+    0.88
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "has_non_solicit",
+   "values": [
+    0.14,
+    0.15,
+    0.17,
+    0.15,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "has_exclusivity",
+   "values": [
+    0.81,
+    0.77,
+    0.81,
+    0.8,
+    0.8
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.36,
+    0.37,
+    0.36,
+    0.39,
+    0.36
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "findings_conflict",
+   "values": [
+    0.87,
+    0.87,
+    0.83,
+    0.85,
+    0.84
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "overall_unusual",
+   "values": [
+    1.91,
+    1.92,
+    1.92,
+    1.91,
+    1.92
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "topic_present__PB14",
+   "values": [
+    0.5,
+    0.52,
+    0.48,
+    0.52,
+    0.49
+   ],
+   "decisions": [
+    false,
+    true,
+    false,
+    true,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": false
+  },
+  {
+   "contract": "C08",
+   "question": "topic_present__PB15",
+   "values": [
+    0.18,
+    0.19,
+    0.18,
+    0.18,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C08",
+   "question": "topic_present__PB17",
+   "values": [
+    0.13,
+    0.18,
+    0.12,
+    0.15,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "has_non_compete",
+   "values": [
+    0.84,
+    0.88,
+    0.85,
+    0.86,
+    0.88
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "has_non_solicit",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.08
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "has_exclusivity",
+   "values": [
+    0.2,
+    0.24,
+    0.18,
+    0.17,
+    0.2
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.86,
+    0.86,
+    0.87,
+    0.86,
+    0.87
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "findings_conflict",
+   "values": [
+    0.55,
+    0.62,
+    0.62,
+    0.63,
+    0.6
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "overall_unusual",
+   "values": [
+    1.93,
+    1.92,
+    1.94,
+    1.94,
+    1.94
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "topic_present__PB14",
+   "values": [
+    0.54,
+    0.56,
+    0.56,
+    0.54,
+    0.56
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "topic_present__PB15",
+   "values": [
+    0.15,
+    0.12,
+    0.14,
+    0.12,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C09",
+   "question": "topic_present__PB17",
+   "values": [
+    0.21,
+    0.18,
+    0.19,
+    0.2,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "has_non_compete",
+   "values": [
+    0.88,
+    0.88,
+    0.88,
+    0.88,
+    0.87
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "has_non_solicit",
+   "values": [
+    0.1,
+    0.11,
+    0.1,
+    0.11,
+    0.08
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.08,
+    0.07,
+    0.08,
+    0.08
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "has_exclusivity",
+   "values": [
+    0.59,
+    0.58,
+    0.55,
+    0.66,
+    0.59
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.11,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.39,
+    0.42,
+    0.41,
+    0.41,
+    0.4
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "findings_conflict",
+   "values": [
+    0.31,
+    0.31,
+    0.33,
+    0.32,
+    0.3
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": false
+  },
+  {
+   "contract": "C10",
+   "question": "overall_unusual",
+   "values": [
+    1.86,
+    1.82,
+    1.82,
+    1.87,
+    1.83
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "topic_present__PB14",
+   "values": [
+    0.51,
+    0.52,
+    0.52,
+    0.52,
+    0.55
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "topic_present__PB15",
+   "values": [
+    0.13,
+    0.15,
+    0.14,
+    0.13,
+    0.13
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C10",
+   "question": "topic_present__PB17",
+   "values": [
+    0.18,
+    0.15,
+    0.14,
+    0.15,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "has_non_compete",
+   "values": [
+    0.05,
+    0.05,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "has_ip_transfer",
+   "values": [
+    0.06,
+    0.06,
+    0.07,
+    0.06,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "has_exclusivity",
+   "values": [
+    0.15,
+    0.15,
+    0.15,
+    0.14,
+    0.14
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.31,
+    0.33,
+    0.31,
+    0.35,
+    0.36
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "findings_conflict",
+   "values": [
+    0.17,
+    0.17,
+    0.17,
+    0.16,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "overall_unusual",
+   "values": [
+    0.36,
+    0.36,
+    0.38,
+    0.39,
+    0.36
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "topic_present__PB11",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "topic_present__PB14",
+   "values": [
+    0.27,
+    0.24,
+    0.28,
+    0.26,
+    0.3
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "topic_present__PB15",
+   "values": [
+    0.2,
+    0.21,
+    0.2,
+    0.19,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "topic_present__PB16",
+   "values": [
+    0.37,
+    0.36,
+    0.32,
+    0.38,
+    0.36
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C11",
+   "question": "topic_present__PB17",
+   "values": [
+    0.17,
+    0.18,
+    0.17,
+    0.18,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "has_non_compete",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.05,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "has_ip_transfer",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "has_exclusivity",
+   "values": [
+    0.1,
+    0.1,
+    0.1,
+    0.11,
+    0.1
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.48,
+    0.45,
+    0.44,
+    0.44,
+    0.47
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "findings_conflict",
+   "values": [
+    0.15,
+    0.17,
+    0.16,
+    0.15,
+    0.15
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "overall_unusual",
+   "values": [
+    0.98,
+    0.91,
+    0.97,
+    0.98,
+    0.91
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "topic_present__PB10",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.03,
+    0.04
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "topic_present__PB14",
+   "values": [
+    0.4,
+    0.4,
+    0.42,
+    0.4,
+    0.38
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "topic_present__PB15",
+   "values": [
+    0.2,
+    0.19,
+    0.2,
+    0.2,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C12",
+   "question": "topic_present__PB16",
+   "values": [
+    0.53,
+    0.49,
+    0.54,
+    0.52,
+    0.52
+   ],
+   "decisions": [
+    true,
+    false,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": false
+  },
+  {
+   "contract": "C12",
+   "question": "topic_present__PB17",
+   "values": [
+    0.2,
+    0.19,
+    0.18,
+    0.2,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "has_non_compete",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "has_non_solicit",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "has_exclusivity",
+   "values": [
+    0.09,
+    0.11,
+    0.08,
+    0.09,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.18,
+    0.21,
+    0.19,
+    0.16,
+    0.17
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "findings_conflict",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "overall_unusual",
+   "values": [
+    0.16,
+    0.15,
+    0.14,
+    0.14,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB11",
+   "values": [
+    0.04,
+    0.04,
+    0.05,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB14",
+   "values": [
+    0.26,
+    0.23,
+    0.26,
+    0.25,
+    0.27
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB15",
+   "values": [
+    0.28,
+    0.21,
+    0.23,
+    0.23,
+    0.21
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB16",
+   "values": [
+    0.13,
+    0.12,
+    0.13,
+    0.12,
+    0.13
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB17",
+   "values": [
+    0.18,
+    0.18,
+    0.22,
+    0.21,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C13",
+   "question": "topic_present__PB20",
+   "values": [
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "has_non_compete",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "has_ip_transfer",
+   "values": [
+    0.05,
+    0.06,
+    0.05,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "has_exclusivity",
+   "values": [
+    0.19,
+    0.21,
+    0.21,
+    0.18,
+    0.19
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.21,
+    0.21,
+    0.22,
+    0.2,
+    0.2
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "findings_conflict",
+   "values": [
+    0.17,
+    0.18,
+    0.19,
+    0.17,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "overall_unusual",
+   "values": [
+    0.42,
+    0.35,
+    0.42,
+    0.44,
+    0.39
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.09,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "topic_present__PB11",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "topic_present__PB14",
+   "values": [
+    0.33,
+    0.33,
+    0.33,
+    0.33,
+    0.33
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "topic_present__PB15",
+   "values": [
+    0.25,
+    0.21,
+    0.23,
+    0.21,
+    0.24
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "topic_present__PB16",
+   "values": [
+    0.24,
+    0.25,
+    0.25,
+    0.22,
+    0.22
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C14",
+   "question": "topic_present__PB17",
+   "values": [
+    0.19,
+    0.23,
+    0.21,
+    0.22,
+    0.21
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "has_non_solicit",
+   "values": [
+    0.04,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "has_ip_transfer",
+   "values": [
+    0.98,
+    0.98,
+    0.98,
+    0.98,
+    0.98
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "has_exclusivity",
+   "values": [
+    0.1,
+    0.1,
+    0.09,
+    0.09,
+    0.1
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.28,
+    0.32,
+    0.32,
+    0.24,
+    0.26
+   ],
+   "decisions": [
+    "none",
+    "lawyer",
+    "lawyer",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": false
+  },
+  {
+   "contract": "C15",
+   "question": "findings_conflict",
+   "values": [
+    0.39,
+    0.42,
+    0.41,
+    0.42,
+    0.38
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "overall_unusual",
+   "values": [
+    1.71,
+    1.67,
+    1.68,
+    1.62,
+    1.67
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.09,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "topic_present__PB14",
+   "values": [
+    0.25,
+    0.25,
+    0.24,
+    0.22,
+    0.23
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "topic_present__PB15",
+   "values": [
+    0.16,
+    0.13,
+    0.13,
+    0.13,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "topic_present__PB16",
+   "values": [
+    0.09,
+    0.09,
+    0.09,
+    0.09,
+    0.09
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C15",
+   "question": "topic_present__PB17",
+   "values": [
+    0.12,
+    0.13,
+    0.15,
+    0.13,
+    0.13
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "has_non_compete",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.05,
+    0.05,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "has_ip_transfer",
+   "values": [
+    0.98,
+    0.98,
+    0.98,
+    0.98,
+    0.98
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "has_exclusivity",
+   "values": [
+    0.11,
+    0.11,
+    0.11,
+    0.1,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.41,
+    0.41,
+    0.39,
+    0.38,
+    0.42
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "findings_conflict",
+   "values": [
+    0.44,
+    0.43,
+    0.46,
+    0.43,
+    0.42
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "overall_unusual",
+   "values": [
+    1.83,
+    1.85,
+    1.88,
+    1.84,
+    1.83
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "topic_present__PB14",
+   "values": [
+    0.53,
+    0.52,
+    0.52,
+    0.5,
+    0.5
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": false
+  },
+  {
+   "contract": "C16",
+   "question": "topic_present__PB15",
+   "values": [
+    0.17,
+    0.16,
+    0.15,
+    0.17,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "topic_present__PB16",
+   "values": [
+    0.27,
+    0.26,
+    0.26,
+    0.26,
+    0.24
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C16",
+   "question": "topic_present__PB17",
+   "values": [
+    0.15,
+    0.16,
+    0.14,
+    0.14,
+    0.16
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "has_non_compete",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "has_non_solicit",
+   "values": [
+    0.09,
+    0.08,
+    0.08,
+    0.08,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.06,
+    0.06,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "has_exclusivity",
+   "values": [
+    0.12,
+    0.12,
+    0.12,
+    0.14,
+    0.12
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.74,
+    0.71,
+    0.74,
+    0.73,
+    0.75
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "findings_conflict",
+   "values": [
+    0.57,
+    0.59,
+    0.58,
+    0.59,
+    0.56
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "overall_unusual",
+   "values": [
+    0.89,
+    0.84,
+    0.88,
+    0.96,
+    0.88
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.12,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "topic_present__PB10",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "topic_present__PB15",
+   "values": [
+    0.17,
+    0.17,
+    0.15,
+    0.18,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "topic_present__PB16",
+   "values": [
+    0.47,
+    0.46,
+    0.47,
+    0.47,
+    0.49
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C17",
+   "question": "topic_present__PB17",
+   "values": [
+    0.13,
+    0.15,
+    0.14,
+    0.14,
+    0.15
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "has_non_compete",
+   "values": [
+    0.11,
+    0.1,
+    0.11,
+    0.1,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.07,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "has_exclusivity",
+   "values": [
+    0.24,
+    0.27,
+    0.25,
+    0.25,
+    0.25
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.94,
+    0.94,
+    0.94,
+    0.94,
+    0.94
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "findings_conflict",
+   "values": [
+    0.32,
+    0.32,
+    0.33,
+    0.32,
+    0.34
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "overall_unusual",
+   "values": [
+    0.94,
+    0.95,
+    0.88,
+    0.93,
+    0.91
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB02",
+   "values": [
+    0.65,
+    0.7,
+    0.66,
+    0.68,
+    0.68
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB11",
+   "values": [
+    0.05,
+    0.06,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB13",
+   "values": [
+    0.06,
+    0.05,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB15",
+   "values": [
+    0.17,
+    0.2,
+    0.17,
+    0.2,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB16",
+   "values": [
+    0.18,
+    0.18,
+    0.17,
+    0.16,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C18",
+   "question": "topic_present__PB17",
+   "values": [
+    0.2,
+    0.19,
+    0.18,
+    0.18,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "has_non_compete",
+   "values": [
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "has_non_solicit",
+   "values": [
+    0.07,
+    0.06,
+    0.07,
+    0.06,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "has_ip_transfer",
+   "values": [
+    0.06,
+    0.05,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "has_exclusivity",
+   "values": [
+    0.6,
+    0.58,
+    0.62,
+    0.56,
+    0.61
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.21,
+    0.22,
+    0.2,
+    0.22,
+    0.21
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "findings_conflict",
+   "values": [
+    0.24,
+    0.22,
+    0.23,
+    0.22,
+    0.23
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "overall_unusual",
+   "values": [
+    1.97,
+    1.98,
+    1.97,
+    1.96,
+    1.96
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB09",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB10",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB11",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB14",
+   "values": [
+    0.14,
+    0.18,
+    0.15,
+    0.15,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB15",
+   "values": [
+    0.16,
+    0.14,
+    0.17,
+    0.17,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB19",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C19",
+   "question": "topic_present__PB20",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.02
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.05,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "has_ip_transfer",
+   "values": [
+    0.14,
+    0.13,
+    0.12,
+    0.13,
+    0.13
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "has_exclusivity",
+   "values": [
+    0.09,
+    0.09,
+    0.1,
+    0.09,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.96,
+    0.95,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "findings_conflict",
+   "values": [
+    0.27,
+    0.26,
+    0.27,
+    0.28,
+    0.29
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "overall_unusual",
+   "values": [
+    0.78,
+    0.8,
+    0.76,
+    0.7,
+    0.77
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.1,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "topic_present__PB10",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "topic_present__PB11",
+   "values": [
+    0.14,
+    0.15,
+    0.17,
+    0.16,
+    0.14
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "topic_present__PB14",
+   "values": [
+    0.33,
+    0.34,
+    0.34,
+    0.33,
+    0.34
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "topic_present__PB15",
+   "values": [
+    0.17,
+    0.19,
+    0.18,
+    0.18,
+    0.22
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C20",
+   "question": "topic_present__PB16",
+   "values": [
+    0.13,
+    0.14,
+    0.14,
+    0.13,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "has_non_compete",
+   "values": [
+    0.97,
+    0.96,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "has_non_solicit",
+   "values": [
+    0.09,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "has_ip_transfer",
+   "values": [
+    0.05,
+    0.05,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "has_exclusivity",
+   "values": [
+    0.74,
+    0.78,
+    0.7,
+    0.73,
+    0.75
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "findings_conflict",
+   "values": [
+    0.21,
+    0.18,
+    0.21,
+    0.21,
+    0.22
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "overall_unusual",
+   "values": [
+    1.98,
+    1.99,
+    2.0,
+    1.99,
+    2.0
+   ],
+   "decisions": [
+    false,
+    false,
+    true,
+    false,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": false
+  },
+  {
+   "contract": "C21",
+   "question": "topic_present__PB10",
+   "values": [
+    0.05,
+    0.06,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "topic_present__PB11",
+   "values": [
+    0.05,
+    0.06,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "topic_present__PB15",
+   "values": [
+    0.23,
+    0.2,
+    0.22,
+    0.22,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C21",
+   "question": "topic_present__PB17",
+   "values": [
+    0.13,
+    0.12,
+    0.14,
+    0.14,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "has_non_compete",
+   "values": [
+    0.11,
+    0.1,
+    0.11,
+    0.12,
+    0.13
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "has_ip_transfer",
+   "values": [
+    0.98,
+    0.98,
+    0.98,
+    0.98,
+    0.98
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "has_exclusivity",
+   "values": [
+    0.1,
+    0.11,
+    0.11,
+    0.11,
+    0.11
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.39,
+    0.37,
+    0.37,
+    0.36,
+    0.35
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "findings_conflict",
+   "values": [
+    0.22,
+    0.21,
+    0.22,
+    0.23,
+    0.23
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "overall_unusual",
+   "values": [
+    2.06,
+    2.07,
+    2.05,
+    2.05,
+    2.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB02",
+   "values": [
+    0.74,
+    0.79,
+    0.77,
+    0.77,
+    0.77
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB10",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB11",
+   "values": [
+    0.05,
+    0.06,
+    0.05,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB14",
+   "values": [
+    0.52,
+    0.52,
+    0.54,
+    0.54,
+    0.53
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB15",
+   "values": [
+    0.16,
+    0.17,
+    0.13,
+    0.17,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB16",
+   "values": [
+    0.18,
+    0.17,
+    0.17,
+    0.16,
+    0.15
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C22",
+   "question": "topic_present__PB17",
+   "values": [
+    0.17,
+    0.17,
+    0.2,
+    0.17,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "has_non_solicit",
+   "values": [
+    0.04,
+    0.05,
+    0.04,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.08
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "has_exclusivity",
+   "values": [
+    0.14,
+    0.15,
+    0.14,
+    0.11,
+    0.14
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "findings_conflict",
+   "values": [
+    0.48,
+    0.48,
+    0.46,
+    0.48,
+    0.44
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "overall_unusual",
+   "values": [
+    0.84,
+    0.88,
+    0.95,
+    0.88,
+    0.93
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.11,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB02",
+   "values": [
+    0.84,
+    0.8,
+    0.83,
+    0.84,
+    0.81
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB10",
+   "values": [
+    0.05,
+    0.07,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB15",
+   "values": [
+    0.18,
+    0.17,
+    0.2,
+    0.17,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB16",
+   "values": [
+    0.1,
+    0.09,
+    0.1,
+    0.09,
+    0.09
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB17",
+   "values": [
+    0.15,
+    0.18,
+    0.16,
+    0.2,
+    0.2
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C23",
+   "question": "topic_present__PB20",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "has_non_compete",
+   "values": [
+    0.18,
+    0.17,
+    0.17,
+    0.17,
+    0.18
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "has_non_solicit",
+   "values": [
+    0.46,
+    0.42,
+    0.45,
+    0.45,
+    0.5
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "has_ip_transfer",
+   "values": [
+    0.06,
+    0.06,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "has_exclusivity",
+   "values": [
+    0.14,
+    0.13,
+    0.13,
+    0.15,
+    0.14
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.96,
+    0.95,
+    0.96,
+    0.96,
+    0.95
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "findings_conflict",
+   "values": [
+    0.55,
+    0.57,
+    0.54,
+    0.59,
+    0.56
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "overall_unusual",
+   "values": [
+    1.76,
+    1.77,
+    1.71,
+    1.76,
+    1.74
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "topic_present__PB10",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "topic_present__PB16",
+   "values": [
+    0.12,
+    0.12,
+    0.13,
+    0.13,
+    0.1
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C24",
+   "question": "topic_present__PB17",
+   "values": [
+    0.19,
+    0.14,
+    0.17,
+    0.18,
+    0.15
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "has_non_compete",
+   "values": [
+    0.45,
+    0.46,
+    0.47,
+    0.48,
+    0.46
+   ],
+   "decisions": [
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "lawyer"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "has_non_solicit",
+   "values": [
+    0.55,
+    0.5,
+    0.43,
+    0.5,
+    0.51
+   ],
+   "decisions": [
+    "urgent",
+    "lawyer",
+    "lawyer",
+    "lawyer",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.12,
+   "same_decision": false
+  },
+  {
+   "contract": "C25",
+   "question": "has_ip_transfer",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "has_exclusivity",
+   "values": [
+    0.14,
+    0.14,
+    0.15,
+    0.15,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.29,
+    0.35,
+    0.29,
+    0.28,
+    0.3
+   ],
+   "decisions": [
+    "none",
+    "lawyer",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": false
+  },
+  {
+   "contract": "C25",
+   "question": "findings_conflict",
+   "values": [
+    0.43,
+    0.47,
+    0.44,
+    0.45,
+    0.47
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "overall_unusual",
+   "values": [
+    1.82,
+    1.79,
+    1.8,
+    1.8,
+    1.85
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "topic_present__PB10",
+   "values": [
+    0.04,
+    0.04,
+    0.03,
+    0.03,
+    0.04
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "topic_present__PB11",
+   "values": [
+    0.07,
+    0.07,
+    0.06,
+    0.07,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "topic_present__PB14",
+   "values": [
+    0.53,
+    0.54,
+    0.54,
+    0.53,
+    0.54
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C25",
+   "question": "topic_present__PB16",
+   "values": [
+    0.15,
+    0.14,
+    0.13,
+    0.14,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "has_non_compete",
+   "values": [
+    0.07,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "has_non_solicit",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "has_ip_transfer",
+   "values": [
+    0.09,
+    0.09,
+    0.08,
+    0.09,
+    0.09
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "has_exclusivity",
+   "values": [
+    0.13,
+    0.13,
+    0.13,
+    0.13,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.15,
+    0.16,
+    0.15,
+    0.16,
+    0.16
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "findings_conflict",
+   "values": [
+    0.3,
+    0.31,
+    0.31,
+    0.28,
+    0.31
+   ],
+   "decisions": [
+    false,
+    true,
+    true,
+    false,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": false
+  },
+  {
+   "contract": "C26",
+   "question": "overall_unusual",
+   "values": [
+    1.43,
+    1.48,
+    1.47,
+    1.48,
+    1.49
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB02",
+   "values": [
+    0.88,
+    0.85,
+    0.88,
+    0.86,
+    0.89
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB10",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB11",
+   "values": [
+    0.06,
+    0.05,
+    0.06,
+    0.05,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB15",
+   "values": [
+    0.21,
+    0.21,
+    0.21,
+    0.2,
+    0.19
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB16",
+   "values": [
+    0.67,
+    0.69,
+    0.67,
+    0.66,
+    0.68
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C26",
+   "question": "topic_present__PB20",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "has_non_compete",
+   "values": [
+    0.04,
+    0.04,
+    0.04,
+    0.04,
+    0.04
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "has_ip_transfer",
+   "values": [
+    0.07,
+    0.07,
+    0.07,
+    0.06,
+    0.07
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "has_exclusivity",
+   "values": [
+    0.15,
+    0.14,
+    0.14,
+    0.14,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.88,
+    0.9,
+    0.89,
+    0.88,
+    0.86
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "findings_conflict",
+   "values": [
+    0.21,
+    0.24,
+    0.24,
+    0.23,
+    0.24
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "overall_unusual",
+   "values": [
+    1.1,
+    1.15,
+    1.12,
+    1.09,
+    1.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.08,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "topic_present__PB01",
+   "values": [
+    0.94,
+    0.92,
+    0.93,
+    0.93,
+    0.93
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "topic_present__PB11",
+   "values": [
+    0.05,
+    0.05,
+    0.06,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "topic_present__PB14",
+   "values": [
+    0.35,
+    0.34,
+    0.36,
+    0.35,
+    0.34
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "topic_present__PB15",
+   "values": [
+    0.14,
+    0.16,
+    0.17,
+    0.14,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C27",
+   "question": "topic_present__PB16",
+   "values": [
+    0.14,
+    0.15,
+    0.14,
+    0.14,
+    0.15
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "has_non_compete",
+   "values": [
+    0.28,
+    0.25,
+    0.26,
+    0.29,
+    0.24
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "has_ip_transfer",
+   "values": [
+    0.98,
+    0.98,
+    0.98,
+    0.98,
+    0.98
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "has_exclusivity",
+   "values": [
+    0.19,
+    0.21,
+    0.23,
+    0.19,
+    0.23
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.97,
+    0.97,
+    0.97,
+    0.97,
+    0.97
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "findings_conflict",
+   "values": [
+    0.42,
+    0.43,
+    0.42,
+    0.39,
+    0.4
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "overall_unusual",
+   "values": [
+    1.91,
+    1.92,
+    1.92,
+    1.92,
+    1.91
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB01",
+   "values": [
+    0.92,
+    0.91,
+    0.92,
+    0.92,
+    0.92
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB10",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB11",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.07
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB15",
+   "values": [
+    0.15,
+    0.16,
+    0.16,
+    0.17,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB16",
+   "values": [
+    0.32,
+    0.39,
+    0.37,
+    0.37,
+    0.35
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.07,
+   "same_decision": true
+  },
+  {
+   "contract": "C28",
+   "question": "topic_present__PB17",
+   "values": [
+    0.17,
+    0.16,
+    0.18,
+    0.17,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "has_non_compete",
+   "values": [
+    0.07,
+    0.06,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "has_non_solicit",
+   "values": [
+    0.06,
+    0.06,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "has_ip_transfer",
+   "values": [
+    0.06,
+    0.06,
+    0.07,
+    0.06,
+    0.06
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "has_exclusivity",
+   "values": [
+    0.13,
+    0.12,
+    0.11,
+    0.11,
+    0.15
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.19,
+    0.19,
+    0.17,
+    0.2,
+    0.18
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "findings_conflict",
+   "values": [
+    0.42,
+    0.42,
+    0.42,
+    0.42,
+    0.43
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "overall_unusual",
+   "values": [
+    0.54,
+    0.55,
+    0.55,
+    0.63,
+    0.58
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.09,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB10",
+   "values": [
+    0.03,
+    0.03,
+    0.04,
+    0.04,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB11",
+   "values": [
+    0.06,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB14",
+   "values": [
+    0.33,
+    0.31,
+    0.31,
+    0.31,
+    0.33
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB15",
+   "values": [
+    0.13,
+    0.14,
+    0.18,
+    0.13,
+    0.14
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB16",
+   "values": [
+    0.13,
+    0.13,
+    0.13,
+    0.13,
+    0.13
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C29",
+   "question": "topic_present__PB20",
+   "values": [
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "document_type",
+   "values": [
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual",
+    "nda_mutual"
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": true,
+   "spread": null,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "has_non_compete",
+   "values": [
+    0.05,
+    0.06,
+    0.06,
+    0.06,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "has_non_solicit",
+   "values": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "has_ip_transfer",
+   "values": [
+    0.96,
+    0.96,
+    0.97,
+    0.97,
+    0.97
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "has_exclusivity",
+   "values": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+   ],
+   "decisions": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "none"
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "has_uncapped_liability",
+   "values": [
+    0.94,
+    0.94,
+    0.93,
+    0.94,
+    0.93
+   ],
+   "decisions": [
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent",
+    "urgent"
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "findings_conflict",
+   "values": [
+    0.34,
+    0.35,
+    0.32,
+    0.35,
+    0.3
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.05,
+   "same_decision": false
+  },
+  {
+   "contract": "C30",
+   "question": "overall_unusual",
+   "values": [
+    1.45,
+    1.49,
+    1.49,
+    1.5,
+    1.51
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB10",
+   "values": [
+    0.03,
+    0.04,
+    0.04,
+    0.04,
+    0.03
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.01,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB11",
+   "values": [
+    0.11,
+    0.11,
+    0.11,
+    0.11,
+    0.11
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.0,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB14",
+   "values": [
+    0.44,
+    0.43,
+    0.44,
+    0.43,
+    0.47
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.04,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB15",
+   "values": [
+    0.16,
+    0.17,
+    0.19,
+    0.17,
+    0.18
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.03,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB16",
+   "values": [
+    0.6,
+    0.59,
+    0.6,
+    0.6,
+    0.61
+   ],
+   "decisions": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "same_answer": null,
+   "spread": 0.02,
+   "same_decision": true
+  },
+  {
+   "contract": "C30",
+   "question": "topic_present__PB17",
+   "values": [
+    0.14,
+    0.14,
+    0.2,
+    0.15,
+    0.17
+   ],
+   "decisions": [
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "same_answer": null,
+   "spread": 0.06,
+   "same_decision": true
+  }
+ ]
+}

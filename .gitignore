@@ -1,0 +1,9 @@
+# Dependencies and caches (rebuild with npm install / python)
+node_modules/
+__pycache__/
+*.pyc
+
+# Local logs and secrets
+logs/
+.env
+.env.*

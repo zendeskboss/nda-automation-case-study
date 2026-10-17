@@ -1,0 +1,157 @@
+{
+ "contract_id": "C27",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R11",
+   "clause_no": "1.1.4",
+   "quote": "\"Representatives\" means the directors, officers, employees, legal advisors, accountants, financial consultants, and contracted technical personnel of a Party or its Affiliates",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R09",
+   "clause_no": "10.2",
+   "quote": "Receiving Party shall pay to Disclosing Party, as pre-estimated liquidated damages and not as a penalty, the fixed sum of £50,000 (fifty thousand pounds sterling) per breach",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "4.1",
+   "quote": "Receiving Party can demonstrate through contemporaneous documentary evidence",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R03",
+   "clause_no": "4.2",
+   "quote": "shall be free to use and exploit for any purpose any general ideas, concepts, know-how, methodologies, or techniques retained in the unaided memory",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R15",
+   "clause_no": "8.2",
+   "quote": "Vedanta shall be entitled to identify Halyard as a collaborative partner and include Halyard's corporate name, trade name, and standard corporate logo",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "11.1",
+   "quote": "either Party may assign this Agreement to an Affiliate or in connection with a merger, acquisition, corporate restructuring, or sale of substantially all of its assets upon written notice",
+   "request_id": null,
+   "confidence": 0.75
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "within fourteen (14) calendar days",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.3",
+   "quote": "which is designated as confidential or proprietary at the time of disclosure or which, by its nature or the circumstances surrounding its disclosure, should reasonably be understood by a prudent commercial person to be confidential",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "10.1",
+   "quote": "Disclosing Party shall be entitled to seek injunctive relief, specific performance, and other equitable remedies",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "10.3",
+   "quote": "The rights and remedies provided in this Agreement are cumulative",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "11.7",
+   "quote": "shall be governed by and construed in accordance with the laws of England and Wales",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.2",
+   "quote": "use Disclosing Party's Confidential Information solely and exclusively for the Purpose",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.4",
+   "quote": "Receiving Party shall not decompile, disassemble, reverse engineer, or attempt to derive the composition or underlying source code",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1",
+   "quote": "provided that Receiving Party shall:",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "All Confidential Information disclosed hereunder remains the exclusive and absolute property of Disclosing Party.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.2",
+   "quote": "Disclosing Party disclaims any express or implied warranties of any kind regarding the accuracy, completeness",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "neither Party shall issue any press release, public announcement, or public disclosure regarding this Agreement",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.1",
+   "quote": "initial term of two (2) years, unless terminated earlier by either Party upon thirty (30) days' written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "9.2",
+   "quote": "for a period of three (3) years from the effective date of such termination or expiration, save that any Confidential Information constituting a trade secret under applicable law shall remain confidential for as long as it remains a trade secret",
+   "request_id": null,
+   "confidence": 0.92
+  }
+ ]
+}

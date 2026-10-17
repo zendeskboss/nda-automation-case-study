@@ -1,0 +1,173 @@
+{
+ "contract_id": "C08",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "1.1.2",
+   "quote": "of [[DEL: the Disclosing Party]][[INS: Lumina]] or any member of its Group, which is disclosed by or on behalf of [[DEL: the Disclosing Party]][[INS: Lumina]] to [[DEL: the Receiving Party]][[INS: Halyard]] in connection with the Purpose",
+   "request_id": "RQ11",
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "our group policy is to request French law and the exclusive jurisdiction of the Commercial Court of Lyon (Tribunal de commerce de Lyon), or failing that, neutral governing law and jurisdiction in Switzerland",
+   "request_id": "RQ03",
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R13",
+   "clause_no": "2.1.2",
+   "quote": "not enter into any commercial discussions or integration partnerships with any third party offering software solutions directly competitive with the Disclosing Party's core analytics products in the European Economic Area or the United Kingdom",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "2.2",
+   "quote": "[[DEL: Each Party]][[INS: Halyard]] shall immediately notify [[DEL: the other Party]][[INS: Lumina]] in writing",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "[[DEL: written records or other reasonable]][[INS: contemporaneous written and dated documentary]] evidence",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.3",
+   "quote": "3.1.3 [[DEL: is lawfully received by the Receiving Party after the date of this Agreement from an independent third party",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.4",
+   "quote": "3.1.4 [[DEL: is independently developed by or on behalf of the Receiving Party without access to, use of, or reference to any of the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "[[DEL: the Disclosing Party]][[INS: Lumina]] to [[DEL: the Receiving Party]][[INS: Halyard]] in connection with the Purpose",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "2.1.2",
+   "quote": "not use or exploit the Disclosing Party's Confidential Information in any way except solely for the Purpose",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1",
+   "quote": "for a period of two (2) years, unless terminated earlier by either Party giving not less than thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief for any threatened or actual breach of this Agreement by the other Party",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "Neither Party may assign, novate, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of the other Party.",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "governed by and construed in accordance with the law of England and Wales",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure of any software, prototypes or other tangible objects",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to those of its Representatives and members of its Group who strictly need to know",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to the minimum extent required by an order of any court of competent jurisdiction or any regulatory, judicial, governmental or similar body",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "within ten Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "shall remain the exclusive property of the Disclosing Party (or its licensors, as applicable)",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.3",
+   "quote": "Neither Party makes any representation or gives any warranty, express or implied, as to the accuracy, completeness, adequacy or fitness for a particular purpose of any Confidential Information",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement, press release or other public disclosure",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R16",
+   "clause_no": "9.2",
+   "quote": "that Party shall not disclose such personal data unless and until the Parties have agreed and entered into a separate written data processing agreement or data sharing agreement",
+   "request_id": "RQ10",
+   "confidence": 0.93
+  }
+ ]
+}

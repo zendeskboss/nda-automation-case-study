@@ -1,0 +1,134 @@
+<style>
+/* Flow diagram, picture-first: icons + one-to-three-word labels. Horizontal on wide screens, stacked on phones. */
+.fx { max-width: 68rem; margin: 0 auto;
+  /* darker arrows than the page hairlines */
+  --color-rule:     oklch(72% 0.03 70);
+}
+.fx h1 { margin-top: var(--space-xl); font-size: var(--text-2xl); max-width: none; }
+.fx-key { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-md); margin-top: var(--space-sm); font-family: var(--font-ui); font-size: var(--text-sm); }
+.fx-key span { color: var(--who); }
+.fx-key span { display: inline-flex; align-items: center; gap: var(--space-2xs); }
+.fx-key i { width: 0.9rem; height: 0.9rem; border-radius: 50%; background: var(--who); display: inline-block; }
+
+.board { margin-top: var(--space-xl); display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); grid-template-rows: auto auto auto; column-gap: var(--space-sm); }
+
+/* the rules, written once by the lawyers, feeding steps 3 and 4 */
+.rules { grid-column: 3 / 5; grid-row: 1; justify-self: stretch; display: flex; flex-direction: column; align-items: center; color: var(--color-who-law); }
+.rules .lab { font-family: var(--font-ui); font-size: var(--text-sm); font-weight: 700; margin-top: var(--space-3xs); }
+.rules .feed { width: calc(50% + 3px); height: 2.2rem; border: 2px dashed var(--color-who-law); border-top: 0; border-radius: 0 0 8px 8px; margin-top: var(--space-2xs); position: relative; }
+
+.st { grid-row: 2; display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; padding-top: var(--space-sm); }
+.st .disc { width: 5.5rem; height: 5.5rem; border-radius: 50%; background: color-mix(in srgb, var(--who) 11%, oklch(99.5% 0 0)); border: 3px solid var(--who); display: grid; place-items: center; color: var(--who); position: relative; z-index: 1; }
+.st .disc svg { width: 3rem; height: 3rem; }
+.st .lab { font-family: var(--font-ui); font-size: var(--text-sm); font-weight: 700; color: var(--who); margin-top: var(--space-xs); line-height: 1.25; }
+.st .sub { font-family: var(--font-ui); font-size: var(--text-xs); color: var(--color-ink-2); margin-top: 0.15rem; }
+/* arrow to the next station */
+.st:not(.last)::after { content: ""; position: absolute; top: calc(var(--space-sm) + 2.75rem); left: calc(50% + 3rem); right: calc(-50% + 3rem - var(--space-sm)); height: 3px; background: var(--color-rule); }
+.st:not(.last)::before { content: ""; position: absolute; top: calc(var(--space-sm) + 2.75rem - 6px); right: calc(-50% + 3rem - var(--space-sm) - 2px); border: 7.5px solid transparent; border-left: 10px solid var(--color-rule); border-right: 0; }
+
+/* the fork under step 4 */
+.fork { grid-column: 3 / 6; grid-row: 3; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-2xs); margin-top: var(--space-md); padding-top: var(--space-md); border-top: 3px solid var(--color-rule); position: relative; }
+.fork::before { content: ""; position: absolute; top: calc(-1 * var(--space-md) - 3px); left: calc(50% - 1.5px); width: 3px; height: var(--space-md); background: var(--color-rule); }
+.fk { display: flex; flex-direction: column; align-items: center; text-align: center; position: relative; }
+.fk::before { content: ""; position: absolute; top: calc(-1 * var(--space-md)); left: calc(50% - 1.5px); width: 3px; height: var(--space-md); background: var(--color-rule); }
+.fk .tile { width: 3.2rem; height: 3.2rem; border-radius: 10px; background: var(--t); display: grid; place-items: center; color: var(--color-paper); }
+.fk .tile svg { width: 1.8rem; height: 1.8rem; }
+.fk .lab { display: block; font-family: var(--font-ui); font-size: var(--text-xs); font-weight: 700; margin-top: var(--space-2xs); line-height: 1.25; }
+.fk .to { display: block; font-family: var(--font-ui); font-size: var(--text-xs); color: color-mix(in oklch, var(--t) 72%, oklch(20% 0 0)); font-weight: 700; margin-top: 0.1rem; }
+.t1 { --t: var(--color-t-match); } .t2 { --t: var(--color-t-fall); } .t3 { --t: var(--color-t-draft); } .t4 { --t: var(--color-t-law); }
+
+/* the learning loop, back from the lawyer to the rules */
+.loop { grid-column: 5 / 6; grid-row: 1; align-self: end; justify-self: stretch; display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-2xs); font-family: var(--font-ui); font-size: var(--text-xs); font-weight: 700; color: var(--color-who-law); margin-bottom: var(--space-sm); }
+.loop svg.back { width: 100%; height: 2.6rem; margin-left: -40%; } .loop span { max-width: 9rem; line-height: 1.25; }
+
+.now { margin-top: var(--space-2xl); display: flex; align-items: center; gap: var(--space-sm); font-family: var(--font-ui); font-size: var(--text-sm); color: var(--color-ink-2); }
+.now .pill { background: var(--color-accent-soft); color: var(--color-accent); font-weight: 700; padding: 0.15rem 0.6rem; border-radius: 999px; white-space: nowrap; }
+
+/* phones and narrow tablets: stack it */
+@media (max-width: 820px) {
+  .board { grid-template-columns: minmax(0, 1fr); row-gap: 0; }
+  .rules { grid-column: 1; grid-row: auto; flex-direction: row; gap: var(--space-xs); justify-self: start; margin-left: 0.5rem; }
+  .rules .feed { display: none; }
+  .loop { grid-column: 1; grid-row: auto; justify-self: start; margin: var(--space-2xs) 0 0 0.5rem; }
+  .loop svg.back { display: none; } .loop span::before { content: "↺ "; }
+  .st { grid-row: auto; flex-direction: row; text-align: left; gap: var(--space-sm); padding: var(--space-2xs) 0 var(--space-md); }
+  .st .disc { width: 4.2rem; height: 4.2rem; flex: none; }
+  .st .disc svg { width: 2.3rem; height: 2.3rem; }
+  .st .lab { margin-top: 0; font-size: var(--text-md); }
+  .st:not(.last)::after { top: calc(var(--space-2xs) + 4.2rem); left: calc(2.1rem - 1.5px); right: auto; width: 3px; height: calc(var(--space-md) - 0.3rem); }
+  .st:not(.last)::before { top: auto; bottom: 0.1rem; left: calc(2.1rem - 7.5px); right: auto; border: 7.5px solid transparent; border-top: 10px solid var(--color-rule); border-bottom: 0; }
+  .fork { grid-column: 1; grid-row: auto; margin: calc(-1 * var(--space-sm)) 0 var(--space-lg) 5.4rem; border-top: 0; padding-top: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: var(--space-sm); }
+  .fork::before, .fk::before { display: none; }
+  .fk { flex-direction: row; text-align: left; gap: var(--space-xs); align-items: center; }
+  .fk .tile { width: 2.4rem; height: 2.4rem; flex: none; }
+  .fk .tile svg { width: 1.4rem; height: 1.4rem; }
+  .fk .lab { margin-top: 0; }
+  .st.s4 { padding-bottom: var(--space-md); }
+  .st.s4::after, .st.s4::before { display: none; }
+}
+  .rules { order: 0; } .s1 { order: 1; } .s2 { order: 2; } .s3 { order: 3; } .s4 { order: 4; } .fork { order: 5; } .s5 { order: 6; } .s6 { order: 7; } .loop { order: 8; }
+@media (max-width: 380px) { .fork { margin-left: 0; } }
+</style>
+
+<div class="fx">
+<h1>How an NDA gets checked</h1>
+<div class="fx-key" aria-label="Who does each step">
+  <span style="--who: var(--color-who-law)"><i></i>Lawyer</span>
+  <span style="--who: var(--color-who-code)"><i></i>Computer, fixed rules</span>
+  <span style="--who: var(--color-who-ai)"><i></i>AI</span>
+</div>
+
+<div class="board" role="img" aria-label="An NDA arrives. The computer hides private details. The AI reads it against the lawyers' rules. The computer sorts each part into four trays: fine, fine, small fix, or needs a lawyer. A lawyer decides. Only then does the reply go back. Lawyer decisions feed back into the rules.">
+
+  <div class="rules">
+    <svg viewBox="0 0 48 48" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10c6-3 12-3 18 1 6-4 12-4 18-1v28c-6-3-12-3-18 1-6-4-12-4-18-1z"/><path d="M24 11v28"/><path d="M11 18h7M11 24h7M30 18h7M30 24h7"/></svg>
+    <span class="lab">Lawyers' rules</span>
+    <span class="feed" aria-hidden="true"></span>
+  </div>
+
+  <div class="loop" aria-hidden="true">
+    <span>decisions improve the rules</span>
+    <svg class="back" viewBox="0 0 120 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M112 44C112 14 60 8 12 14"/><path d="M22 6l-10 8 11 7"/></svg>
+  </div>
+
+  <div class="st s1" style="--who: var(--color-ink)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4h17l9 9v31H12z"/><path d="M29 4v9h9"/><path d="M17 20h15M17 27h15M17 34h10"/></svg></span>
+    <span class="lab">NDA arrives</span>
+  </div>
+
+  <div class="st s2" style="--who: var(--color-who-code)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 4l16 6v12c0 11-7 19-16 22-9-3-16-11-16-22V10z"/><rect x="16" y="20" width="16" height="5" rx="1" fill="currentColor"/><path d="M16 31h10"/></svg></span>
+    <span class="lab">Names hidden</span>
+  </div>
+
+  <div class="st s3" style="--who: var(--color-who-ai)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="21" cy="21" r="12"/><path d="M30 30l12 12"/><path d="M15 18h12M15 24h8"/></svg></span>
+    <span class="lab">AI reads</span>
+  </div>
+
+  <div class="st s4" style="--who: var(--color-who-code)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h36L28 24v14l-8 4V24z"/></svg></span>
+    <span class="lab">Sorted</span>
+  </div>
+
+  <div class="st s5" style="--who: var(--color-who-law)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="20" cy="15" r="8"/><path d="M5 42c1-9 7-15 15-15 4 0 7 1 10 4"/><path d="M30 36l5 5 9-10"/></svg></span>
+    <span class="lab">Lawyer decides</span>
+  </div>
+
+  <div class="st s6 last" style="--who: var(--color-who-law)">
+    <span class="disc"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="38" height="26" rx="3"/><path d="M5 14l19 13 19-13"/></svg></span>
+    <span class="lab">Reply sent</span>
+    <span class="sub">only after a yes</span>
+  </div>
+
+  <div class="fork">
+    <div class="fk t1"><span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></span><div><span class="lab">Same as ours</span> <span class="to">fine</span></div></div>
+    <div class="fk t2"><span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9h16M4 15h16"/></svg></span><div><span class="lab">Close enough</span> <span class="to">fine</span></div></div>
+    <div class="fk t3"><span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg></span><div><span class="lab">Small fix</span> <span class="to">lawyer checks</span></div></div>
+    <div class="fk t4"><span class="tile"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6v8M12 18v.5"/></svg></span><div><span class="lab">Needs a lawyer</span> <span class="to">lawyer decides</span></div></div>
+  </div>
+</div>
+
+<p class="now"><span class="pill">Today</span>A test on 30 made-up NDAs. A lawyer still checks everything.</p>
+</div>

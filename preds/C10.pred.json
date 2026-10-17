@@ -1,0 +1,189 @@
+{
+ "contract_id": "C10",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R02",
+   "clause_no": "10.3",
+   "quote": "Can we reduce the 3-year period to 2 years and remove the open-ended Trade Secret survival tail?",
+   "request_id": "RQ01",
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.10",
+   "quote": "the substantive law of [[DEL: England and Wales]] [[INS: Sweden]]",
+   "request_id": "RQ03",
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R07",
+   "clause_no": "12.11",
+   "quote": "[[INS: District Court of Stockholm (Stockholms tingsrätt)]] shall have exclusive jurisdiction",
+   "request_id": "RQ03",
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R13",
+   "clause_no": "2.1.2",
+   "quote": "Halyard shall not provide software or services similar to those discussed under the Purpose to any other logistics or freight transport enterprise operating in the Nordic region",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "The obligations set out in Clause 2 shall not apply to any information which the Receiving Party can demonstrate by written records",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.3",
+   "quote": "is lawfully received by the Receiving Party after the date of this Agreement from an independent third party who is not under any obligation of confidentiality to the Disclosing Party in respect of that information; or",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1.4",
+   "quote": "is independently developed by or on behalf of the Receiving Party without access to, use of, or reference to any of the Disclosing Party's Confidential Information.",
+   "request_id": null,
+   "confidence": 0.97
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "(A)",
+   "quote": "regarding a potential commercial relationship between them [[INS: concerning supply chain and freight management software]]",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": null,
+   "clause_no": "1.1.1",
+   "quote": "in England [[INS: or Sweden]] when banks in London [[INS: and Stockholm]] are open for business",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "[[DEL: ten]] [[INS: twenty]] Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "(A) and 1.1.2",
+   "quote": "which is disclosed by or on behalf of the Disclosing Party to the Receiving Party in connection with the Purpose",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.4",
+   "quote": "Disclosing Party means the Party that discloses, or procures the disclosure of, Confidential Information to the other Party",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1",
+   "quote": "shall continue in full force and effect for a period of two (2) years, unless terminated earlier by either Party giving not less than thirty (30) days' prior written notice to the other Party",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "Neither Party may assign, novate, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of the other Party.",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure of any software, prototypes or other tangible objects",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "4.1",
+   "quote": "may disclose the Disclosing Party's Confidential Information to those of its Representatives and members of its Group who strictly need to know",
+   "request_id": "RQ02",
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.2",
+   "quote": "to the extent that it is legally permitted to do so",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.2.1",
+   "quote": "copies of any Confidential Information that are securely stored in routine, automated electronic backup or archiving systems",
+   "request_id": "RQ09",
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1",
+   "quote": "All Confidential Information, and all intellectual property rights in or relating to it, shall remain the exclusive property of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.3",
+   "quote": "Neither Party makes any representation or gives any warranty, express or implied, as to the accuracy, completeness, adequacy or fitness for a particular purpose of any Confidential Information",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement, press release or other public disclosure",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R16",
+   "clause_no": "9.1",
+   "quote": "The Parties do not anticipate that the disclosure of Confidential Information for the Purpose will involve the sharing or processing of any personal data",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

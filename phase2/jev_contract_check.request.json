@@ -1,0 +1,75 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "contract_id": "C01",
+    "parties": {
+      "us": "Halyard",
+      "counterparty": "{{counterparty name from the contract header}}"
+    },
+    "contract_text": "{{full contract text after the injection screen}}",
+    "findings": [
+      {
+        "clause_no": "{{clause_no}}",
+        "rule_id": "{{rule_id}}",
+        "topic": "{{topic}}",
+        "lane": "{{lane}}",
+        "verdict": "{{escalate | deviation_draft | acceptable | matches}}",
+        "draft_redline": "{{draft or null}}"
+      }
+    ]
+  },
+  "questions": {
+    "document_type": {
+      "type": "choice",
+      "instructions": "What kind of agreement is `contract_text`?",
+      "criteria": {
+        "nda_mutual": "A stand-alone NDA where both parties share and protect confidential information.",
+        "nda_one_way": "A stand-alone NDA where only one party discloses confidential information.",
+        "nda_inside_larger_deal": "Confidentiality terms inside a larger agreement, for example services, supply, licence or investment terms.",
+        "not_nda": "The document is not a confidentiality agreement."
+      }
+    },
+    "has_non_compete": {
+      "type": "noul",
+      "instructions": "Does `contract_text` stop either party from competing with the other, or from working in a market, for any period?"
+    },
+    "has_non_solicit": {
+      "type": "noul",
+      "instructions": "Does `contract_text` stop either party from hiring or approaching the other party's staff, customers or suppliers?"
+    },
+    "has_ip_transfer": {
+      "type": "noul",
+      "instructions": "Does `contract_text` assign, license or give ownership of any intellectual property, feedback, ideas or work product from one party to the other?"
+    },
+    "has_exclusivity": {
+      "type": "noul",
+      "instructions": "Does `contract_text` stop either party from talking to, or dealing with, other parties about the same opportunity?"
+    },
+    "has_uncapped_liability": {
+      "type": "noul",
+      "instructions": "Does `contract_text` make either party liable for an indemnity, a penalty, liquidated damages or a loss with no upper limit?"
+    },
+    "topic_present__{{topic_key}}": {
+      "type": "noul",
+      "instructions": "Code adds one question like this for each topic in the playbook that has no finding. Does `contract_text` contain a clause that deals with this topic: {{rule.topic}}, which the playbook describes as: {{rule.preferred_position}}?"
+    },
+    "findings_conflict": {
+      "type": "noul",
+      "instructions": "Do any two items in `findings` lead to drafts or verdicts that cannot both be true or cannot both go into the same contract?",
+      "criteria": {
+        "true": "For example, one draft deletes a clause that another draft amends, or two findings give opposite verdicts on the same clause.",
+        "false": "All findings and drafts can stand together."
+      }
+    },
+    "overall_unusual": {
+      "type": "score",
+      "instructions": "Compared with a standard commercial NDA, how unusual is the structure and content of `contract_text`?",
+      "criteria": [
+        "Standard: the usual NDA clauses in the usual order, with nothing extra.",
+        "Slightly unusual: one extra clause or an unusual definition, but the agreement works like a normal NDA.",
+        "Unusual: several extra terms, a non-standard structure, or terms that serve a purpose other than confidentiality.",
+        "Highly unusual: the document works mainly as a different type of agreement."
+      ]
+    }
+  }
+}

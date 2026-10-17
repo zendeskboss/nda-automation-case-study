@@ -1,0 +1,1500 @@
+{
+ "contract_type": null,
+ "paper": "theirs",
+ "parties_ok": null,
+ "summary": "v2 checklist review",
+ "findings": [
+  {
+   "clause_no": "(A)",
+   "quote": "(A) The Parties wish to explore and evaluate a prospective commercial and technology collaboration concerning software development, system integration, quality engineering, and IT managed services (the Business Purpose).",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L015",
+    "line": 15,
+    "map": {
+     "PB03": 0.59,
+     "not_a_term": 0.26,
+     "definition_or_interpretation": 0.13,
+     "PB01": 0.01,
+     "other_term": 0.01
+    },
+    "rule": "PB03",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.8,
+      "probabilities": {
+       "matches_preferred": 0.85,
+       "meets_fallback": 0.05,
+       "breaches": 0.08,
+       "unclear": 0.02
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.56,
+      "probabilities": {
+       "F1": 0.22,
+       "none": 0.78
+      }
+     }
+    }
+   },
+   "rule_id": "PB03",
+   "verdict": "matches",
+   "confidence": 0.85,
+   "why": "Jev reads the clause as matches preferred (0.85) against PB03 Purpose limitation."
+  },
+  {
+   "clause_no": "(B)",
+   "quote": "(B) During the course of discussions and evaluations relating to the Business Purpose, the Parties intend to share certain proprietary, technical, and commercial information with one another, subject to the terms and conditions of this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L017",
+    "line": 17,
+    "map": {
+     "PB03": 0.49,
+     "other_term": 0.23,
+     "PB01": 0.16,
+     "PB02": 0.07,
+     "not_a_term": 0.04
+    },
+    "rule": "PB03",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.6,
+      "probabilities": {
+       "matches_preferred": 0.7,
+       "meets_fallback": 0.1,
+       "breaches": 0.15,
+       "unclear": 0.05
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.14,
+      "probabilities": {
+       "F1": 0.43,
+       "none": 0.57
+      }
+     }
+    }
+   },
+   "rule_id": "PB03",
+   "verdict": "matches",
+   "confidence": 0.7,
+   "why": "Jev reads the clause as matches preferred (0.70) against PB03 Purpose limitation."
+  },
+  {
+   "clause_no": "1.1.5",
+   "quote": "1.1.5 Confidential Information means any and all proprietary, non-public, or sensitive information, whether technical, business, financial, operational, or legal, in whatever form recorded or communicated (including oral, visual, written, electronic, magnetic, or digital formats), disclosed by or on behalf of Vedanta to Halyard, or otherwise obtained or accessed by Halyard in connection with the Business Purpose, whether disclosed prior to, on, or after the Effective Date. Confidential Information includes, without limitation:",
+   "request_id": null,
+   "draft_redline": "Limit the definition to information disclosed for the Purpose that is marked confidential or would reasonably be considered confidential.",
+   "note_to_counterparty": "We suggest tying the definition to information actually disclosed for the Business Purpose that is marked or reasonably confidential.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L033",
+    "line": 33,
+    "map": {
+     "PB02": 0.99,
+     "definition_or_interpretation": 0.01,
+     "PB01": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB02",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.28,
+      "probabilities": {
+       "matches_preferred": 0.43,
+       "meets_fallback": 0.07,
+       "breaches": 0.46,
+       "unclear": 0.04
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.79,
+      "probabilities": {
+       "F1": 0.02,
+       "F2": 0.12,
+       "none": 0.86
+      }
+     }
+    },
+    "draft_source": "v1 replay PB02 clause 1.1.5"
+   },
+   "rule_id": "PB02",
+   "verdict": "deviation",
+   "confidence": 0.46,
+   "why": "Jev reads the clause as breaches (0.46) against PB02 Definition of Confidential Information."
+  },
+  {
+   "clause_no": "1.1",
+   "quote": "1.1.5.1 all software, computer programs, source code, object code, APIs, technical architectures, database schemas, scripts, algorithms, data models, formats, interfaces, and development tools;\n1.1.5.2 all operational data, customer lists, vendor details, pricing models, margin sheets, cost breakdowns, financial forecasts, billing records, strategic plans, and product roadmaps;\n1.1.5.3 all employee profiles, contractor records, personal identification data, performance appraisals, compensation details, and candidate CVs supplied in connection with prospective resource allocation or project staffing;\n1.1.5.4 all research notes, inventions, ideas, discoveries, processes, know-how, designs, drawings, trade secrets, techniques, and specifications; and\n1.1.5.5 all analyses, compilations, extracts, summaries, notes, working papers, or derivative works prepared by Halyard or its Representatives that contain, reflect, or are generated from any such information.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L034",
+    "line": 34,
+    "map": {
+     "PB02": 0.99,
+     "definition_or_interpretation": 0.01,
+     "PB01": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB02",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.64,
+      "probabilities": {
+       "matches_preferred": 0.17,
+       "meets_fallback": 0.03,
+       "breaches": 0.73,
+       "unclear": 0.07
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.69,
+      "probabilities": {
+       "F1": 0.02,
+       "F2": 0.19,
+       "none": 0.79
+      }
+     }
+    }
+   },
+   "rule_id": "PB02",
+   "verdict": "deviation",
+   "confidence": 0.73,
+   "why": "Jev reads the clause as breaches (0.73) against PB02 Definition of Confidential Information."
+  },
+  {
+   "clause_no": "1.1.8",
+   "quote": "1.1.8 Representatives means the directors, officers, employees, legal advisers, accountants, and consultants of a Party and of its Affiliates who have a legitimate need to access Confidential Information for the Business Purpose.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L044",
+    "line": 44,
+    "map": {
+     "definition_or_interpretation": 0.54,
+     "PB05": 0.46,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB05",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.37,
+      "probabilities": {
+       "matches_preferred": 0.53,
+       "meets_fallback": 0.22,
+       "breaches": 0.16,
+       "unclear": 0.09
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.79,
+      "probabilities": {
+       "F1": 0.13,
+       "F2": 0.01,
+       "none": 0.86
+      }
+     }
+    }
+   },
+   "rule_id": "PB05",
+   "verdict": "matches",
+   "confidence": 0.53,
+   "why": "Jev reads the clause as matches preferred (0.53) against PB05 Permitted disclosure to Representatives and Group."
+  },
+  {
+   "clause_no": "2.1",
+   "quote": "2.1 Halyard acknowledges and agrees that the Confidential Information disclosed to it contains valuable business assets and trade secrets of Vedanta. Accordingly, Halyard undertakes to:\n2.1.1 hold and maintain the Confidential Information in strict confidence, exercising at least the same degree of care that it uses to protect its own confidential information of like importance, and in no event less than a reasonable standard of care;\n2.1.2 restrict the disclosure of Confidential Information solely to those of its Representatives who strictly need to know such information for the furtherance of the Business Purpose;\n2.1.3 ensure that each such Representative is informed of the confidential nature of the Confidential Information and is bound by confidentiality commitments substantially similar to those set out herein;\n2.1.4 not use, exploit, copy, reproduce, reverse engineer, decompile, disassemble, or derive source code from any Confidential Information, in whole or in part, for any purpose other than the direct evaluation and execution of the Business Purpose; and\n2.1.5 refrain from disclosing, publishing, communicating, or transferring any Confidential Information to any third party without the express prior written consent of Vedanta.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L048",
+    "line": 48,
+    "map": {
+     "PB05": 0.73,
+     "PB03": 0.1,
+     "PB20": 0.08,
+     "other_term": 0.08,
+     "PB08": 0.01
+    },
+    "rule": "PB05",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.77,
+      "probabilities": {
+       "matches_preferred": 0.83,
+       "meets_fallback": 0.08,
+       "breaches": 0.06,
+       "unclear": 0.03
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.64,
+      "probabilities": {
+       "F1": 0.03,
+       "F2": 0.21,
+       "none": 0.76
+      }
+     }
+    }
+   },
+   "rule_id": "PB05",
+   "verdict": "matches",
+   "confidence": 0.83,
+   "why": "Jev reads the clause as matches preferred (0.83) against PB05 Permitted disclosure to Representatives and Group."
+  },
+  {
+   "clause_no": "2.2",
+   "quote": "2.2 Halyard shall remain responsible and liable for any breach of this Agreement caused by any act, omission, or default of its Representatives to the same extent as if such act or omission had been committed by Halyard itself.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L055",
+    "line": 55,
+    "map": {
+     "PB14": 0.59,
+     "other_term": 0.22,
+     "PB05": 0.19,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB14",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.8,
+      "probabilities": {
+       "matches_preferred": 0.85,
+       "meets_fallback": 0.02,
+       "breaches": 0.13,
+       "unclear": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB14",
+   "verdict": "matches",
+   "confidence": 0.85,
+   "why": "Jev reads the clause as matches preferred (0.85) against PB14 Indemnities and liability."
+  },
+  {
+   "clause_no": "2.3",
+   "quote": "2.3 Halyard shall immediately notify Vedanta in writing upon becoming aware of any actual, suspected, or threatened unauthorised disclosure, loss, compromise, or misappropriation of any Confidential Information, and shall cooperate fully with Vedanta at Halyard's expense to mitigate and remediate any harm arising therefrom.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L057",
+    "line": 57,
+    "map": {
+     "other_term": 0.93,
+     "PB14": 0.04,
+     "PB13": 0.03,
+     "PB01": 0.0,
+     "PB02": 0.0
+    }
+   },
+   "rule_id": null,
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "why": "Substantive term that no playbook rule covers (Jev other_term 0.93)."
+  },
+  {
+   "clause_no": "3.1",
+   "quote": "3.1 The obligations of confidentiality and non-use set forth in Clause 2 shall not apply to any information that Halyard can clearly demonstrate by contemporaneous written evidence:\n3.1.1 was already in the public domain at the time of its disclosure to Halyard, or subsequently entered the public domain through no fault, act, or omission of Halyard or its Representatives;\n3.1.2 was already lawfully known to Halyard, without any confidentiality obligation or restriction on disclosure, prior to receiving it from Vedanta;\n3.1.3 was independently developed by Halyard's personnel without any access to, reliance upon, or reference to the Confidential Information of Vedanta; or\n3.1.4 is disclosed by Halyard with the prior written authorisation of an executive officer of Vedanta.",
+   "request_id": null,
+   "draft_redline": "\"that the Receiving Party can show by written records: ... (c) was lawfully received from a third party without restriction on disclosure; ...\" Delete 3.1.4 as an exclusion and add the third-party-receipt exclusion.",
+   "note_to_counterparty": "We would like to add the usual exclusion for information received lawfully from a third party and to apply a written-records evidence standard.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L061",
+    "line": 61,
+    "map": {
+     "PB04": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB04",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.89,
+      "probabilities": {
+       "matches_preferred": 0.01,
+       "meets_fallback": 0.07,
+       "breaches": 0.92,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.67,
+      "probabilities": {
+       "F1": 0.03,
+       "F2": 0.78,
+       "none": 0.19
+      }
+     }
+    },
+    "draft_source": "v1 replay PB04 clause 3.1"
+   },
+   "rule_id": "PB04",
+   "verdict": "deviation",
+   "confidence": 0.92,
+   "why": "Jev reads the clause as breaches (0.92) against PB04 Carve-outs."
+  },
+  {
+   "clause_no": "4.1",
+   "quote": "4.1 If Halyard or any of its Representatives is requested or required by applicable law, court order, or summons issued by a regulatory body or stock exchange of competent jurisdiction to disclose any Confidential Information, Halyard shall:\n4.1.1 to the extent permitted by law, provide Vedanta with prompt written notice within three (3) Business Days of receiving such request or demand, so that Vedanta may seek an appropriate protective order, injunctive relief, or other appropriate remedy;\n4.1.2 provide reasonable cooperation and assistance to Vedanta, at Vedanta's reasonable expense, in opposing, narrowing, or seeking confidential treatment for such disclosure; and\n4.1.3 if disclosure remains legally mandatory, disclose only that portion of the Confidential Information that is strictly required to satisfy such legal requirement, and use all reasonable endeavours to secure confidential handling of the disclosed information by the relevant authority.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L069",
+    "line": 69,
+    "map": {
+     "PB06": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB06",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.56,
+      "probabilities": {
+       "matches_preferred": 0.11,
+       "meets_fallback": 0.22,
+       "breaches": 0.67,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.07,
+      "probabilities": {
+       "F1": 0.38,
+       "F2": 0.31,
+       "none": 0.31
+      }
+     }
+    }
+   },
+   "rule_id": "PB06",
+   "verdict": "deviation",
+   "confidence": 0.67,
+   "why": "Jev reads the clause as breaches (0.67) against PB06 Compelled disclosure."
+  },
+  {
+   "clause_no": "5.1",
+   "quote": "5.1 Nothing contained in this Agreement shall be construed, by implication, estoppel, or otherwise, as granting, conveying, or conferring upon Halyard any licence, title, ownership, copyright, patent right, trademark, or any other intellectual property right in or to any Confidential Information of Vedanta.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L076",
+    "line": 76,
+    "map": {
+     "PB08": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.68,
+      "probabilities": {
+       "matches_preferred": 0.76,
+       "meets_fallback": 0.22,
+       "breaches": 0.0,
+       "unclear": 0.02
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.5,
+      "probabilities": {
+       "F1": 0.75,
+       "none": 0.25
+      }
+     }
+    }
+   },
+   "rule_id": "PB08",
+   "verdict": "matches",
+   "confidence": 0.76,
+   "why": "Jev reads the clause as matches preferred (0.76) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "5.2",
+   "quote": "5.2 All Confidential Information, including all copies, extracts, adaptations, and derivative works thereof, shall remain the sole and exclusive property of Vedanta or its licensors.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L078",
+    "line": 78,
+    "map": {
+     "PB08": 0.98,
+     "not_a_term": 0.02,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB08",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.8,
+      "probabilities": {
+       "matches_preferred": 0.85,
+       "meets_fallback": 0.01,
+       "breaches": 0.13,
+       "unclear": 0.01
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.78,
+      "probabilities": {
+       "F1": 0.11,
+       "none": 0.89
+      }
+     }
+    }
+   },
+   "rule_id": "PB08",
+   "verdict": "matches",
+   "confidence": 0.85,
+   "why": "Jev reads the clause as matches preferred (0.85) against PB08 Ownership, licences and IP."
+  },
+  {
+   "clause_no": "6.1",
+   "quote": "6.1 Upon the written request of Vedanta, or automatically upon the termination or expiration of this Agreement, Halyard shall promptly, and in any event within fourteen (14) calendar days:\n6.1.1 return to Vedanta or, at Vedanta's sole option and discretion, permanently destroy or securely erase all originals, copies, summaries, notes, extracts, models, and electronic files containing or derived from Confidential Information in the possession, custody, or control of Halyard or its Representatives; and\n6.1.2 deliver to Vedanta a certificate executed by an authorised officer or director of Halyard confirming full compliance with the provisions of this Clause 6.1.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L082",
+    "line": 82,
+    "map": {
+     "PB07": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB07",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.47,
+      "probabilities": {
+       "matches_preferred": 0.01,
+       "meets_fallback": 0.39,
+       "breaches": 0.6,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.49,
+      "probabilities": {
+       "F1": 0.66,
+       "F2": 0.0,
+       "none": 0.34
+      }
+     }
+    }
+   },
+   "rule_id": "PB07",
+   "verdict": "deviation",
+   "confidence": 0.6,
+   "why": "Jev reads the clause as breaches (0.60) against PB07 Return and destruction."
+  },
+  {
+   "clause_no": "6.2",
+   "quote": "6.2 Notwithstanding Clause 6.1, Halyard may retain one (1) copy of the Confidential Information solely in its legal archives to the extent strictly necessary to comply with applicable statutory, regulatory, or professional record-retention requirements, provided that any information so retained shall continue to be held in strict confidence in accordance with the terms of this Agreement for as long as it is retained.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L086",
+    "line": 86,
+    "map": {
+     "PB07": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB07",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.25,
+      "probabilities": {
+       "matches_preferred": 0.44,
+       "meets_fallback": 0.27,
+       "breaches": 0.2,
+       "unclear": 0.09
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.79,
+      "probabilities": {
+       "F1": 0.14,
+       "F2": 0.0,
+       "none": 0.86
+      }
+     }
+    }
+   },
+   "rule_id": "PB07",
+   "verdict": "matches",
+   "confidence": 0.44,
+   "why": "Jev reads the clause as matches preferred (0.44) against PB07 Return and destruction."
+  },
+  {
+   "clause_no": "7.1",
+   "quote": "7.1 All Confidential Information is provided by Vedanta on an \"as is\" and \"with all faults\" basis. Vedanta makes no representations or warranties, whether express, statutory, or implied, regarding the accuracy, completeness, fitness for a particular purpose, merchantability, or non-infringement of third-party rights with respect to any Confidential Information disclosed hereunder.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Absence of a 'no obligation to proceed' sentence. (ASSUMED)",
+   "evidence": {
+    "uid": "L090",
+    "line": 90,
+    "map": {
+     "PB09": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB09",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.88,
+      "probabilities": {
+       "matches_preferred": 0.07,
+       "meets_fallback": 0.91,
+       "breaches": 0.02,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.91,
+      "probabilities": {
+       "F1": 0.03,
+       "F2": 0.94,
+       "none": 0.03
+      }
+     }
+    }
+   },
+   "rule_id": "PB09",
+   "verdict": "acceptable",
+   "confidence": 0.91,
+   "why": "Jev reads the clause as meets fallback (0.91) against PB09 Warranty and reliance disclaimers."
+  },
+  {
+   "clause_no": "7.2",
+   "quote": "7.2 Vedanta shall not be liable to Halyard or to any other person for any direct, indirect, consequential, punitive, or incidental damages or losses arising out of or resulting from the use of, or reliance upon, any Confidential Information provided under this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Absence of a 'no obligation to proceed' sentence. (ASSUMED)",
+   "evidence": {
+    "uid": "L092",
+    "line": 92,
+    "map": {
+     "PB09": 0.67,
+     "PB14": 0.32,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB09",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.33,
+      "probabilities": {
+       "matches_preferred": 0.06,
+       "meets_fallback": 0.5,
+       "breaches": 0.44,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F2",
+      "confidence": 0.67,
+      "probabilities": {
+       "F1": 0.1,
+       "F2": 0.78,
+       "none": 0.12
+      }
+     }
+    }
+   },
+   "rule_id": "PB09",
+   "verdict": "acceptable",
+   "confidence": 0.5,
+   "why": "Jev reads the clause as meets fallback (0.50) against PB09 Warranty and reliance disclaimers. Borderline: breach or unclear 0.44, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "7.2",
+   "quote": "7.2 Vedanta shall not be liable to Halyard or to any other person for any direct, indirect, consequential, punitive, or incidental damages or losses arising out of or resulting from the use of, or reliance upon, any Confidential Information provided under this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L092",
+    "line": 92,
+    "map": {
+     "PB09": 0.67,
+     "PB14": 0.32,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB14",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.95,
+      "probabilities": {
+       "matches_preferred": 0.04,
+       "meets_fallback": 0.0,
+       "breaches": 0.96,
+       "unclear": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB14",
+   "verdict": "deviation",
+   "confidence": 0.96,
+   "why": "Jev reads the clause as breaches (0.96) against PB14 Indemnities and liability."
+  },
+  {
+   "clause_no": "8.1",
+   "quote": "8.1 Halyard acknowledges that any breach or threatened breach of the covenants and obligations contained in this Agreement may cause irreparable harm and substantial injury to Vedanta, for which monetary damages alone would not constitute an adequate or complete remedy.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L096",
+    "line": 96,
+    "map": {
+     "PB13": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB13",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.23,
+      "probabilities": {
+       "matches_preferred": 0.03,
+       "meets_fallback": 0.42,
+       "breaches": 0.32,
+       "unclear": 0.23
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.52,
+      "probabilities": {
+       "F1": 0.01,
+       "F2": 0.28,
+       "F3": 0.07,
+       "none": 0.64
+      }
+     }
+    }
+   },
+   "rule_id": "PB13",
+   "verdict": "acceptable",
+   "confidence": 0.42,
+   "why": "Jev reads the clause as meets fallback (0.42) against PB13 Remedies. Borderline: breach or unclear 0.55, so this must be reviewed by a lawyer."
+  },
+  {
+   "clause_no": "8.2",
+   "quote": "8.2 In the event of any breach or threatened breach by Halyard or its Representatives, Vedanta shall be entitled to seek injunctive relief, specific performance, and other equitable remedies before any court of competent jurisdiction, without the necessity of proving actual damages or posting any bond or other security, in addition to any other rights and remedies available to it at law or in equity.",
+   "request_id": null,
+   "draft_redline": "\"Each Party may seek injunctive relief and other equitable remedies for any actual or threatened breach by the other, in addition to any other remedies.\"",
+   "note_to_counterparty": "We would like the equitable relief provision to be mutual so that either party can seek an injunction.",
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L098",
+    "line": 98,
+    "map": {
+     "PB13": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB13",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.67,
+      "probabilities": {
+       "matches_preferred": 0.0,
+       "meets_fallback": 0.25,
+       "breaches": 0.75,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.75,
+      "probabilities": {
+       "F1": 0.81,
+       "F2": 0.01,
+       "F3": 0.0,
+       "none": 0.18
+      }
+     }
+    },
+    "draft_source": "v1 replay PB13 clause 8.2"
+   },
+   "rule_id": "PB13",
+   "verdict": "deviation",
+   "confidence": 0.75,
+   "why": "Jev reads the clause as breaches (0.75) against PB13 Remedies."
+  },
+  {
+   "clause_no": "8.3",
+   "quote": "8.3 In any action, suit, or legal proceeding commenced by Vedanta to enforce the provisions of this Agreement or to obtain equitable relief pursuant to this Clause 8, if a court of competent jurisdiction determines that Halyard or any of its Representatives has committed any breach or violation hereof, Halyard shall reimburse Vedanta upon demand for all costs, charges, and expenses incurred by Vedanta in connection with such proceeding, including without limitation all reasonable attorneys' fees, court fees, expert witness charges, and litigation disbursements, without Vedanta being required to satisfy any reciprocal fee-shifting obligation in the event Halyard successfully defends such action.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L100",
+    "line": 100,
+    "map": {
+     "PB13": 0.54,
+     "other_term": 0.31,
+     "PB14": 0.15,
+     "PB01": 0.0,
+     "PB02": 0.0
+    },
+    "rule": "PB13",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "breaches",
+      "confidence": 0.53,
+      "probabilities": {
+       "matches_preferred": 0.06,
+       "meets_fallback": 0.17,
+       "breaches": 0.65,
+       "unclear": 0.12
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 0.77,
+      "probabilities": {
+       "F1": 0.05,
+       "F2": 0.1,
+       "F3": 0.02,
+       "none": 0.83
+      }
+     }
+    }
+   },
+   "rule_id": "PB13",
+   "verdict": "deviation",
+   "confidence": 0.65,
+   "why": "Jev reads the clause as breaches (0.65) against PB13 Remedies."
+  },
+  {
+   "clause_no": "9.1",
+   "quote": "9.1 This Agreement shall commence on the Effective Date and shall continue in full force and effect for an initial term of two (2) years, unless terminated earlier by either Party upon giving thirty (30) calendar days' written notice to the other Party.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L104",
+    "line": 104,
+    "map": {
+     "PB12": 0.99,
+     "other_term": 0.01,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0
+    },
+    "rule": "PB12",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.81,
+      "probabilities": {
+       "matches_preferred": 0.86,
+       "meets_fallback": 0.11,
+       "breaches": 0.01,
+       "unclear": 0.02
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.54,
+      "probabilities": {
+       "F1": 0.63,
+       "F2": 0.0,
+       "F3": 0.0,
+       "F4": 0.0,
+       "none": 0.37
+      }
+     }
+    }
+   },
+   "rule_id": "PB12",
+   "verdict": "matches",
+   "confidence": 0.86,
+   "why": "Jev reads the clause as matches preferred (0.86) against PB12 Term and survival."
+  },
+  {
+   "clause_no": "9.2",
+   "quote": "9.2 The confidentiality, non-use, and return obligations set out in this Agreement shall survive the termination or expiration of this Agreement and shall remain binding upon Halyard for a period of three (3) years from the effective date of termination or expiration, except that in respect of any Confidential Information that constitutes a trade secret under applicable law, such obligations shall survive indefinitely for as long as such information remains a trade secret.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L106",
+    "line": 106,
+    "map": {
+     "PB12": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB12",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.91,
+      "probabilities": {
+       "matches_preferred": 0.93,
+       "meets_fallback": 0.07,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F3",
+      "confidence": 0.68,
+      "probabilities": {
+       "F1": 0.0,
+       "F2": 0.22,
+       "F3": 0.74,
+       "F4": 0.0,
+       "none": 0.04
+      }
+     }
+    }
+   },
+   "rule_id": "PB12",
+   "verdict": "matches",
+   "confidence": 0.93,
+   "why": "Jev reads the clause as matches preferred (0.93) against PB12 Term and survival."
+  },
+  {
+   "clause_no": "10.1",
+   "quote": "10.1 Entire Agreement. This Agreement constitutes the entire agreement and understanding between the Parties with respect to the subject matter hereof and supersedes all prior agreements, representations, understandings, arrangements, and negotiations, whether oral or written, between them relating to such subject matter.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L110",
+    "line": 110,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.88,
+      "probabilities": {
+       "matches_preferred": 0.91,
+       "meets_fallback": 0.09,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.98,
+      "probabilities": {
+       "F1": 0.99,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.91,
+   "why": "Jev reads the clause as matches preferred (0.91) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.2",
+   "quote": "10.2 Amendments. No supplement, amendment, modification, or waiver of any provision of this Agreement shall be binding or effective unless made in writing and duly signed by authorised representatives of both Parties.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L112",
+    "line": 112,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.79,
+      "probabilities": {
+       "matches_preferred": 0.84,
+       "meets_fallback": 0.16,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.84,
+   "why": "Jev reads the clause as matches preferred (0.84) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.3",
+   "quote": "10.3 Severability. If any provision of this Agreement, or any portion thereof, is held to be invalid, illegal, or unenforceable by any court or tribunal of competent jurisdiction, the remaining provisions of this Agreement shall remain in full force and effect, and the invalid or unenforceable provision shall be construed or modified to the minimum extent necessary to render it valid, legal, and enforceable while giving effect to the commercial intention of the Parties.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L114",
+    "line": 114,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.8,
+      "probabilities": {
+       "matches_preferred": 0.85,
+       "meets_fallback": 0.15,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 0.98,
+      "probabilities": {
+       "F1": 0.99,
+       "none": 0.01
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.85,
+   "why": "Jev reads the clause as matches preferred (0.85) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.4",
+   "quote": "10.4 No Assignment. Neither Party may assign, transfer, delegate, sub-contract, or charge any of its rights, benefits, or obligations under this Agreement, in whole or in part, without the prior written consent of the other Party, except that either Party may assign this Agreement upon written notice to an Affiliate or to a successor entity in connection with any merger, consolidation, acquisition, or sale of substantially all of its assets.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": "Either party may assign to a Group member or successor on notice.",
+   "evidence": {
+    "uid": "L116",
+    "line": 116,
+    "map": {
+     "PB19": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB19",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "meets_fallback",
+      "confidence": 0.43,
+      "probabilities": {
+       "matches_preferred": 0.43,
+       "meets_fallback": 0.5700000000000001,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB19",
+   "verdict": "acceptable",
+   "confidence": 0.57,
+   "why": "Jev reads the clause as meets fallback (0.57) against PB19 Assignment."
+  },
+  {
+   "clause_no": "10.5",
+   "quote": "10.5 No Commercial Obligation. Nothing in this Agreement shall obligate either Party to disclose any specific information, to enter into any transaction or commercial relationship, to negotiate any definitive agreement, or to refrain from entering into discussions or transactions with any third party, provided that such discussions or transactions do not violate the terms of this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L118",
+    "line": 118,
+    "map": {
+     "PB16": 0.64,
+     "other_term": 0.18,
+     "PB09": 0.17,
+     "PB15": 0.01,
+     "PB01": 0.0
+    },
+    "rule": "PB16",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 1.0,
+       "meets_fallback": 0.0,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB16",
+   "verdict": "matches",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as matches preferred (1.00) against PB16 Non-compete and exclusivity."
+  },
+  {
+   "clause_no": "10.6",
+   "quote": "10.6 Notices. Any notice, request, consent, approval, or other communication required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given: (a) when delivered personally by hand against written receipt; (b) three (3) Business Days after being dispatched by internationally recognised overnight courier service; or (c) on the date of transmission if sent by email, provided that no bounce-back or automated failure report is received and that a duplicate copy is dispatched by courier within twenty-four (24) hours. Notices shall be addressed to the respective Parties at their registered office addresses set forth at the beginning of this Agreement, marked for the attention of the Legal Department.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L120",
+    "line": 120,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.72,
+      "probabilities": {
+       "matches_preferred": 0.79,
+       "meets_fallback": 0.21,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.79,
+   "why": "Jev reads the clause as matches preferred (0.79) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.7",
+   "quote": "10.7 Counterparts and Electronic Signatures. This Agreement may be executed in any number of counterparts, each of which when executed and delivered shall be deemed an original, and all of which taken together shall constitute one and the same instrument. Delivery of an executed counterpart by electronic scan, PDF, or electronic signature platform (such as DocuSign or Adobe Sign) shall be as valid, binding, and effective as physical delivery of an ink-signed original.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L122",
+    "line": 122,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.73,
+      "probabilities": {
+       "matches_preferred": 0.8,
+       "meets_fallback": 0.2,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.8,
+   "why": "Jev reads the clause as matches preferred (0.80) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.8",
+   "quote": "10.8 Third Party Rights. A person who is not a party to this Agreement shall have no rights under the Contracts (Rights of Third Parties) Act 1999 or any other applicable enactment to enforce or enjoy the benefit of any term of this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L124",
+    "line": 124,
+    "map": {
+     "PB21": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB21",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 0.97,
+      "probabilities": {
+       "matches_preferred": 0.98,
+       "meets_fallback": 0.02,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "F1",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 1.0,
+       "none": 0.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB21",
+   "verdict": "matches",
+   "confidence": 0.98,
+   "why": "Jev reads the clause as matches preferred (0.98) against PB21 Boilerplate (notices, variation, waiver, severance, third-party rights, entire agreement, counterparts)."
+  },
+  {
+   "clause_no": "10.9",
+   "quote": "10.9 Governing Law and Jurisdiction. This Agreement, and any dispute, controversy, claim, or proceeding arising out of or in connection with it, its subject matter, or its formation (including non-contractual disputes, claims, or tort claims), shall be governed by, and construed in accordance with, the laws of England and Wales. The Parties irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute, controversy, or claim arising out of or relating to this Agreement.",
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "evidence": {
+    "uid": "L126",
+    "line": 126,
+    "map": {
+     "PB18": 1.0,
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0
+    },
+    "rule": "PB18",
+    "code": [],
+    "answers": {
+     "position_check": {
+      "type": "choice",
+      "choice": "matches_preferred",
+      "confidence": 1.0,
+      "probabilities": {
+       "matches_preferred": 1.0,
+       "meets_fallback": 0.0,
+       "breaches": 0.0,
+       "unclear": 0.0
+      }
+     },
+     "fallback": {
+      "type": "choice",
+      "choice": "none",
+      "confidence": 1.0,
+      "probabilities": {
+       "F1": 0.0,
+       "none": 1.0
+      }
+     }
+    }
+   },
+   "rule_id": "PB18",
+   "verdict": "matches",
+   "confidence": 1.0,
+   "why": "Jev reads the clause as matches preferred (1.00) against PB18 Governing law and jurisdiction."
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB01",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB01 Mutuality: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB01"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB10",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB10 Publicity: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB10"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB11",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB11 Personal data: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB11"
+   }
+  },
+  {
+   "clause_no": "Missing",
+   "quote": null,
+   "rule_id": "PB20",
+   "verdict": "deviation",
+   "confidence": 1.0,
+   "request_id": null,
+   "draft_redline": null,
+   "note_to_counterparty": null,
+   "fallback_cited": null,
+   "why": "No clause in the contract maps to PB20 Reverse engineering: a lawyer must decide.",
+   "evidence": {
+    "missing": "PB20"
+   }
+  }
+ ],
+ "prompt_version": "v2.0"
+}

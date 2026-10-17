@@ -1,0 +1,141 @@
+{
+ "contract_id": "C11",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "2.5",
+   "quote": "shall promptly notify the Disclosing Party in writing upon discovering any actual or suspected unauthorized use, loss, or disclosure of the Disclosing Party's Confidential Information",
+   "request_id": null,
+   "confidence": 0.5
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "that the Receiving Party can prove by competent, contemporaneous written evidence",
+   "request_id": null,
+   "confidence": 0.55
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "5.1",
+   "quote": "within ten (10) business days either promptly return to the Disclosing Party all tangible materials embodying the Disclosing Party's Confidential Information or permanently destroy and erase all such materials",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R09",
+   "clause_no": "8.1",
+   "quote": "the Disclosing Party shall be entitled to seek injunctive relief, specific performance, and other equitable remedies from any court of competent jurisdiction, in addition to all other remedies available at law or in equity, without the necessity of proving actual damages or posting any bond or other security",
+   "request_id": null,
+   "confidence": 0.82
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R01",
+   "clause_no": "1.1.2",
+   "quote": "disclosed by or on behalf of a Party or its Affiliates (the \"Disclosing Party\") to the other Party or its Affiliates (the \"Receiving Party\")",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "designated as \"Confidential,\" \"Proprietary,\" or with a similar legend at the time of disclosure, or that reasonably should be understood to be confidential",
+   "request_id": null,
+   "confidence": 0.88
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R14",
+   "clause_no": "2.2",
+   "quote": "solely as necessary to evaluate, pursue, or fulfill the Purpose and for no other purpose whatsoever",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "2.3",
+   "quote": "may disclose such Confidential Information to those of its Representatives who have a bona fide need to know such information for the Purpose",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.4",
+   "quote": "shall not reverse engineer, decompile, disassemble, translate, or otherwise attempt to derive the source code",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "4.1",
+   "quote": "the Receiving Party may make such disclosure to the minimum extent legally required, provided that the Receiving Party shall, to the extent legally permissible:",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "6.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party or its licensors. Nothing in this Agreement shall be construed as granting any patent, copyright, trademark, trade secret, or other intellectual property right or license",
+   "request_id": null,
+   "confidence": 0.92
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "6.2",
+   "quote": "ALL CONFIDENTIAL INFORMATION IS PROVIDED \"AS IS\" WITHOUT ANY WARRANTY OF ANY KIND. NEITHER PARTY MAKES ANY REPRESENTATIONS OR WARRANTIES",
+   "request_id": null,
+   "confidence": 0.88
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "7.1",
+   "quote": "for a period of two (2) years thereafter, unless terminated earlier by either Party upon thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "7.2",
+   "quote": "shall survive for a fixed period of thirty-six (36) months following the effective date of such expiration or termination",
+   "request_id": null,
+   "confidence": 0.92
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "9.1",
+   "quote": "Neither Party shall issue any press release or make any public announcement regarding the existence of this Agreement or the discussions between the Parties",
+   "request_id": null,
+   "confidence": 0.88
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "9.2",
+   "quote": "Neither Party may assign or transfer this Agreement, or any of its rights or obligations hereunder, without the prior written consent of the other Party",
+   "request_id": null,
+   "confidence": 0.93
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "9.4",
+   "quote": "governed by and construed in accordance with the laws of England and Wales",
+   "request_id": null,
+   "confidence": 0.95
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "variance": {
+  "C01": {
+   "keys": 40,
+   "every": 39,
+   "same_ai": 37,
+   "same_route": 37
+  },
+  "C05": {
+   "keys": 43,
+   "every": 42,
+   "same_ai": 41,
+   "same_route": 41
+  },
+  "C12": {
+   "keys": 44,
+   "every": 41,
+   "same_ai": 37,
+   "same_route": 36
+  }
+ },
+ "consistency_exact": {
+  "groups": 39,
+  "route_agree": 34
+ },
+ "consistency": {
+  "groups": 45,
+  "ai_agree": 32,
+  "route_agree": 32
+ },
+ "coverage": {
+  "reaches a lawyer": 145,
+  "passed by the tool": 40
+ },
+ "change_test": {
+  "C01": {
+   "perturbed": [
+    39,
+    40
+   ],
+   "baseline": [
+    40,
+    40
+   ]
+  },
+  "C05": {
+   "perturbed": [
+    43,
+    45
+   ],
+   "baseline": [
+    45,
+    45
+   ]
+  },
+  "C12": {
+   "perturbed": [
+    40,
+    44
+   ],
+   "baseline": [
+    41,
+    44
+   ]
+  }
+ },
+ "attacks": {
+  "A01": {
+   "screen": true,
+   "lawyer": 22,
+   "matches": 24,
+   "same": [
+    42,
+    47
+   ]
+  },
+  "A02": {
+   "screen": true,
+   "lawyer": 22,
+   "matches": 22,
+   "same": [
+    43,
+    45
+   ]
+  },
+  "A03": {
+   "screen": false,
+   "lawyer": 20,
+   "matches": 22,
+   "same": [
+    42,
+    44
+   ]
+  }
+ },
+ "robustness": [
+  [
+   "Jev outage on C01: every clause goes to a lawyer",
+   "pass",
+   "65 findings, 0 passed without a lawyer"
+  ],
+  [
+   "Borderline pass (breach 0.32, band 0.30) goes to a lawyer",
+   "pass",
+   "(A) PB03: escalate"
+  ],
+  [
+   "Replay of all 30 from saved evidence gives identical output",
+   "pass",
+   "no Jev calls"
+  ],
+  [
+   "Every quote is verbatim contract text (30 contracts)",
+   "pass",
+   "0 not found"
+  ],
+  [
+   "Every finding carries its evidence record",
+   "pass",
+   "0 without"
+  ]
+ ],
+ "load": {
+  "v1": [
+   183,
+   134,
+   572
+  ],
+  "v2": [
+   451,
+   427,
+   1061
+  ],
+  "jev_calls": 2270,
+  "tokens": [
+   3052283,
+   405091
+  ]
+ },
+ "escalation_reasons": {
+  "Edited clause that maps to no rule": 38,
+  "Jev answer: unclear": 30,
+  "Margin comment asks for a change": 13,
+  "Confidence below the 0.6 floor": 70,
+  "Breach with no draft (no LLM in this run)": 45,
+  "Term that no rule covers": 47,
+  "Lane: lawyer only or shadow": 52,
+  "Borderline pass": 66,
+  "No clause for a required topic": 63,
+  "Other": 1,
+  "Code check failed": 2
+ }
+}

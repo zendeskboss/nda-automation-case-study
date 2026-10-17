@@ -1,0 +1,91 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "contract_id": "C01",
+    "parties": {
+      "us": "Halyard",
+      "counterparty": "{{counterparty name from the contract header}}"
+    },
+    "finding": {
+      "clause_no": "{{finding.clause_no}}",
+      "quote": "{{finding.quote, already checked verbatim by code}}",
+      "clause_text": "{{full text of the clause that contains the quote, copied by code}}",
+      "rule_id": "{{finding.rule_id}}",
+      "lane": "{{purple_ai | orange | purple_human}}",
+      "llm_verdict": "{{matches | acceptable | deviation}}",
+      "llm_confidence": "{{finding.confidence}}",
+      "llm_reason": "{{finding.why}}"
+    },
+    "rule": {
+      "id": "{{rule.id}}",
+      "topic": "{{rule.topic}}",
+      "preferred_position": "{{rule preferred position, rendered from playbook.yaml by code}}",
+      "acceptable_fallbacks": ["{{each ACCEPTABLE line for this rule}}"],
+      "not_acceptable": ["{{each NOT ACCEPTABLE line for this rule}}"]
+    },
+    "related_clauses": [
+      {
+        "clause_no": "{{clause number}}",
+        "text": "{{definition, carve-out or override clause that code finds by cross-reference or shared defined term}}"
+      }
+    ],
+    "draft": {
+      "draft_redline": "{{finding.draft_redline, or null when lane is not purple_ai}}"
+    }
+  },
+  "questions": {
+    "rule_fit": {
+      "type": "choice",
+      "instructions": "Decide whether the playbook rule in `rule` covers the subject of the clause in `finding.clause_text`. Judge the subject of the clause only. Do not judge whether the clause is acceptable.",
+      "criteria": {
+        "fits": "The clause deals with the topic and the obligation that `rule` describes.",
+        "fits_other_rule": "The clause deals with a different contract topic that a separate playbook rule would cover.",
+        "no_rule_fits": "The clause deals with a term that no NDA playbook rule normally covers, or the clause is not contract wording."
+      }
+    },
+    "position_check": {
+      "type": "choice",
+      "instructions": "Compare the clause in `finding.clause_text` with the company position in `rule`. Use `related_clauses` when they change what the clause means. Ignore old-fashioned or wordy drafting when the substance is the same.",
+      "criteria": {
+        "matches_preferred": "The clause gives the same result as `rule.preferred_position`.",
+        "meets_fallback": "The clause differs from the preferred position, but one line in `rule.acceptable_fallbacks` fits it.",
+        "breaches": "The clause gives a result that the preferred position and every acceptable fallback do not allow, or a result listed in `rule.not_acceptable`.",
+        "unclear": "The clause is ambiguous, so a reader can take it to match the position or to breach it."
+      }
+    },
+    "changed_elsewhere": {
+      "type": "noul",
+      "instructions": "Does any clause in `related_clauses` narrow, widen, override or redefine the effect of the clause in `finding.clause_text` for the topic in `rule.topic`?",
+      "criteria": {
+        "true": "At least one related clause changes who is bound, what information is covered, how long the duty lasts, or what exceptions apply.",
+        "false": "No related clause changes the effect of this clause, or `related_clauses` is empty."
+      }
+    },
+    "risk_to_us": {
+      "type": "score",
+      "instructions": "As written, how much legal or commercial risk does the clause in `finding.clause_text` put on `parties.us`?",
+      "criteria": [
+        "No risk: the clause protects us, or it is neutral and mutual.",
+        "Low risk: a small departure that a business owner can accept without legal advice.",
+        "Moderate risk: the clause shifts a real obligation or exposure to us and needs a negotiated fix.",
+        "High risk: the clause can cause a large loss, a loss of IP or confidential data, or a duty that survives without limit."
+      ]
+    },
+    "draft_fixes_breach": {
+      "type": "noul",
+      "instructions": "If the counterparty accepts the wording in `draft.draft_redline` in place of `finding.clause_text`, does the clause then meet `rule.preferred_position` or one of `rule.acceptable_fallbacks`?"
+    },
+    "draft_extra_change": {
+      "type": "noul",
+      "instructions": "Does the wording in `draft.draft_redline` change any part of the meaning of `finding.clause_text` that `rule` does not ask to change?",
+      "criteria": {
+        "true": "The draft also changes another right, duty, party, time period or exception.",
+        "false": "The draft changes only what is needed to restore the company position."
+      }
+    },
+    "draft_new_duty_for_us": {
+      "type": "noul",
+      "instructions": "Does the wording in `draft.draft_redline` give `parties.us` a new obligation that `finding.clause_text` did not give?"
+    }
+  }
+}

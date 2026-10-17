@@ -1,0 +1,2658 @@
+{
+ "contract_id": "C23",
+ "engine": "v2.0",
+ "model": "jev-latest",
+ "thresholds": {
+  "map_min": 0.25,
+  "map_other": 0.5,
+  "comment_request": 0.5,
+  "request_match": 0.5,
+  "borderline": 0.3
+ },
+ "playbook_version": "1.0",
+ "contract_sha256": "fb8d4f44a717faff95622925e58a82bbe6983814d3bdee2660ff05b17d41afff",
+ "created": "2026-10-17T18:26:14",
+ "units": [
+  {
+   "uid": "L006",
+   "line": 6,
+   "clause_no": "Parties",
+   "raw": "(1) LEDGERFLOW TECHNOLOGIES LTD, a company registered in England and Wales under company number 12894562, whose registered office is at 4th Floor, 80 Commercial Street, London E1 6LY (LedgerFlow); and",
+   "after_edits": "(1) LEDGERFLOW TECHNOLOGIES LTD, a company registered in England and Wales under company number 12894562, whose registered office is at 4th Floor, 80 Commercial Street, London E1 6LY (LedgerFlow); and",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    6
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 1.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1477,
+     "output_tokens": 237
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L007",
+   "line": 7,
+   "clause_no": "Parties",
+   "raw": "(2) HALYARD SOFTWARE LTD, a company registered in England and Wales under company number 09876543, whose registered office is at 12 Mill Lane, Manchester M1 2AB (Halyard).",
+   "after_edits": "(2) HALYARD SOFTWARE LTD, a company registered in England and Wales under company number 09876543, whose registered office is at 12 Mill Lane, Manchester M1 2AB (Halyard).",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    7
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.99,
+     "definition_or_interpretation": 0.01
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1455,
+     "output_tokens": 237
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L009",
+   "line": 9,
+   "clause_no": "Parties",
+   "raw": "Each of LedgerFlow and Halyard is referred to individually as a Party and together as the Parties.",
+   "after_edits": "Each of LedgerFlow and Halyard is referred to individually as a Party and together as the Parties.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    9
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.87,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.12,
+     "definition_or_interpretation": 0.88
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1397,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L012",
+   "line": 12,
+   "clause_no": "(A)",
+   "raw": "(A) The Parties wish to explore and evaluate a potential commercial and technology integration relationship between them relating to automated financial ledger workflows and enterprise reporting (the Purpose).",
+   "after_edits": "(A) The Parties wish to explore and evaluate a potential commercial and technology integration relationship between them relating to automated financial ledger workflows and enterprise reporting (the Purpose).",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    12
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB03",
+    "confidence": 0.74,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.75,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.17,
+     "definition_or_interpretation": 0.08
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1415,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 810,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB03"
+   ],
+   "checks": {
+    "PB03": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.73,
+       "probabilities": {
+        "matches_preferred": 0.8,
+        "meets_fallback": 0.13,
+        "breaches": 0.06,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.14,
+       "probabilities": {
+        "F1": 0.43,
+        "none": 0.57
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L013",
+   "line": 13,
+   "clause_no": "(B)",
+   "raw": "(B) In the course of discussing and evaluating the Purpose, each Party may disclose certain sensitive commercial, technical and operational information to the other Party on a confidential basis.",
+   "after_edits": "(B) In the course of discussing and evaluating the Purpose, each Party may disclose certain sensitive commercial, technical and operational information to the other Party on a confidential basis.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    13
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB02",
+    "confidence": 0.52,
+    "probabilities": {
+     "PB01": 0.14,
+     "PB02": 0.54,
+     "PB03": 0.19,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.11,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1419,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 904,
+     "output_tokens": 93
+    }
+   ],
+   "mapped": [
+    "PB02"
+   ],
+   "checks": {
+    "PB02": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "unclear",
+       "confidence": 0.15,
+       "probabilities": {
+        "matches_preferred": 0.24,
+        "meets_fallback": 0.11,
+        "breaches": 0.29,
+        "unclear": 0.36
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.83,
+       "probabilities": {
+        "F1": 0.1,
+        "F2": 0.01,
+        "none": 0.89
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L014",
+   "line": 14,
+   "clause_no": "(C)",
+   "raw": "(C) The Parties have agreed to enter into this mutual non-disclosure agreement to govern the exchange, use and protection of such confidential information.",
+   "after_edits": "(C) The Parties have agreed to enter into this mutual non-disclosure agreement to govern the exchange, use and protection of such confidential information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    14
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "not_a_term",
+    "confidence": 0.46,
+    "probabilities": {
+     "PB01": 0.42,
+     "PB02": 0.0,
+     "PB03": 0.01,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.08,
+     "not_a_term": 0.48,
+     "definition_or_interpretation": 0.01
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1411,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 900,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB01"
+   ],
+   "checks": {
+    "PB01": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.59,
+       "probabilities": {
+        "matches_preferred": 0.69,
+        "meets_fallback": 0.0,
+        "breaches": 0.01,
+        "unclear": 0.3
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.73,
+       "probabilities": {
+        "F1": 0.18,
+        "F2": 0.0,
+        "none": 0.82
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L019",
+   "line": 19,
+   "clause_no": "1.1",
+   "raw": "1.1 In this Agreement, unless the context otherwise requires, the following terms have the following meanings:",
+   "after_edits": "1.1 In this Agreement, unless the context otherwise requires, the following terms have the following meanings:",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    19
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.99
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1396,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L020",
+   "line": 20,
+   "clause_no": "1.1.1",
+   "raw": "1.1.1 Applicable Law means any statute, statutory instrument, directive, regulation or order having the force of law in England and Wales.",
+   "after_edits": "1.1.1 Applicable Law means any statute, statutory instrument, directive, regulation or order having the force of law in England and Wales.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    20
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.75,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.24,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.76
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1418,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L021",
+   "line": 21,
+   "clause_no": "1.1.2",
+   "raw": "1.1.2 Business Day means any day other than a Saturday, Sunday or public holiday in England when clearing banks in the City of London are open for ordinary banking business.",
+   "after_edits": "1.1.2 Business Day means any day other than a Saturday, Sunday or public holiday in England when clearing banks in the City of London are open for ordinary banking business.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    21
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 1.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1428,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L022",
+   "line": 22,
+   "clause_no": "1.1.3",
+   "raw": "1.1.3 Confidential Information means any and all information of a confidential or proprietary nature, whether in oral, visual, electronic, machine-readable or tangible form, disclosed by or on behalf of LedgerFlow to Halyard in connection with the Purpose, whether before, on or after the date of this Agreement, including without limitation technical specifications, application programming interfaces, software code, product designs, architecture diagrams, business methods, commercial terms, pricing structures, client transaction records, user identity data and associated individual account holder personal data, financial models and strategic roadmaps, together with any notes, analyses, summaries or derivative materials created by Halyard containing or reflecting such information.",
+   "after_edits": "1.1.3 Confidential Information means any and all information of a confidential or proprietary nature, whether in oral, visual, electronic, machine-readable or tangible form, disclosed by or on behalf of LedgerFlow to Halyard in connection with the Purpose, whether before, on or after the date of this Agreement, including without limitation technical specifications, application programming interfaces, software code, product designs, architecture diagrams, business methods, commercial terms, pricing structures, client transaction records, user identity data and associated individual account holder personal data, financial models and strategic roadmaps, together with any notes, analyses, summaries or derivative materials created by Halyard containing or reflecting such information.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    22
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB02",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.99,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.01,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1630,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1115,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB02"
+   ],
+   "checks": {
+    "PB02": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.75,
+       "probabilities": {
+        "matches_preferred": 0.81,
+        "meets_fallback": 0.09,
+        "breaches": 0.08,
+        "unclear": 0.02
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.92,
+       "probabilities": {
+        "F1": 0.01,
+        "F2": 0.04,
+        "none": 0.95
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L023",
+   "line": 23,
+   "clause_no": "1.1.4",
+   "raw": "1.1.4 Effective Date means the date set out at the beginning of this Agreement.",
+   "after_edits": "1.1.4 Effective Date means the date set out at the beginning of this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    23
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 1.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1394,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L024",
+   "line": 24,
+   "clause_no": "1.1.5",
+   "raw": "1.1.5 Permitted Purpose means the evaluation, testing and discussion of the Purpose between the Parties, and no other commercial, developmental or operational purpose whatsoever.",
+   "after_edits": "1.1.5 Permitted Purpose means the evaluation, testing and discussion of the Purpose between the Parties, and no other commercial, developmental or operational purpose whatsoever.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    24
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB03",
+    "confidence": 0.74,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.75,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.25
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1422,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 817,
+     "output_tokens": 89
+    }
+   ],
+   "mapped": [
+    "PB03"
+   ],
+   "checks": {
+    "PB03": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.39,
+       "probabilities": {
+        "matches_preferred": 0.38,
+        "meets_fallback": 0.54,
+        "breaches": 0.02,
+        "unclear": 0.06
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.76,
+       "probabilities": {
+        "F1": 0.88,
+        "none": 0.12
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L025",
+   "line": 25,
+   "clause_no": "1.1.6",
+   "raw": "1.1.6 Representatives means, in respect of a Party, that Party’s directors, officers, employees, professional legal advisers, accountants and authorized technical contractors directly involved in assessing the Purpose.",
+   "after_edits": "1.1.6 Representatives means, in respect of a Party, that Party’s directors, officers, employees, professional legal advisers, accountants and authorized technical contractors directly involved in assessing the Purpose.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    25
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "definition_or_interpretation",
+    "confidence": 0.79,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.2,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.8
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1438,
+     "output_tokens": 240
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L028",
+   "line": 28,
+   "clause_no": "2.1",
+   "raw": "2.1 In consideration of the mutual disclosure of information under this Agreement, Halyard undertakes that it shall:\n2.1.1 hold all Confidential Information in strict confidence and not disclose, distribute, copy or publish any Confidential Information to any third party, in whole or in part, without the prior written consent of LedgerFlow;\n2.1.2 use the Confidential Information solely and exclusively for the Permitted Purpose;\n2.1.3 exercise the same degree of care to protect the Confidential Information as it applies to its own highly confidential materials, and in any event not less than a reasonable standard of commercial care;\n2.1.4 restrict access to the Confidential Information strictly to those of its Representatives who need to know such information for the Permitted Purpose; and\n2.1.5 ensure that each Representative to whom Confidential Information is disclosed is made aware of its confidential nature and is bound by professional or written contractual confidentiality obligations no less restrictive than those set out in this Agreement.",
+   "after_edits": "2.1 In consideration of the mutual disclosure of information under this Agreement, Halyard undertakes that it shall:\n2.1.1 hold all Confidential Information in strict confidence and not disclose, distribute, copy or publish any Confidential Information to any third party, in whole or in part, without the prior written consent of LedgerFlow;\n2.1.2 use the Confidential Information solely and exclusively for the Permitted Purpose;\n2.1.3 exercise the same degree of care to protect the Confidential Information as it applies to its own highly confidential materials, and in any event not less than a reasonable standard of commercial care;\n2.1.4 restrict access to the Confidential Information strictly to those of its Representatives who need to know such information for the Permitted Purpose; and\n2.1.5 ensure that each Representative to whom Confidential Information is disclosed is made aware of its confidential nature and is bound by professional or written contractual confidentiality obligations no less restrictive than those set out in this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB05",
+    "confidence": 0.87,
+    "probabilities": {
+     "PB01": 0.01,
+     "PB02": 0.0,
+     "PB03": 0.06,
+     "PB04": 0.0,
+     "PB05": 0.88,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.05,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1756,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1536,
+     "output_tokens": 96
+    }
+   ],
+   "mapped": [
+    "PB05"
+   ],
+   "checks": {
+    "PB05": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.44,
+       "probabilities": {
+        "matches_preferred": 0.58,
+        "meets_fallback": 0.23,
+        "breaches": 0.15,
+        "unclear": 0.04
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.61,
+       "probabilities": {
+        "F1": 0.01,
+        "F2": 0.74,
+        "none": 0.25
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L034",
+   "line": 34,
+   "clause_no": "2.2",
+   "raw": "2.2 Halyard shall be directly liable for any breach of the terms of this Agreement by any of its Representatives as if such breach had been committed by Halyard itself.",
+   "after_edits": "2.2 Halyard shall be directly liable for any breach of the terms of this Agreement by any of its Representatives as if such breach had been committed by Halyard itself.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    34
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB14",
+    "confidence": 0.59,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.19,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.61,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.2,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1428,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 808,
+     "output_tokens": 58
+    }
+   ],
+   "mapped": [
+    "PB14"
+   ],
+   "checks": {
+    "PB14": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.6,
+       "probabilities": {
+        "matches_preferred": 0.7,
+        "meets_fallback": 0.04,
+        "breaches": 0.25,
+        "unclear": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L035",
+   "line": 35,
+   "clause_no": "2.3",
+   "raw": "2.3 Halyard shall promptly notify LedgerFlow in writing upon becoming aware of any actual, suspected or threatened unauthorised disclosure, loss, access or misuse of any Confidential Information, and shall cooperate fully with LedgerFlow to mitigate and remedy the effects of any such occurrence.",
+   "after_edits": "2.3 Halyard shall promptly notify LedgerFlow in writing upon becoming aware of any actual, suspected or threatened unauthorised disclosure, loss, access or misuse of any Confidential Information, and shall cooperate fully with LedgerFlow to mitigate and remedy the effects of any such occurrence.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    35
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "other_term",
+    "confidence": 0.97,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.02,
+     "PB14": 0.01,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.97,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1472,
+     "output_tokens": 236
+    }
+   ],
+   "mapped": []
+  },
+  {
+   "uid": "L038",
+   "line": 38,
+   "clause_no": "3.1",
+   "raw": "3.1 The obligations in Clause 2 shall not apply to any information that Halyard can clearly establish by contemporaneous written records:\n3.1.1 is already in or subsequently enters the public domain without breach of this Agreement or any other confidentiality obligation by Halyard or its Representatives;\n3.1.2 was already lawfully in the possession of Halyard prior to receipt from LedgerFlow, without any duty of confidentiality attached;\n3.1.3 is independently developed by employees or contractors of Halyard who have had no access to, knowledge of, or reference to the Confidential Information; or\n3.1.4 is lawfully obtained by Halyard from an independent third party who has the lawful right to disclose such information without restriction.",
+   "after_edits": "3.1 The obligations in Clause 2 shall not apply to any information that Halyard can clearly establish by contemporaneous written records:\n3.1.1 is already in or subsequently enters the public domain without breach of this Agreement or any other confidentiality obligation by Halyard or its Representatives;\n3.1.2 was already lawfully in the possession of Halyard prior to receipt from LedgerFlow, without any duty of confidentiality attached;\n3.1.3 is independently developed by employees or contractors of Halyard who have had no access to, knowledge of, or reference to the Confidential Information; or\n3.1.4 is lawfully obtained by Halyard from an independent third party who has the lawful right to disclose such information without restriction.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    38,
+    39,
+    40,
+    41,
+    42
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB04",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 1.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1670,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1368,
+     "output_tokens": 96
+    }
+   ],
+   "mapped": [
+    "PB04"
+   ],
+   "checks": {
+    "PB04": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.92,
+       "probabilities": {
+        "matches_preferred": 0.94,
+        "meets_fallback": 0.06,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.91,
+       "probabilities": {
+        "F1": 0.02,
+        "F2": 0.94,
+        "none": 0.04
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L045",
+   "line": 45,
+   "clause_no": "4.1",
+   "raw": "4.1 Halyard may disclose Confidential Information to the extent required by an order of a court of competent jurisdiction or by any applicable statutory, regulatory or governmental body.",
+   "after_edits": "4.1 Halyard may disclose Confidential Information to the extent required by an order of a court of competent jurisdiction or by any applicable statutory, regulatory or governmental body.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    45
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB06",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 1.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1422,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1088,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB06"
+   ],
+   "checks": {
+    "PB06": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.41,
+       "probabilities": {
+        "matches_preferred": 0.56,
+        "meets_fallback": 0.2,
+        "breaches": 0.16,
+        "unclear": 0.08
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.97,
+       "probabilities": {
+        "F1": 0.02,
+        "F2": 0.0,
+        "none": 0.98
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L046",
+   "line": 46,
+   "clause_no": "4.2",
+   "raw": "4.2 Prior to making any disclosure under Clause 4.1, Halyard shall, to the extent legally permissible:\n4.2.1 give prompt written notice to LedgerFlow to enable LedgerFlow to seek a protective order, injunctive relief or other appropriate legal remedy;\n4.2.2 consult with LedgerFlow regarding the timing, scope and text of the proposed disclosure; and\n4.2.3 disclose only that portion of the Confidential Information that is strictly required by law to be disclosed.",
+   "after_edits": "4.2 Prior to making any disclosure under Clause 4.1, Halyard shall, to the extent legally permissible:\n4.2.1 give prompt written notice to LedgerFlow to enable LedgerFlow to seek a protective order, injunctive relief or other appropriate legal remedy;\n4.2.2 consult with LedgerFlow regarding the timing, scope and text of the proposed disclosure; and\n4.2.3 disclose only that portion of the Confidential Information that is strictly required by law to be disclosed.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    46,
+    47,
+    48,
+    49
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB06",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 1.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1568,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1289,
+     "output_tokens": 96
+    }
+   ],
+   "mapped": [
+    "PB06"
+   ],
+   "checks": {
+    "PB06": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.33,
+       "probabilities": {
+        "matches_preferred": 0.5,
+        "meets_fallback": 0.29,
+        "breaches": 0.18,
+        "unclear": 0.03
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.52,
+       "probabilities": {
+        "F1": 0.6799999999999999,
+        "F2": 0.01,
+        "none": 0.31
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L052",
+   "line": 52,
+   "clause_no": "5.1",
+   "raw": "5.1 Upon the written request of LedgerFlow at any time, or automatically upon the termination or expiry of this Agreement, Halyard shall within five (5) Business Days:\n5.1.1 return to LedgerFlow or, at LedgerFlow's election, securely destroy and permanently erase all originals, copies, summaries and extracts of the Confidential Information in its possession, custody or control; and\n5.1.2 certify in writing by a statutory director that all such Confidential Information has been returned or destroyed in accordance with this Clause 5.1.",
+   "after_edits": "5.1 Upon the written request of LedgerFlow at any time, or automatically upon the termination or expiry of this Agreement, Halyard shall within five (5) Business Days:\n5.1.1 return to LedgerFlow or, at LedgerFlow's election, securely destroy and permanently erase all originals, copies, summaries and extracts of the Confidential Information in its possession, custody or control; and\n5.1.2 certify in writing by a statutory director that all such Confidential Information has been returned or destroyed in accordance with this Clause 5.1.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    52,
+    53,
+    54
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB07",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 1.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1586,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1265,
+     "output_tokens": 97
+    }
+   ],
+   "mapped": [
+    "PB07"
+   ],
+   "checks": {
+    "PB07": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.71,
+       "probabilities": {
+        "matches_preferred": 0.01,
+        "meets_fallback": 0.78,
+        "breaches": 0.21,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "F2": 0.0,
+        "none": 0.01
+       }
+      }
+     },
+     "code": [
+      {
+       "check": "PB07 return period under 10 Business Days",
+       "result": "fail",
+       "evidence": "within five (5) Business Days"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "uid": "L055",
+   "line": 55,
+   "clause_no": "5.2",
+   "raw": "5.2 Notwithstanding Clause 5.1, Halyard may retain copies of Confidential Information solely to the extent required to comply with mandatory statutory record-keeping obligations or embedded within routine, automated and secure disaster recovery electronic backups, provided always that any retained information shall remain subject to the confidentiality terms of this Agreement.",
+   "after_edits": "5.2 Notwithstanding Clause 5.1, Halyard may retain copies of Confidential Information solely to the extent required to comply with mandatory statutory record-keeping obligations or embedded within routine, automated and secure disaster recovery electronic backups, provided always that any retained information shall remain subject to the confidentiality terms of this Agreement.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    55
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB07",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 1.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1488,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1167,
+     "output_tokens": 95
+    }
+   ],
+   "mapped": [
+    "PB07"
+   ],
+   "checks": {
+    "PB07": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.53,
+       "probabilities": {
+        "matches_preferred": 0.65,
+        "meets_fallback": 0.22,
+        "breaches": 0.07,
+        "unclear": 0.06
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.34,
+       "probabilities": {
+        "F1": 0.44,
+        "F2": 0.0,
+        "none": 0.56
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L058",
+   "line": 58,
+   "clause_no": "6.1",
+   "raw": "6.1 All intellectual property rights, title and interest in and to any Confidential Information remain the exclusive property of LedgerFlow or its relevant licensors.",
+   "after_edits": "6.1 All intellectual property rights, title and interest in and to any Confidential Information remain the exclusive property of LedgerFlow or its relevant licensors.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    58
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB08",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 1.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1414,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1015,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB08"
+   ],
+   "checks": {
+    "PB08": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.72,
+       "probabilities": {
+        "matches_preferred": 0.79,
+        "meets_fallback": 0.08,
+        "breaches": 0.1,
+        "unclear": 0.03
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.62,
+       "probabilities": {
+        "F1": 0.19,
+        "none": 0.81
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L059",
+   "line": 59,
+   "clause_no": "6.2",
+   "raw": "6.2 Nothing in this Agreement shall be construed as granting, either expressly or by implication, any licence, assignment, option or right under any patent, copyright, trademark, trade secret or other proprietary right of LedgerFlow, other than the limited right to use the Confidential Information strictly for the Permitted Purpose.",
+   "after_edits": "6.2 Nothing in this Agreement shall be construed as granting, either expressly or by implication, any licence, assignment, option or right under any patent, copyright, trademark, trade secret or other proprietary right of LedgerFlow, other than the limited right to use the Confidential Information strictly for the Permitted Purpose.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    59
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB08",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 1.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1480,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1137,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB08"
+   ],
+   "checks": {
+    "PB08": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.92,
+       "probabilities": {
+        "matches_preferred": 0.94,
+        "meets_fallback": 0.02,
+        "breaches": 0.03,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.0,
+       "probabilities": {
+        "F1": 0.5,
+        "none": 0.5
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L060",
+   "line": 60,
+   "clause_no": "6.3",
+   "raw": "6.3 All Confidential Information is provided on an \"as is\" basis without warranty of any kind, whether express, statutory or implied, regarding its accuracy, completeness or fitness for any purpose.",
+   "after_edits": "6.3 All Confidential Information is provided on an \"as is\" basis without warranty of any kind, whether express, statutory or implied, regarding its accuracy, completeness or fitness for any purpose.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    60
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB09",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 1.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1432,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1055,
+     "output_tokens": 97
+    }
+   ],
+   "mapped": [
+    "PB09"
+   ],
+   "checks": {
+    "PB09": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.89,
+       "probabilities": {
+        "matches_preferred": 0.08,
+        "meets_fallback": 0.92,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.77,
+       "probabilities": {
+        "F1": 0.09,
+        "F2": 0.85,
+        "none": 0.06
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L063",
+   "line": 63,
+   "clause_no": "7.1",
+   "raw": "7.1 Halyard shall defend, indemnify and hold harmless LedgerFlow, its affiliates and their respective directors, officers, employees and agents against any and all damages, losses, liabilities, claims, actions, costs and expenses (including without limitation full legal fees, investigatory costs and forensic technical expenses) suffered or incurred by LedgerFlow arising out of or resulting from any breach of this Agreement or unauthorised disclosure or use of Confidential Information by Halyard or any of its Representatives.",
+   "after_edits": "7.1 Halyard shall defend, indemnify and hold harmless LedgerFlow, its affiliates and their respective directors, officers, employees and agents against any and all damages, losses, liabilities, claims, actions, costs and expenses (including without limitation full legal fees, investigatory costs and forensic technical expenses) suffered or incurred by LedgerFlow arising out of or resulting from any breach of this Agreement or unauthorised disclosure or use of Confidential Information by Halyard or any of its Representatives.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    63
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB14",
+    "confidence": 0.69,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.01,
+     "PB14": 0.7,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.29,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1564,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1104,
+     "output_tokens": 56
+    }
+   ],
+   "mapped": [
+    "PB14"
+   ],
+   "checks": {
+    "PB14": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.0,
+        "breaches": 1.0,
+        "unclear": 0.0
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L066",
+   "line": 66,
+   "clause_no": "8.1",
+   "raw": "8.1 This Agreement shall take effect on the Effective Date and shall continue in force for a period of twelve (12) months, unless terminated earlier by either Party upon thirty (30) days’ prior written notice to the other Party.",
+   "after_edits": "8.1 This Agreement shall take effect on the Effective Date and shall continue in force for a period of twelve (12) months, unless terminated earlier by either Party upon thirty (30) days’ prior written notice to the other Party.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    66
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB12",
+    "confidence": 0.93,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.93,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.07,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1454,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1046,
+     "output_tokens": 113
+    }
+   ],
+   "mapped": [
+    "PB12"
+   ],
+   "checks": {
+    "PB12": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "meets_fallback",
+       "confidence": 0.96,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.97,
+        "breaches": 0.03,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.96,
+       "probabilities": {
+        "F1": 0.97,
+        "F2": 0.0,
+        "F3": 0.0,
+        "F4": 0.0,
+        "none": 0.03
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L067",
+   "line": 67,
+   "clause_no": "8.2",
+   "raw": "8.2 The obligations of confidentiality, non-use and indemnity contained in this Agreement shall survive the termination or expiry of this Agreement and continue in full force and effect for a period of three (3) years following the date of termination or expiry.",
+   "after_edits": "8.2 The obligations of confidentiality, non-use and indemnity contained in this Agreement shall survive the termination or expiry of this Agreement and continue in full force and effect for a period of three (3) years following the date of termination or expiry.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    67
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB12",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 1.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1456,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1007,
+     "output_tokens": 112
+    }
+   ],
+   "mapped": [
+    "PB12"
+   ],
+   "checks": {
+    "PB12": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.8,
+       "probabilities": {
+        "matches_preferred": 0.85,
+        "meets_fallback": 0.13,
+        "breaches": 0.01,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F2",
+       "confidence": 0.97,
+       "probabilities": {
+        "F1": 0.0,
+        "F2": 0.98,
+        "F3": 0.0,
+        "F4": 0.0,
+        "none": 0.02
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L070",
+   "line": 70,
+   "clause_no": "9.1",
+   "raw": "9.1 Equitable Relief. The Parties acknowledge that a breach of this Agreement may cause irreparable harm for which monetary damages alone would not be an adequate remedy. Accordingly, LedgerFlow shall be entitled to seek injunctive relief, specific performance or other equitable remedies in respect of any threatened or actual breach, without the necessity of proving special damage or posting security.",
+   "after_edits": "9.1 Equitable Relief. The Parties acknowledge that a breach of this Agreement may cause irreparable harm for which monetary damages alone would not be an adequate remedy. Accordingly, LedgerFlow shall be entitled to seek injunctive relief, specific performance or other equitable remedies in respect of any threatened or actual breach, without the necessity of proving special damage or posting security.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    70
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB13",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.99,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.01,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1506,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 1031,
+     "output_tokens": 102
+    }
+   ],
+   "mapped": [
+    "PB13"
+   ],
+   "checks": {
+    "PB13": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.8,
+       "probabilities": {
+        "matches_preferred": 0.0,
+        "meets_fallback": 0.15,
+        "breaches": 0.85,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.68,
+       "probabilities": {
+        "F1": 0.76,
+        "F2": 0.01,
+        "F3": 0.0,
+        "none": 0.23
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L071",
+   "line": 71,
+   "clause_no": "9.2",
+   "raw": "9.2 Entire Agreement. This Agreement constitutes the complete and exclusive understanding between the Parties regarding its subject matter and supersedes all prior proposals, understandings, letters of intent and agreements, whether oral or written.",
+   "after_edits": "9.2 Entire Agreement. This Agreement constitutes the complete and exclusive understanding between the Parties regarding its subject matter and supersedes all prior proposals, understandings, letters of intent and agreements, whether oral or written.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    71
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 0.99,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.99,
+     "other_term": 0.0,
+     "not_a_term": 0.01,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1442,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 851,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.89,
+       "probabilities": {
+        "matches_preferred": 0.92,
+        "meets_fallback": 0.08,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L072",
+   "line": 72,
+   "clause_no": "9.3",
+   "raw": "9.3 Variation. No amendment, modification or waiver of any provision of this Agreement shall be valid or effective unless made in writing and signed by an authorised signatory of each Party.",
+   "after_edits": "9.3 Variation. No amendment, modification or waiver of any provision of this Agreement shall be valid or effective unless made in writing and signed by an authorised signatory of each Party.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    72
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1428,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 837,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.76,
+       "probabilities": {
+        "matches_preferred": 0.82,
+        "meets_fallback": 0.17,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L073",
+   "line": 73,
+   "clause_no": "9.4",
+   "raw": "9.4 Severability. If any provision of this Agreement is held to be invalid, illegal or unenforceable by a court of competent jurisdiction, that provision shall be severed to the minimum extent necessary, and the remaining provisions shall continue in full legal force and effect.",
+   "after_edits": "9.4 Severability. If any provision of this Agreement is held to be invalid, illegal or unenforceable by a court of competent jurisdiction, that provision shall be severed to the minimum extent necessary, and the remaining provisions shall continue in full legal force and effect.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    73
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1470,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 879,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.79,
+       "probabilities": {
+        "matches_preferred": 0.84,
+        "meets_fallback": 0.15,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L074",
+   "line": 74,
+   "clause_no": "9.5",
+   "raw": "9.5 Third Party Rights. Unless expressly provided to the contrary, this Agreement does not confer any rights on any third party pursuant to the Contracts (Rights of Third Parties) Act 1999.",
+   "after_edits": "9.5 Third Party Rights. Unless expressly provided to the contrary, this Agreement does not confer any rights on any third party pursuant to the Contracts (Rights of Third Parties) Act 1999.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    74
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1438,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 847,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.93,
+       "probabilities": {
+        "matches_preferred": 0.95,
+        "meets_fallback": 0.04,
+        "breaches": 0.01,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L075",
+   "line": 75,
+   "clause_no": "9.6",
+   "raw": "9.6 Counterparts and Electronic Signatures. This Agreement may be executed in any number of counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. Delivery of an executed counterpart by electronic signature service or scanned PDF copy shall be as effective as delivery of a physical paper original.",
+   "after_edits": "9.6 Counterparts and Electronic Signatures. This Agreement may be executed in any number of counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. Delivery of an executed counterpart by electronic signature service or scanned PDF copy shall be as effective as delivery of a physical paper original.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    75
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB21",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 1.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1492,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 901,
+     "output_tokens": 88
+    }
+   ],
+   "mapped": [
+    "PB21"
+   ],
+   "checks": {
+    "PB21": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 0.77,
+       "probabilities": {
+        "matches_preferred": 0.83,
+        "meets_fallback": 0.16,
+        "breaches": 0.0,
+        "unclear": 0.01
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "F1",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.99,
+        "none": 0.01
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L076",
+   "line": 76,
+   "clause_no": "9.7",
+   "raw": "9.7 Governing Law and Jurisdiction. This Agreement and any dispute, controversy, proceedings or claim of whatever nature arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales. Each Party irrevocably submits to the exclusive jurisdiction of the courts of England and Wales to settle any such dispute or claim.",
+   "after_edits": "9.7 Governing Law and Jurisdiction. This Agreement and any dispute, controversy, proceedings or claim of whatever nature arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and construed in accordance with the laws of England and Wales. Each Party irrevocably submits to the exclusive jurisdiction of the courts of England and Wales to settle any such dispute or claim.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    76
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB18",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 1.0,
+     "PB19": 0.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1542,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 935,
+     "output_tokens": 87
+    }
+   ],
+   "mapped": [
+    "PB18"
+   ],
+   "checks": {
+    "PB18": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "matches_preferred",
+       "confidence": 1.0,
+       "probabilities": {
+        "matches_preferred": 1.0,
+        "meets_fallback": 0.0,
+        "breaches": 0.0,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.98,
+       "probabilities": {
+        "F1": 0.01,
+        "none": 0.99
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  },
+  {
+   "uid": "L078",
+   "line": 78,
+   "clause_no": "9.8",
+   "raw": "9.8 Assignment. LedgerFlow may at any time assign, novate, transfer, mortgage, charge, subcontract or deal in any other manner with all or any of its rights or obligations under this Agreement to any affiliate or successor entity without the consent of Halyard. Halyard may not assign, novate, transfer, mortgage, charge, subcontract or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of LedgerFlow.",
+   "after_edits": "9.8 Assignment. LedgerFlow may at any time assign, novate, transfer, mortgage, charge, subcontract or deal in any other manner with all or any of its rights or obligations under this Agreement to any affiliate or successor entity without the consent of Halyard. Halyard may not assign, novate, transfer, mortgage, charge, subcontract or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of LedgerFlow.",
+   "edits": [],
+   "comments": [],
+   "lines": [
+    78
+   ],
+   "map": {
+    "type": "choice",
+    "choice": "PB19",
+    "confidence": 1.0,
+    "probabilities": {
+     "PB01": 0.0,
+     "PB02": 0.0,
+     "PB03": 0.0,
+     "PB04": 0.0,
+     "PB05": 0.0,
+     "PB06": 0.0,
+     "PB07": 0.0,
+     "PB08": 0.0,
+     "PB09": 0.0,
+     "PB10": 0.0,
+     "PB11": 0.0,
+     "PB12": 0.0,
+     "PB13": 0.0,
+     "PB14": 0.0,
+     "PB15": 0.0,
+     "PB16": 0.0,
+     "PB17": 0.0,
+     "PB18": 0.0,
+     "PB19": 1.0,
+     "PB20": 0.0,
+     "PB21": 0.0,
+     "other_term": 0.0,
+     "not_a_term": 0.0,
+     "definition_or_interpretation": 0.0
+    }
+   },
+   "usage": [
+    {
+     "input_tokens": 1556,
+     "output_tokens": 237
+    },
+    {
+     "input_tokens": 938,
+     "output_tokens": 85
+    }
+   ],
+   "mapped": [
+    "PB19"
+   ],
+   "checks": {
+    "PB19": {
+     "answers": {
+      "position_check": {
+       "type": "choice",
+       "choice": "breaches",
+       "confidence": 0.93,
+       "probabilities": {
+        "matches_preferred": 0.01,
+        "meets_fallback": 0.04,
+        "breaches": 0.95,
+        "unclear": 0.0
+       }
+      },
+      "fallback": {
+       "type": "choice",
+       "choice": "none",
+       "confidence": 0.94,
+       "probabilities": {
+        "F1": 0.03,
+        "none": 0.97
+       }
+      }
+     },
+     "code": []
+    }
+   }
+  }
+ ],
+ "contract_checks": {
+  "mutuality": {
+   "type": "noul",
+   "noul": 0.05
+  }
+ },
+ "contract_usage": {
+  "input_tokens": 2746,
+  "output_tokens": 22
+ },
+ "patches": [
+  "v2.1"
+ ]
+}

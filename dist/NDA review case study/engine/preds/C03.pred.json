@@ -1,0 +1,157 @@
+{
+ "contract_id": "C03",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": "R01",
+   "clause_no": "2.1 / 2.2",
+   "quote": "The obligations and restrictions set out in Clause 2.1 shall apply equally and mutatis mutandis to Halyard in respect of any Confidential Information disclosed to it by or on behalf of the Counterparty",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "Parties (2)",
+   "quote": "[[INS: KESTREL PAY LTD]], a company incorporated and registered in [[INS: England and Wales]] with company number [[INS: 14509218]]",
+   "request_id": "RQ07",
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "6.1",
+   "quote": "within [[DEL: ten]] [[INS: fourteen]] Business Days of receipt of such request",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "Recital (A)",
+   "quote": "a potential commercial relationship [[INS: concerning API payment processing integration]] between them (the Purpose)",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.2",
+   "quote": "which is either marked or identified as confidential at the time of disclosure or would reasonably be considered confidential given the nature of the information and the circumstances of its disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R11",
+   "clause_no": "1.1.7 / 4.1",
+   "quote": "the employees, officers, directors, [[INS: contractors,]] professional advisers, auditors and insurers of that Party and of any member of its Group",
+   "request_id": null,
+   "confidence": 0.7
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1",
+   "quote": "for a period of two (2) years, unless terminated earlier by either Party giving not less than thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.3",
+   "quote": "shall survive the expiry or termination of this Agreement for a period of three (3) years from the effective date of expiry or termination",
+   "request_id": "RQ01",
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R09",
+   "clause_no": "11.1-11.2",
+   "quote": "a Party shall be entitled to seek the remedies of injunction, specific performance and other equitable relief",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.1",
+   "quote": "Neither Party may assign, novate, transfer, mortgage, charge, subcontract, declare a trust over or deal in any other manner with any or all of its rights or obligations under this Agreement without the prior written consent of the other Party.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "12.10-12.11",
+   "quote": "governed by and construed in accordance with the law of England and Wales",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "2.1.5",
+   "quote": "not reverse engineer, decompile, disassemble or otherwise attempt to derive the composition, source code or underlying structure of any software, prototypes or other tangible objects",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "3.1",
+   "quote": "can demonstrate by written records or other reasonable evidence",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R10",
+   "clause_no": "5.1-5.3",
+   "quote": "to the extent that it is legally permitted to do so",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R12",
+   "clause_no": "6.2.1",
+   "quote": "copies of any Confidential Information that are securely stored in routine, automated electronic backup or archiving systems which are not readily accessible in the ordinary course of business",
+   "request_id": "RQ09",
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "7.1-7.2",
+   "quote": "All Confidential Information, and all intellectual property rights in or relating to it, shall remain the exclusive property of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.3-7.5",
+   "quote": "All Confidential Information is provided by the Disclosing Party on an \"as is\" basis.",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R15",
+   "clause_no": "8.1",
+   "quote": "Neither Party shall make, or permit any person to make, any public announcement, press release or other public disclosure",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R16",
+   "clause_no": "9.1-9.2",
+   "quote": "that Party shall not disclose such personal data unless and until the Parties have agreed and entered into a separate written data processing agreement or data sharing agreement",
+   "request_id": null,
+   "confidence": 0.9
+  }
+ ]
+}

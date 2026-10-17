@@ -1,0 +1,149 @@
+{
+ "contract_id": "C28",
+ "findings": [
+  {
+   "verdict": "escalate",
+   "risk_id": null,
+   "clause_no": "12.8",
+   "quote": "the prevailing Party shall be entitled to recover from the non-prevailing Party all of its legal costs, attorney fees, disbursements and related litigation expenses on a full indemnity basis",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R04",
+   "clause_no": "4.1",
+   "quote": "able to demonstrate conclusively by contemporaneous written documentation",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R06",
+   "clause_no": "6.3",
+   "quote": "the Receiving Party hereby irrevocably assigns to the Disclosing Party, with full title guarantee, all right, title, interest and worldwide intellectual property rights in and to such improvements, modifications, derivative works, feedback, recommendations and enhancements",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R08",
+   "clause_no": "9.2",
+   "quote": "Each Party agrees to indemnify, defend and hold harmless the other Party against all direct losses, claims, liabilities, damages and reasonable legal expenses",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "escalate",
+   "risk_id": "R09",
+   "clause_no": "9.3",
+   "quote": "the Receiving Party shall pay to the Disclosing Party, as fixed liquidated damages and by way of stipulated compensation, the sum of €75,000 for each such individual breach",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R11",
+   "clause_no": "3.1.4",
+   "quote": "to restrict internal access to the Confidential Information strictly and exclusively to those of its own direct, permanent salaried employees",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "deviation_draft",
+   "risk_id": "R11",
+   "clause_no": "3.1.5",
+   "quote": "to not disclose, disseminate or make available the Confidential Information to any external professional advisers, legal counsel, accountants, auditors, insurers, independent contractors, consultants, or corporate Affiliates without the prior written authorisation of the Disclosing Party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R02",
+   "clause_no": "10.2",
+   "quote": "survive the expiration or termination of this Agreement for an additional duration of five (5) years",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R14",
+   "clause_no": "2.1",
+   "quote": "solely and exclusively in connection with, and to the extent strictly necessary for, the examination, implementation and furtherance of the Permitted Purpose",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R10",
+   "clause_no": "5.1.1",
+   "quote": "advise the Disclosing Party in writing as promptly as possible, and in any case prior to making such disclosure, provided that such advance notification is not expressly prohibited by mandatory provisions of public order or criminal procedure",
+   "request_id": null,
+   "confidence": 0.6
+  },
+  {
+   "verdict": "acceptable",
+   "risk_id": "R12",
+   "clause_no": "8.1",
+   "quote": "within a strict delay of fifteen (15) Business Days",
+   "request_id": null,
+   "confidence": 0.8
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R04",
+   "clause_no": "1.1.5",
+   "quote": "which is designated as confidential or proprietary at the time of transmission or which, by reason of its character, content or the context of its communication, ought reasonably to be understood by a diligent professional operator to possess a confidential character",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R02",
+   "clause_no": "10.1",
+   "quote": "initial term of two (2) years, unless terminated earlier by either Party by serving thirty (30) days' prior written notice",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R07",
+   "clause_no": "11.1",
+   "quote": "governed by, and construed in accordance with, the law of England and Wales",
+   "request_id": null,
+   "confidence": 0.95
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "12.5",
+   "quote": "Neither Party may assign, transfer, delegate, subcontract or novate any of its rights, benefits, burdens or obligations under this Agreement to any third party",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "3.1.6",
+   "quote": "to refrain from disassembling, decompiling, decoding, reverse engineering, decrypting",
+   "request_id": null,
+   "confidence": 0.9
+  },
+  {
+   "verdict": "matches",
+   "risk_id": "R06",
+   "clause_no": "6.1",
+   "quote": "shall remain the sole and exclusive property of the Disclosing Party or its respective licensors",
+   "request_id": null,
+   "confidence": 0.85
+  },
+  {
+   "verdict": "matches",
+   "risk_id": null,
+   "clause_no": "7.1",
+   "quote": "furnished on an \"as is\" and \"with all faults\" basis",
+   "request_id": null,
+   "confidence": 0.85
+  }
+ ]
+}
